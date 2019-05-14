@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-class Layout extends React.Component {
+class LanderLayout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
