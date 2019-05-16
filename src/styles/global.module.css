@@ -1,10 +1,10 @@
 
 .text-center {
-    text-align: right;
+    text-align: center;
 }
 
 .text-right {
-    text-align: center;
+    text-align: right;
 }
 
 .text-left {
@@ -15,4 +15,31 @@
     margin-top: 200px;
     text-align: center;
     color: #fff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    font-size: 2.5em;
 }
+
+.upCaseHeading h1, .upCaseHeading h2, .upCaseHeading h3, .upCaseHeading h4, .upCaseHeading h5, .upCaseHeading h6 {
+    text-transform: uppercase;
+}
+
+.upcase {
+    text-transform: uppercase;
+}
+
+.m1 {
+    margin-top: 50px;
+}
+
+.fab {
+    padding: 0;
+    width: 65px;
+    height: 65px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    outline: none;
+}
+
+

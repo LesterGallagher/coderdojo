@@ -14,24 +14,7 @@ class Layout extends React.Component {
     };
   }
 
-  componentDidMount = () => {
-    this.setState({ transparentNavbar: window.pageYOffset < 100 });
-    document.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount = () => {
-    document.removeEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll = () => {
-    const transparentNavbar = window.pageYOffset < 100;
-    if (this.state.transparentNavbar !== transparentNavbar) {
-      this.setState({ transparentNavbar });
-    }
-  }
-
   render() {
-    console.log(window.pageYOffset);
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
@@ -64,7 +47,6 @@ class Layout extends React.Component {
     return (
       <div>
         <NavbarComponent />
-        {header}
         {children}
       </div>
     )
