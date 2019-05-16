@@ -15,6 +15,12 @@ fields:
   name: banner
   label: banner
   fields:
-  - type: text
-    name: text
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     label: text
