@@ -25,3 +25,5 @@ fields:
       schema:
         format: markdown
     label: text
+pages:
+  - src/pages/index.md
