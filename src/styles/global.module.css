@@ -1,0 +1,18 @@
+
+.text-center {
+    text-align: right;
+}
+
+.text-right {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bannerText {
+    margin-top: 200px;
+    text-align: center;
+    color: #fff;
+}

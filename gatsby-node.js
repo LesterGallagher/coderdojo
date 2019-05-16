@@ -2,17 +2,20 @@ const _ = require('lodash')
 const Promise = require('bluebird')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   return new Promise((resolve, reject) => {
-    const blogPost = path.resolve('./src/templates/blog-post.js')
-    resolve(
-      graphql(
-        `
+      resolve(
+        graphql(
+          `
           {
-            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
+            allMarkdownRemark(
+              sort: { fields: [frontmatter___date], order: DESC }, 
+              limit: 1000
+          ) {
               edges {
                 node {
                   fields {
@@ -20,49 +23,51 @@ exports.createPages = ({ graphql, actions }) => {
                   }
                   frontmatter {
                     title
+                    layout
                   }
                 }
               }
             }
           }
         `
-      ).then(result => {
-        if (result.errors) {
-          console.log(result.errors)
-          reject(result.errors)
-        }
+        ).then(result => {
+          if (result.errors) {
+            console.log(result.errors)
+            reject(result.errors)
+          }
 
-        // Create blog posts pages.
-        const posts = result.data.allMarkdownRemark.edges;
+          // Create blog posts pages.
+          const markdownFiles = result.data.allMarkdownRemark.edges;
 
-        _.each(posts, (post, index) => {
-          const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-          const next = index === 0 ? null : posts[index - 1].node;
+          _.each(markdownFiles, (page, index) => {
+            const previous = index === markdownFiles.length - 1 ? null : markdownFiles[index + 1].node;
+            const next = index === 0 ? null : markdownFiles[index - 1].node;
 
-          createPage({
-            path: post.node.fields.slug,
-            component: blogPost,
-            context: {
-              slug: post.node.fields.slug,
-              previous,
-              next,
-            },
+            createPage({
+              path: page.node.fields.slug,
+              component: path.resolve(`./src/templates/${page.node.frontmatter.layout}.js`),
+              context: {
+                slug: page.node.fields.slug,
+                previous,
+                next,
+              },
+            })
           })
         })
-      })
-    )
+      )
   })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
       value,
-    })
+    });
   }
+  fmImagesToRelative(node);
 }

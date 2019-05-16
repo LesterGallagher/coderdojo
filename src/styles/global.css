@@ -1,0 +1,10 @@
+::selection {
+    background: #93c54b; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #93c54b; /* Gecko Browsers */
+}
+
+body {
+    margin-top: 50px;
+}
