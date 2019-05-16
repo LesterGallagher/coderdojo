@@ -21,9 +21,9 @@ fields:
     default: ''
     config:
       required: false
-      wysiwyg: false
+      wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
     label: text
 pages:
-  - src/pages/index.md
+- src/pages/index.md
