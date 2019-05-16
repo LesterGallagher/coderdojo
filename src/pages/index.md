@@ -1,11 +1,9 @@
 ---
 title: Home
 layout: lander
-image: /src/uploads/bump-collaboration-colleagues-1068523.jpg
+image: "/src/uploads/bump-collaboration-colleagues-1068523.jpg"
 banner:
-    text: >-
-        Coderdojo
-        Bouw een website, app of game in de Coderdojo.
----
+  text: "<h2>Coderdojo</h2><p></p><p>Bouw een website, app of game in de Coderdojo.</p>"
 
+---
 Hello world
