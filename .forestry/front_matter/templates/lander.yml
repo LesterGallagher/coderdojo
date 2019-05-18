@@ -9,6 +9,10 @@ fields:
 - type: text
   name: layout
   label: layout
+  config:
+    required: true
+  default: Lander
+  hidden: true
 - type: file
   name: image
   label: image
