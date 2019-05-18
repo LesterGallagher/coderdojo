@@ -16,6 +16,3 @@ fields:
     schema:
       format: markdown
   label: description
-pages:
-- src/pages/test-title.md
-- src/pages/forestry-test.md
