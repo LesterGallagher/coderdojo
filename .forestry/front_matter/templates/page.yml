@@ -16,3 +16,10 @@ fields:
     schema:
       format: markdown
   label: description
+- name: layout
+  type: text
+  config:
+    required: true
+  label: layout
+  hidden: true
+  default: Page
