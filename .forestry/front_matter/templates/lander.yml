@@ -37,5 +37,3 @@ fields:
       file: 
       path: 
   label: doc_select
-pages:
-- src/pages/index.md
