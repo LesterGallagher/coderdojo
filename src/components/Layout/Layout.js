@@ -10,7 +10,7 @@ class Layout extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      transparentNavbar: window.pageYOffset < 100
+      transparentNavbar: typeof window !== 'undefined' ? window.pageYOffset < 100 : true
     };
   }
 
