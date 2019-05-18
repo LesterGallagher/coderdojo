@@ -19,16 +19,6 @@ sections:
   templates:
   - page
   - locatie
-- type: directory
-  path: src/pages/lessen
-  label: Lessen
-  create: all
-  match: "**/*"
-  exclude: "(.|..)"
-  templates:
-  - les-introductie
-  - page
-  - les
 upload_dir: src/uploads
 public_path: "/src/uploads"
 front_matter_path: ''
