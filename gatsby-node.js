@@ -25,7 +25,6 @@ exports.createPages = ({ graphql, actions }) => {
                   fields {
                     slug
                     les
-                    locatie
                   }
                   frontmatter {
                     title
@@ -84,18 +83,15 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value: slug,
     });
 
-    const [lessen, les, filename] = slug.startsWith('/lessen') && slug.split('/').filter(x => x.trim()) || [];
+    const slugSplit = slug.split('/').filter(x => x.trim().length > 0);
+
+    const [lessen, les, filename] = slug.startsWith('/lessen') && slugSplit || [];
 
     createNodeField({
       name: `les`,
       node,
-      value: les || 'test',
+      value: les || '',
     });
 
-    // createNodeField({
-    //   name: `locatie`,
-    //   node,
-    //   value: slug.startsWith('/locaties') && slug.split('/')[2] || null
-    // });
   }
 }

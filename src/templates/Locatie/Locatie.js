@@ -15,6 +15,8 @@ class Locatie extends React.Component {
     const siteDescription = page.excerpt;
     const { previous, next } = this.props.pageContext;
 
+    console.log(this.props.data);
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <Helmet
@@ -53,7 +55,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
       }
     }
-    lesIntroducties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {layout: {eq: "les-introductie"}}, fileAbsolutePath: {regex: "/(lessen)/.*/.*\\.md$/"}}) {
+    lesIntroducties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {layout: {eq: "LesIntroductie"}}, fileAbsolutePath: {regex: "/(lessen)/.*/.*\\.md$/"}}) {
       edges {
         node {
           fields {

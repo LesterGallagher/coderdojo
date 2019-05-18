@@ -12,7 +12,7 @@ import classNames from 'classnames';
 import CoderDojoLocation from '../../components/CoderDojoLocation/CoderDojoLocation';
 import Divider from '../../components/Divider/Divider';
 
-class Index extends React.Component {
+class Lander extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteDescription = get(
@@ -76,7 +76,7 @@ class Index extends React.Component {
               <div className={classNames(globalStyles.textCenter, globalStyles.m1)}>
                 {over.basis.map(({ naam, tekst, icon }) => {
                   return (
-                    <Col xs={12} sm={4}>
+                    <Col xs={12} sm={4} key={naam}>
                       <div className={globalStyles.h1}><Glyphicon glyph={icon} /></div>
                       <Divider size="sm" />
                       <h5>{naam}</h5>
@@ -118,7 +118,7 @@ class Index extends React.Component {
   }
 }
 
-export default Index
+export default Lander
 
 export const pageQuery = graphql`
   query Lander($slug: String!) {

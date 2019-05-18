@@ -4,13 +4,8 @@ import get from 'lodash/get';
 import Helmet from 'react-helmet'
 import { Button, Grid, Row, Col, Panel, Image, Glyphicon } from "react-bootstrap";
 import Img from "gatsby-image/withIEPolyfill"
-import styles from '../styles/global.module.css';
-import { renderMarkdown } from '../../utils/md';
-import Bio from './Bio'
-import Layout from './Layout'
-import BackgroundImage from './BackgroundImage';
+import styles from '../../styles/global.module.css';
 import classNames from 'classnames';
-import Fab from './Fab';
 
 
 
