@@ -16,11 +16,15 @@ sections:
   label: Locaties
   create: documents
   match: "**/*"
+  templates:
+  - locatie
 - type: directory
   path: src/pages/lessen
   label: Lessen
   create: all
   match: "*/*"
+  templates:
+  - les-introductie
 upload_dir: src/uploads
 public_path: "/src/uploads"
 front_matter_path: ''
