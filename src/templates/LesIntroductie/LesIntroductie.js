@@ -4,15 +4,19 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
 
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
+import Bio from '../../components/Bio/Bio'
+import Layout from '../../components/Layout/Layout'
 
 class LesTemplate extends React.Component {
     render() {
+      console.log(this);
         const les = this.props.data.markdownRemark
-        const siteTitle = get(this.props, 'data.site.siteMetadata.title')
+        const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+        const meerLessen = get(this.props, 'data.meerLessen.edges');
         const siteDescription = les.excerpt
         const { previous, next } = this.props.pageContext
+
+        console.log(meerLessen);
 
         return (
             <Layout location={this.props.location} title={siteTitle}>
@@ -61,11 +65,20 @@ class LesTemplate extends React.Component {
                                         next &&
                                         <Link to={next.fields.slug} rel="next">
                                             {next.frontmatter.title} →
-              </Link>
+                                        </Link>
                                     }
                                 </li>
                             </ul>
                         </Col>
+                    </Row>
+                    <Row>
+                      {meerLessen.map(les => {
+
+                        return (
+                          <div></div>
+                        );
+                      })}
+                      <Col xs={12}></Col>
                     </Row>
                 </Grid>
             </Layout>
@@ -77,7 +90,7 @@ export default LesTemplate
 
 
 export const pageQuery = graphql`
-query lesIntroductieBySlug($slug: String!) {
+query lesIntroductieBySlug($slug: String!, $les: String!) {
     site {
       siteMetadata {
         title
@@ -88,16 +101,21 @@ query lesIntroductieBySlug($slug: String!) {
       id
       excerpt
       html
+      fields {
+        les
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
       }
     }
-    lesIntroducties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {layout: {eq: "les-introductie"}}, fileAbsolutePath: {regex: "/(lessen)/.*/.*\\.md$/"}}) {
+    meerLessen: allMarkdownRemark(filter: {fields: {les: {eq: $les}}}, sort: {order: DESC, fields: [frontmatter___date]}) {
       edges {
         node {
           fields {
             slug
+            les
           }
           excerpt(pruneLength: 250)
           html

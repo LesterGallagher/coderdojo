@@ -5,9 +5,9 @@ import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
 import Img from 'gatsby-image';
 
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
-import LesIntroductie from '../components/LesIntroductie';
+import Bio from '../../components/Bio/Bio'
+import Layout from '../../components/Layout/Layout'
+import LesIntroductie from '../../components/LesIntroductie/LesIntroductie';
 
 class LessenIndex extends React.Component {
   render() {

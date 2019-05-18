@@ -1,8 +1,10 @@
 const _ = require('lodash')
 const Promise = require('bluebird')
 const path = require('path')
+const fs = require('fs');
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+const get = require('lodash/get');
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -10,9 +12,9 @@ exports.createPages = ({ graphql, actions }) => {
 
 
   return new Promise((resolve, reject) => {
-      resolve(
-        graphql(
-          `
+    resolve(
+      graphql(
+        `
           {
             allMarkdownRemark(
               sort: { fields: [frontmatter___date], order: DESC }, 
@@ -22,6 +24,8 @@ exports.createPages = ({ graphql, actions }) => {
                 node {
                   fields {
                     slug
+                    les
+                    locatie
                   }
                   frontmatter {
                     title
@@ -32,31 +36,39 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-        ).then(result => {
-          if (result.errors) {
-            console.log(result.errors)
-            reject(result.errors)
+      ).then(result => {
+        if (result.errors) {
+          console.log(result.errors)
+          reject(result.errors)
+        }
+
+        // Create blog posts pages.
+        const markdownFiles = result.data.allMarkdownRemark.edges;
+
+        _.each(markdownFiles, (page, index) => {
+          const previous = index === markdownFiles.length - 1 ? null : markdownFiles[index + 1].node;
+          const next = index === 0 ? null : markdownFiles[index - 1].node;
+
+          let layout = page.node.frontmatter.layout;
+
+          const layoutExists = fs.existsSync(`./src/templates/${layout}/${layout}.js`);
+          if (layoutExists === false) {
+            layout = 'Page'
           }
 
-          // Create blog posts pages.
-          const markdownFiles = result.data.allMarkdownRemark.edges;
-
-          _.each(markdownFiles, (page, index) => {
-            const previous = index === markdownFiles.length - 1 ? null : markdownFiles[index + 1].node;
-            const next = index === 0 ? null : markdownFiles[index - 1].node;
-
-            createPage({
-              path: page.node.fields.slug,
-              component: path.resolve(`./src/templates/${page.node.frontmatter.layout}.js`),
-              context: {
-                slug: page.node.fields.slug,
-                previous,
-                next,
-              },
-            })
+          createPage({
+            path: page.node.fields.slug,
+            component: path.resolve(`./src/templates/${layout}/${layout}.js`),
+            context: {
+              slug: page.node.fields.slug,
+              les: page.node.fields.les || '',
+              previous,
+              next,
+            },
           })
         })
-      )
+      })
+    )
   })
 }
 
@@ -65,11 +77,25 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   fmImagesToRelative(node);
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode });
+    const slug = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: slug,
     });
+
+    const [lessen, les, filename] = slug.startsWith('/lessen') && slug.split('/').filter(x => x.trim()) || [];
+
+    createNodeField({
+      name: `les`,
+      node,
+      value: les || 'test',
+    });
+
+    // createNodeField({
+    //   name: `locatie`,
+    //   node,
+    //   value: slug.startsWith('/locaties') && slug.split('/')[2] || null
+    // });
   }
 }

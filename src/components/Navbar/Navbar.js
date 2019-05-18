@@ -3,7 +3,7 @@ import { Navbar, MenuItem, NavItem, NavDropdown, Nav } from 'react-bootstrap';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import styles from './navbar.module.css';
 import get from 'lodash/get';
-import icon from '../uploads/icon.svg';
+import icon from '../../uploads/icon.svg';
 import classNames from 'classnames';
 
 class NavbarComponent extends React.Component {

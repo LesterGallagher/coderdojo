@@ -3,10 +3,10 @@ import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
-import styles from '../styles/global.module.css';
+import styles from '../../styles/global.module.css';
 
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
+import Bio from '../../components/Bio/Bio'
+import Layout from '../../components/Layout/Layout'
 
 class Locatie extends React.Component {
   render() {
@@ -51,6 +51,28 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+      }
+    }
+    lesIntroducties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {layout: {eq: "les-introductie"}}, fileAbsolutePath: {regex: "/(lessen)/.*/.*\\.md$/"}}) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          excerpt(pruneLength: 250)
+          html
+          frontmatter {
+            title
+            layout
+            image {
+                childImageSharp {
+                    fixed(width: 800, height: 400, quality: 95) {
+                        ...GatsbyImageSharpFixed
+                    }
+                }
+            }
+          }
+        }
       }
     }
   }

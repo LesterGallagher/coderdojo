@@ -1,5 +1,6 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Layout from '../components/Layout/Layout'
+import notFound from '../uploads/error-2129569_1920.jpg';
 
 class NotFoundPage extends React.Component {
   render() {

@@ -5,20 +5,18 @@ import Helmet from 'react-helmet'
 import { Button, Grid, Row, Col, Panel, Image, Glyphicon } from "react-bootstrap";
 import Img from "gatsby-image/withIEPolyfill"
 import styles from '../styles/global.module.css';
-import { renderMarkdown } from '../utils/md';
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
-import BackgroundImage from '../components/BackgroundImage';
+import { renderMarkdown } from '../../utils/md';
+import Bio from './Bio'
+import Layout from './Layout'
+import BackgroundImage from './BackgroundImage';
 import classNames from 'classnames';
 import Fab from './Fab';
 
 
 
 
-class CoderDojoLocation extends React.Component {
+class LesIntroductie extends React.Component {
     render() {
-
-
         return (
             <Panel style={{ position: 'relative' }}>
                 <Link to={this.props.link}>{this.props.image}</Link>
@@ -35,4 +33,4 @@ class CoderDojoLocation extends React.Component {
     }
 }
 
-export default CoderDojoLocation
+export default LesIntroductie

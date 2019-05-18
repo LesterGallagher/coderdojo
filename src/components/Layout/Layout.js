@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { Navbar, Grid, Row, Col, NavbarBrand, Form, FormControl, Button, MenuItem, NavItem, NavDropdown, Nav } from 'react-bootstrap';
 import styles from './layout.module.css';
 import classNames from 'classnames';
-import NavbarComponent from './Navbar';
+import NavbarComponent from '../Navbar/Navbar';
 
 class Layout extends React.Component {
 

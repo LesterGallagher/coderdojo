@@ -4,8 +4,8 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
 
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
+import Bio from '../../components/Bio/Bio'
+import Layout from '../../components/Layout/Layout'
 
 class PageTemplate extends React.Component {
   render() {

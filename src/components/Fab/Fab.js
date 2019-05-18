@@ -4,11 +4,7 @@ import get from 'lodash/get';
 import Helmet from 'react-helmet'
 import { Button, Grid, Row, Col, Panel, Image, Glyphicon } from "react-bootstrap";
 import Img from "gatsby-image/withIEPolyfill"
-import styles from '../styles/global.module.css';
-import { renderMarkdown } from '../utils/md';
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
-import BackgroundImage from '../components/BackgroundImage';
+import styles from '../../styles/global.module.css';
 import classNames from 'classnames';
 
 class Fab extends React.Component {

@@ -4,14 +4,13 @@ import get from 'lodash/get';
 import Helmet from 'react-helmet'
 import { Button, Grid, Row, Col, Glyphicon } from "react-bootstrap";
 import Img from "gatsby-image/withIEPolyfill"
-import styles from '../styles/global.module.css';
-import { renderMarkdown } from '../utils/md';
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
-import BackgroundImage from '../components/BackgroundImage';
+import globalStyles from '../../styles/global.module.css';
+import Bio from '../../components/Bio/Bio'
+import Layout from '../../components/Layout/Layout'
+import BackgroundImage from '../../components/BackgroundImage/BackgroundImage';
 import classNames from 'classnames';
-import CoderDojoLocation from '../components/CoderDojoLocation';
-import Divider from '../components/Divider';
+import CoderDojoLocation from '../../components/CoderDojoLocation/CoderDojoLocation';
+import Divider from '../../components/Divider/Divider';
 
 class Index extends React.Component {
   render() {
@@ -40,26 +39,26 @@ class Index extends React.Component {
           <Grid >
             <Row>
               <Col>
-                <div className={classNames(styles.bannerText, styles.upCaseHeading)} dangerouslySetInnerHTML={{ __html: page.frontmatter.banner.text }} />
+                <div className={classNames(globalStyles.bannerText, globalStyles.upCaseHeading)} dangerouslySetInnerHTML={{ __html: page.frontmatter.banner.text }} />
               </Col>
             </Row>
           </Grid>
         </BackgroundImage>
 
         <Grid>
-          <Row className={styles.m1}>
-            <Col className={styles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
-              <div className={classNames(styles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.over.text }} />
+          <Row className={globalStyles.m1}>
+            <Col className={globalStyles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
+              <div className={classNames(globalStyles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.over.text }} />
             </Col>
           </Row>
-          <Row id="locaties" className={styles.m1}>
+          <Row id="locaties" className={globalStyles.m1}>
             {locaties.map(({ node }, key) => {
               console.log(node);
               const { frontmatter, html, excerpt, fields } = node;
               const { title, image } = frontmatter;
               const { slug } = fields;
               return (
-                <Col key={key} className={styles.textCenter} xs={12} sm={4}>
+                <Col key={key} className={globalStyles.textCenter} xs={12} sm={4}>
                   <CoderDojoLocation title={title} link={slug} image={<Img style={{ width: '100%' }} fixed={image.childImageSharp.fixed} />}>
                     <div>{excerpt}</div>
                   </CoderDojoLocation>
@@ -74,11 +73,11 @@ class Index extends React.Component {
               </Col>
             </Row>
             <Row>
-              <div className={classNames(styles.textCenter, styles.m1)}>
+              <div className={classNames(globalStyles.textCenter, globalStyles.m1)}>
                 {over.basis.map(({ naam, tekst, icon }) => {
                   return (
                     <Col xs={12} sm={4}>
-                      <div className={styles.h1}><Glyphicon glyph={icon} /></div>
+                      <div className={globalStyles.h1}><Glyphicon glyph={icon} /></div>
                       <Divider size="sm" />
                       <h5>{naam}</h5>
                       <p>{tekst}</p>
@@ -88,9 +87,9 @@ class Index extends React.Component {
               </div>
             </Row>
           </section>
-          <Row className={styles.m1}>
-            <Col className={styles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
-              <div className={classNames(styles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.meer.text }} />
+          <Row className={globalStyles.m1}>
+            <Col className={globalStyles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
+              <div className={classNames(globalStyles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.meer.text }} />
             </Col>
           </Row>
           <Row>

@@ -4,14 +4,15 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
 
-import Bio from '../components/Bio'
-import Layout from '../components/Layout'
+import Bio from '../../components/Bio/Bio'
+import Layout from '../../components/Layout/Layout'
 
-class BlogPostTemplate extends React.Component {
+class LesTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
+    console.log(this);
+    const les = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const siteDescription = post.excerpt
+    const siteDescription = les.excerpt
     const { previous, next } = this.props.pageContext
 
     return (
@@ -19,20 +20,20 @@ class BlogPostTemplate extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`${post.frontmatter.title} | ${siteTitle}`}
+          title={`${les.frontmatter.title} | ${siteTitle}`}
         />
         <Grid>
           <Row>
             <Col>
-              <h1>{post.frontmatter.title}</h1>
+              <h1>{les.frontmatter.title}</h1>
               <p
                 style={{
                   display: 'block',
                 }}
               >
-                {post.frontmatter.date}
+                {les.frontmatter.date}
               </p>
-              <div dangerouslySetInnerHTML={{ __html: post.html }} />
+              <div dangerouslySetInnerHTML={{ __html: les.html }} />
               <hr
                 style={{
                 }}
@@ -73,10 +74,10 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default BlogPostTemplate
+export default LesTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query lesBySlug($slug: String!) {
     site {
       siteMetadata {
         title
