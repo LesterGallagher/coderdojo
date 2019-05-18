@@ -25,6 +25,7 @@ sections:
   match: "**/*"
   exclude: "(.|..)"
   templates:
+  - page
   - les-introductie
   - les
 upload_dir: src/uploads
