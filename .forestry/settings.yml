@@ -24,6 +24,7 @@ sections:
   create: all
   match: "*/*"
   templates:
+  - les
   - les-introductie
 upload_dir: src/uploads
 public_path: "/src/uploads"
