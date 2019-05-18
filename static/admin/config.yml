@@ -152,6 +152,7 @@ collections:
       - label: "Locaties"
         name: "locaties"
         widget: "list"
+        
         field: 
           label: "Locatie"
           name: "locatie"
