@@ -1,6 +1,6 @@
 ---
 title: Website maken introductie
-layout: Locatie
+layout: Les
 isIntro: true
 draft: false
 date: 2019-05-18T19:35:21.532Z

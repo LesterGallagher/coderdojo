@@ -1,5 +1,5 @@
 ---
-layout: les
+layout: Les
 title: Les 2
 ---
 
