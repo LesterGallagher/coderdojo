@@ -5,15 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src/pages
-  label: Pages
+  path: src/pages/lessen
+  label: Lessen
   create: all
-  match: "*"
-  new_doc_ext: md
-  templates:
-  - lander
-  - blocks
-  - page
+  match: "*/*"
 upload_dir: src/uploads
 public_path: "/src/uploads"
 front_matter_path: ''
