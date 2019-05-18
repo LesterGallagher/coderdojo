@@ -23,5 +23,3 @@ fields:
   label: layout
   hidden: true
   default: Les
-pages:
-- src/pages/lessen/test.md
