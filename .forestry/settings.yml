@@ -8,7 +8,7 @@ sections:
   path: src/pages
   label: Pages
   create: all
-  match: "./*"
+  match: "*"
   new_doc_ext: md
   templates:
   - lander
