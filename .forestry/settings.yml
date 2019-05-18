@@ -22,7 +22,8 @@ sections:
   path: src/pages/lessen
   label: Lessen
   create: all
-  match: "*"
+  match: "**/*"
+  exclude: "(\\.|\\.\\.)"
   templates:
   - les-introductie
   - les
