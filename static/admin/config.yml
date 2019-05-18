@@ -93,7 +93,7 @@ collections:
         valueField: "title"
         displayFields: ["title", "description"]
       - label: "Vorige les"
-        name: "next"
+        name: "previous"
         widget: "relation"
         required: false
         optional: true
@@ -141,7 +141,7 @@ collections:
         valueField: "title"
         displayFields: ["title", "description"]
       - label: "Vorige les"
-        name: "next"
+        name: "previous"
         widget: "relation"
         required: false
         optional: true
