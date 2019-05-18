@@ -23,7 +23,7 @@ sections:
   label: Lessen
   create: all
   match: "**/*"
-  exclude: "(\\.|\\.\\.)"
+  exclude: "(.|..)"
   templates:
   - les-introductie
   - les
