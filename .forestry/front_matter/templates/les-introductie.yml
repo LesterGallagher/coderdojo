@@ -11,6 +11,15 @@ fields:
 - type: file
   name: image
   label: image
-- type: list
-  name: waar
+- name: waar
+  type: select
+  default: src/pages/locaties/oosterhout.md
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: locaties
+      file: 
+      path: 
   label: waar
