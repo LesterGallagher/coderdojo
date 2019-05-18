@@ -1,9 +1,11 @@
 ---
 title: Arduino introductie
 layout: les-introductie
+isIntro: true
+draft: false
+date: 2019-05-18T18:34:05.383Z
+description: Voorbeeld
 image: /src/uploads/arduino.jpg
-waar:
-    - rijen
 ---
 
 
