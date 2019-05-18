@@ -8,6 +8,10 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: LesIntroductie
+  config:
+    required: true
 - type: file
   name: image
   label: image
