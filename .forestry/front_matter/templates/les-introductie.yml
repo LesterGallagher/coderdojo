@@ -6,11 +6,20 @@ fields:
   name: layout
   label: layout
 - type: text
-  name: waar
-  label: waar
-- type: text
   name: title
   label: title
 - type: file
   name: image
   label: image
+- name: waar
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: locaties
+      file: 
+      path: 
+  label: waar
