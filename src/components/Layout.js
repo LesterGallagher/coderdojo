@@ -46,7 +46,7 @@ class Layout extends React.Component {
     }
     return (
       <div>
-        <NavbarComponent />
+        <NavbarComponent location={this.props.location} />
         {children}
       </div>
     )

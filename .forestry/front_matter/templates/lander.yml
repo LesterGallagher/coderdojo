@@ -25,5 +25,17 @@ fields:
       schema:
         format: html-blocks
     label: text
+- name: doc_select
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: doc_select
 pages:
 - src/pages/index.md

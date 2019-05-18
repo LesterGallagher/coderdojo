@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get';
 import Helmet from 'react-helmet'
-import { Button, Grid, Row, Col } from "react-bootstrap";
+import { Button, Grid, Row, Col, Glyphicon } from "react-bootstrap";
 import Img from "gatsby-image/withIEPolyfill"
 import styles from '../styles/global.module.css';
 import { renderMarkdown } from '../utils/md';
@@ -11,6 +11,7 @@ import Layout from '../components/Layout'
 import BackgroundImage from '../components/BackgroundImage';
 import classNames from 'classnames';
 import CoderDojoLocation from '../components/CoderDojoLocation';
+import Divider from '../components/Divider';
 
 class Index extends React.Component {
   render() {
@@ -20,10 +21,13 @@ class Index extends React.Component {
       'props.data.site.siteMetadata.description'
     );
     console.log(this.props.data);
-    const posts = get(this, 'props.data.allMarkdownRemark.edges');
+    const posts = get(this, 'props.data.posts.edges');
+    const locaties = get(this, 'props.data.locaties.edges');
     const image = get(this, 'props.data.markdownRemark.frontmatter.image');
     const page = get(this, 'props.data.markdownRemark');
-    const locaties = get(page, 'frontmatter.locaties');
+    const over = get(this, 'props.data.markdownRemark.frontmatter.over');
+
+    console.log(locaties);
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -48,21 +52,46 @@ class Index extends React.Component {
               <div className={classNames(styles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.over.text }} />
             </Col>
           </Row>
-          <Row className={styles.m1}>
-            <Col className={styles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
-              <div className={classNames(styles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.meer.text }} />
-            </Col>
-          </Row>
-          <Row className={styles.m1}>
-            {locaties.map(({ naam, wat_gaan_we_doen }) => {
+          <Row id="locaties" className={styles.m1}>
+            {locaties.map(({ node }, key) => {
+              console.log(node);
+              const { frontmatter, html, excerpt, fields } = node;
+              const { title, image } = frontmatter;
+              const { slug } = fields;
               return (
-                <Col className={styles.textCenter} xs={12} sm={4}>
-                  <CoderDojoLocation title={naam} image="https://upload.wikimedia.org/wikipedia/commons/e/e9/Sint-Jansbasiliek_%28Oosterhout%29_P1050122.JPG">
-                    <div dangerouslySetInnerHTML={{ __html: wat_gaan_we_doen }} />
+                <Col key={key} className={styles.textCenter} xs={12} sm={4}>
+                  <CoderDojoLocation title={title} link={slug} image={<Img style={{ width: '100%' }} fixed={image.childImageSharp.fixed} />}>
+                    <div>{excerpt}</div>
                   </CoderDojoLocation>
                 </Col>
               );
             })}
+          </Row>
+          <section id="over">
+            <Row>
+              <Col xs={12}>
+                <h1>{over.naam}</h1>
+              </Col>
+            </Row>
+            <Row>
+              <div className={classNames(styles.textCenter, styles.m1)}>
+                {over.basis.map(({ naam, tekst, icon }) => {
+                  return (
+                    <Col xs={12} sm={4}>
+                      <div className={styles.h1}><Glyphicon glyph={icon} /></div>
+                      <Divider size="sm" />
+                      <h5>{naam}</h5>
+                      <p>{tekst}</p>
+                    </Col>
+                  );
+                })}
+              </div>
+            </Row>
+          </section>
+          <Row className={styles.m1}>
+            <Col className={styles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
+              <div className={classNames(styles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.meer.text }} />
+            </Col>
           </Row>
           <Row>
             <Col>
@@ -100,6 +129,7 @@ export const pageQuery = graphql`
         description
       }
     }
+    
     markdownRemark(fields: {slug: {eq: $slug } }) {
       id
       excerpt
@@ -112,6 +142,12 @@ export const pageQuery = graphql`
         }
         over {
           text
+          naam
+          basis {
+            naam
+            tekst
+            icon
+          }
         }
         meer {
           text
@@ -132,19 +168,41 @@ export const pageQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC }) {
+    locaties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(locaties)/.*\\.md$/"}}) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          excerpt(pruneLength: 250)
+          html
+          frontmatter {
+            title
+            image {
+              childImageSharp {
+                fixed(width: 690, height: 300, quality: 95) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    posts: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(posts)/.*\\.md$/"}}) {
       edges {
         node {
           excerpt
           fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+          }
         }
       }
     }
   }
-}
 `

@@ -8,10 +8,19 @@ import classNames from 'classnames';
 
 class NavbarComponent extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+
+
+        const { location, title, children } = props
+        const rootPath = `${__PATH_PREFIX__}/`
+        let header
+
+        const isRoot = location.pathname === rootPath;
+
         this.state = {
             secondary: false,
+            isRoot
         };
     }
 
@@ -25,7 +34,6 @@ class NavbarComponent extends React.Component {
     }
 
     calculateScroll = (e) => {
-        console.log(window.pageYOffset, this.state.transparent);
         if (window.pageYOffset < 600 && this.state.secondary === true) {
             this.setState({ secondary: false });
         } else if (window.pageYOffset >= 600 && this.state.secondary === false) {
@@ -33,26 +41,41 @@ class NavbarComponent extends React.Component {
         }
     }
 
+    preventDefault = e => {
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+    }
+
     render = () => {
+        const { isRoot, secondary } = this.state;
         return (
             <Navbar className={classNames({ [styles.navbar]: true, [styles.secondary]: this.state.secondary })} fixedTop collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to={'/'}>
-                        <img className={styles.logo} height={25} src={icon} alt="Icon" /> Coderdojo
+                            <img className={styles.logo} height={25} src={icon} alt="Icon" /> Coderdojo
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
+                    {isRoot ? <Nav pullLeft>
+                        <NavItem eventKey={11} href="#locaties">
+                            Locaties
+                        </NavItem>
+                        <NavItem eventKey={11} href="#over">
+                            Over
+                        </NavItem>
+                    </Nav> : null}
                     <Nav pullRight>
-                        <NavItem eventKey={1} href="#">
-                            Link
+                        <NavItem componentClass={Link} type="button" href="/lessen" to="/lessen" eventKey={1}>
+                            Lessen
                         </NavItem>
-                        <NavItem eventKey={2} href="#">
+                        {/* <NavItem componentClass={Link} type="button" href="/lessen" to="/lessen" eventKey={2}>
                             Link
-                        </NavItem>
-                        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+                        </NavItem> */}
+                        <NavDropdown eventKey={3} href="javascript:void(0)" title="Dropdown" id="basic-nav-dropdown">
                             <MenuItem eventKey={3.1}>Action</MenuItem>
                             <MenuItem eventKey={3.2}>Another action</MenuItem>
                             <MenuItem eventKey={3.3}>Something else here</MenuItem>

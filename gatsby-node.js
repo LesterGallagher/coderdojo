@@ -7,6 +7,8 @@ const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
+
+
   return new Promise((resolve, reject) => {
       resolve(
         graphql(

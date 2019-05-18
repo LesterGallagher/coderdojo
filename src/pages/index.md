@@ -6,6 +6,18 @@ banner:
 image: /src/uploads/bump-collaboration-colleagues-1068523.jpg
 over: 
   text: 'Kom naar de CoderDojo in <a href="http://www.theek5.nl/iguana/?surl=Gilze-en-rijen" target="_blank"><span style="color:#ff7320;">bibliotheek Rijen</span></a>, <a href="http://www.theek5.nl/iguana/?surl=geertruidenberg" target="_blank">bibliotheek Raamsdonksveer</a> en in Oosterhout op basisschool <a href="http://www.basisschooldekameleon.nl/" target="_blank"><span style="color:#ff7320;">De Kameleon</span></a> of Kindcentrum <a href="http://ontdekking.net/" target="_blank"><span style="color:#ff7320;">De Ontdekking</span></a>.&nbsp;'
+  naam: Over de CoderDojo
+  basis:
+    - naam: Gratis en vrijblijvend
+      icon: euro
+      tekst: Omdat CoderDojo geheel door vrijwilligers wordt opgezet is het helemaal gratis en voor iedereen tussen de 7 en 17 jaar toegankelijk!
+    - naam: REGELMATIG
+      tekst: Elke Dojo streeft er naar om minimaal één keer per maand open te zijn. In sommige gevallen zelfs vaker!
+      icon: calendar
+    - naam: BIJ JOU IN DE BUURT
+      icon: map-marker
+      tekst: CoderDojo wordt over de hele wereld gehouden, dus ook bij jou in de buurt. Kun je geen Dojo vinden? Start er zelf één!
+
 meer: 
   text: 'Bij de CoderDojo kunnen kinderen tussen de 9 en 13 jaar gratis leren programmeren. Bouw aan websites of apps en leer hoe je een robot laat doen wat jij wilt! We gaan niet alleen games maken, maar natuurlijk ook games spelen! Kom naar CoderDojo en deel je kennis met de andere kinderen. <strong>Breng je eigen laptop mee (alleen in Rijen en in Raamsdonksveer). </strong>Eventueel hebben we in Raamsdonksveer ook een beperkt aantal laptops ter beschikking voor kinderen die geen laptop hebben). Aan de slag!' 
 
@@ -22,8 +34,5 @@ locaties:
     wat_gaan_we_doen: |- 
       <div class="dijitTitlePaneContentInner " dojoattachpoint="containerNode" wairole="region" role="region" aria-labelledby=""><div class="appcontent" id="content_dojoUnique17"><p>Tijdens de Coderdojo leer je de Nanonauten kennen. Zij hebben een eigen Dojo Nano opgezet, waar ze leren hoe ze een website bouwen voor hun eigen band. Jij leert met dit boek hoe je je eigen website bouwt met behulp van HTML, CSS en JavaScript - en hoe je en CoderDojo Nano begint met je vrienden. Websites maken is gemakkelijk en leuk!<br> &nbsp;</p> <p><strong>Kindcentrum de Ontdekking</strong><br> &nbsp;</p> <div class="StyleListDot"> <ul> <li>10 oktober 2018 - <strong>Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 1</strong><br> &nbsp;</li> <li>7 november 2018<strong> </strong>-<strong>&nbsp;Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS - <strong>2</strong><br> &nbsp;</li> <li>12 december 2018<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 3</strong>&nbsp;<br> &nbsp;</li> <li>16 januari 2019<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 4</strong>&nbsp;<br> &nbsp;</li> <li>13 februari 2019<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 5</strong><br> &nbsp;</li> <li>20 maart 2019<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 6</strong><br> &nbsp;</li> <li>3 april 2019<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 7</strong><br> &nbsp;</li> </ul> <strong>OBS De Kameleon</strong><br> &nbsp; <div class="StyleListDot"> <ul> <li>24 oktober 2018 - <strong>Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 1 </strong><br> &nbsp;</li> </ul> <div class="StyleListDot"> <ul> <li>21 november 2018<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 2 &nbsp;</strong><br> &nbsp;</li> <li>30 januari 2019<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 4 </strong><br> &nbsp;</li> <li>27 februari 2019<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 5</strong><br> &nbsp;</li> <li>27 maart 2019<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 6 </strong><br> &nbsp;</li> <li>17 april 2019<strong> - Programmeer met Nanonauten en bouw een website </strong>voor de band van Dojo Nano met html, Javascript en CSS<strong> - 7 I </strong><a href="https://theek5.lerendoeje.nu/activiteiten/482235.Kom-programmeren---Coderdojo-Kameleon-Oosterhout.-Maak-een-website-7.html" target="_blank"><span style="color:#ff7320;">Reserveer</span></a></li> </ul> <div class="StyleListDot"> <p><br> Je kunt je per datum opgeven.</p> </div> </div> </div> </div> </div></div>
   
-  
-
-
 ---
 Hello world
