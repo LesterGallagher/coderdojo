@@ -27,5 +27,3 @@ fields:
       file: 
       path: src/pages/locaties
   label: waar
-pages:
-- src/pages/lessen/arduino/arduino-intro.md
