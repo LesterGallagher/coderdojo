@@ -1,0 +1,16 @@
+---
+label: Les-Introductie
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: waar
+  label: waar
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
