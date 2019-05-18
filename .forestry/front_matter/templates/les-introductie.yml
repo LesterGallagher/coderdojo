@@ -28,4 +28,5 @@ fields:
       path: 
   label: waar
 pages:
+- src/pages/lessen/arduino/arduino-intro.md
 - src/pages/lessen/arduino/index.md
