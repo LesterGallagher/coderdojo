@@ -1,6 +1,6 @@
 ---
 title: Les 2
-layout: les
+layout: Les
 ---
 
 

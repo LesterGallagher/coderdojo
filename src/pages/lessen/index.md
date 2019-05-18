@@ -1,6 +1,6 @@
 ---
 title: Lessen Index
-layout: lessen-index
+layout: LessenIndex
 ---
 
 SDFSD

@@ -1,6 +1,6 @@
 ---
 title: Arduino introductie
-layout: les-introductie
+layout: LesIntroductie
 image: /src/uploads/arduino.jpg
 waar:
     - rijen

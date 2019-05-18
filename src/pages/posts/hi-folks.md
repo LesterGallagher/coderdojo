@@ -1,7 +1,7 @@
 ---
 title: New Beginnings
 date: "2015-05-28T22:40:32.169Z"
-layout: blog-post
+layout: BlogPost
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

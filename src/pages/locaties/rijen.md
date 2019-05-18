@@ -1,6 +1,6 @@
 ---
 title: Rijen
-layout: locatie
+layout: Locatie
 image: /uploads/laptop-3190194_1920.jpg
 ---
 
