@@ -151,10 +151,6 @@ export const pageQuery = graphql`
         tijden {
           text
         }
-        locaties {
-          naam
-          wat_gaan_we_doen
-        }
         image {
           childImageSharp {
             fluid(maxWidth: 1900) {

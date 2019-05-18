@@ -22,6 +22,8 @@ collections:
           searchFields: ["description", "title", "body"]
           valueField: "title"
           displayFields: ["title", "description"]
+      - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
+
       - label: "website Maken Lessen"
         name: "websiteMakenLessen"
         file: "src/pages/lessen/website-maken.md"
@@ -35,6 +37,7 @@ collections:
           searchFields: ["description", "title", "body"]
           valueField: "title"
           displayFields: ["title", "description"]
+        - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
         
 
 

@@ -41,6 +41,8 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors)
         }
 
+
+        
         // Create blog posts pages.
         const markdownFiles = result.data.allMarkdownRemark.edges;
 
