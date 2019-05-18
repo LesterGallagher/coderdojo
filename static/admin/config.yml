@@ -24,14 +24,14 @@ collections:
           displayFields: ["title", "description"]
       - label: "website Maken Lessen"
         name: "websiteMakenLessen"
-        file: "pages/lessen/website-maken-lessen.md"
+        file: "pages/lessen/website-maken.md"
         fields:
         - label: "Introductie les"
           name: "introductieLes"
           widget: "relation"
           required: false
           optional: true
-          collection: "arduinoLessen"
+          collection: "websiteMakenLessen"
           searchFields: ["description", "title", "body"]
           valueField: "title"
           displayFields: ["title", "description"]
