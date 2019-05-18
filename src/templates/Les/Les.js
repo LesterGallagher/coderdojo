@@ -9,7 +9,6 @@ import Layout from '../../components/Layout/Layout'
 
 class LesTemplate extends React.Component {
   render() {
-    console.log(this);
     const les = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = les.excerpt

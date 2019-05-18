@@ -19,14 +19,12 @@ class Lander extends React.Component {
       this,
       'props.data.site.siteMetadata.description'
     );
-    console.log(this.props.data);
     const posts = get(this, 'props.data.posts.edges');
     const locaties = get(this, 'props.data.locaties.edges');
     const image = get(this, 'props.data.markdownRemark.frontmatter.image');
     const page = get(this, 'props.data.markdownRemark');
     const over = get(this, 'props.data.markdownRemark.frontmatter.over');
 
-    console.log(locaties);
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -53,7 +51,6 @@ class Lander extends React.Component {
           </Row>
           <Row id="locaties" className={globalStyles.m1}>
             {locaties.map(({ node }, key) => {
-              console.log(node);
               const { frontmatter, html, excerpt, fields } = node;
               const { title, image } = frontmatter;
               const { slug } = fields;

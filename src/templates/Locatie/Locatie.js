@@ -15,8 +15,6 @@ class Locatie extends React.Component {
     const siteDescription = page.excerpt;
     const { previous, next } = this.props.pageContext;
 
-    console.log(this.props.data);
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <Helmet

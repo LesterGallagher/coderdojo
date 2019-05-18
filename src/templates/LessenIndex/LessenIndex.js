@@ -11,7 +11,6 @@ import LesIntroductie from '../../components/LesIntroductie/LesIntroductie';
 
 class LessenIndex extends React.Component {
   render() {
-    console.log(this.props);
     const lessenIndex = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = lessenIndex.excerpt
@@ -19,7 +18,6 @@ class LessenIndex extends React.Component {
     const page = get(this, 'props.data.markdownRemark');
     const lesIntroducties = get(this, 'props.data.lesIntroducties.edges');
 
-    console.log(lesIntroducties);
 
     return (
       <Layout location={this.props.location} title={siteTitle}>

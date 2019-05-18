@@ -54,6 +54,6 @@ collections:
         widget: "relation"
         collection: "locaties"
         searchFields: ["description", "title", "body"]
-        valueField: "name"
+        valueField: "title"
         displayFields: ["title", "description"]
 
