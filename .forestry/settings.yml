@@ -26,7 +26,6 @@ sections:
   exclude: "(.|..)"
   templates:
   - page
-  - les-introductie
   - les
 upload_dir: src/uploads
 public_path: "/src/uploads"
