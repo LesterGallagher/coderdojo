@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Arduino Lessen"
         name: "arduinoLessen"
-        file: "pages/lessen/arduino.md"
+        file: "src/pages/lessen/arduino.md"
         fields:
         - label: "Introductie les"
           name: "introductieLes"
@@ -24,7 +24,7 @@ collections:
           displayFields: ["title", "description"]
       - label: "website Maken Lessen"
         name: "websiteMakenLessen"
-        file: "pages/lessen/website-maken.md"
+        file: "src/pages/lessen/website-maken.md"
         fields:
         - label: "Introductie les"
           name: "introductieLes"
