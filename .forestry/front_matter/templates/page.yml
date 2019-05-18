@@ -23,3 +23,5 @@ fields:
   label: layout
   hidden: true
   default: Page
+pages:
+- src/pages/lessen/arduino/test.md
