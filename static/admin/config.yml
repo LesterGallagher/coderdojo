@@ -6,6 +6,39 @@ media_folder: src/uploads
 public_folder: /uploads
 
 collections:
+  - label: "Instellingen"
+    name: "data"
+    files:
+      - label: "Arduino Lessen"
+        name: "arduinoLessen"
+        file: "pages/lessen/arduino.md"
+        fields:
+        - label: "Introductie les"
+          name: "introductieLes"
+          widget: "relation"
+          required: false
+          optional: true
+          collection: "arduinoLessen"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]
+      - label: "website Maken Lessen"
+        name: "websiteMakenLessen"
+        file: "pages/lessen/website-maken-lessen.md"
+        fields:
+        - label: "Introductie les"
+          name: "introductieLes"
+          widget: "relation"
+          required: false
+          optional: true
+          collection: "arduinoLessen"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]
+        
+
+
+
   - name: "posts"
     label: "Blog"
     folder: "src/pages/posts"
@@ -33,8 +66,9 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "lessen"
-    label: "Lessen"
+
+  - name: "arduinoLessen"
+    label: "Lessen: Arduino"
     folder: "src/pages/lessen/arduino"
     create: true
     slug: "{{slug}}"
@@ -43,17 +77,87 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - {label: "Layout", name: "layout", widget: "hidden", default: "Locatie"}
-      - {label: "Is Intro", name: "isIntro", widget: "boolean", default: false}
+      - {label: "Is Introductie les?", name: "isIntro", widget: "boolean", default: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Locatie"
-        name: "locatie"
+      - label: "Volgende"
+        name: "next"
         widget: "relation"
-        collection: "locaties"
+        collection: "arduinoLessen"
+        searchFields: ["description", "title", "body"]
+        required: false
+        optional: true
+        valueField: "title"
+        displayFields: ["title", "description"]
+      - label: "Vorige les"
+        name: "next"
+        widget: "relation"
+        required: false
+        optional: true
+        collection: "arduinoLessen"
         searchFields: ["description", "title", "body"]
         valueField: "title"
         displayFields: ["title", "description"]
+      - label: "Locaties"
+        name: "locaties"
+        widget: "list"
+        field: 
+          label: "Locatie"
+          name: "locatie"
+          widget: "relation"
+          collection: "locaties"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]
+
+
+
+  - name: "websiteMakenLessen"
+    label: "Lessen: Website Maken"
+    folder: "src/pages/lessen/website-maken"
+    create: true
+    slug: "{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "Locatie"}
+      - {label: "Is Introductie les?", name: "isIntro", widget: "boolean", default: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Volgende"
+        name: "next"
+        widget: "relation"
+        collection: "websiteMaken"
+        searchFields: ["description", "title", "body"]
+        required: false
+        optional: true
+        valueField: "title"
+        displayFields: ["title", "description"]
+      - label: "Vorige les"
+        name: "next"
+        widget: "relation"
+        required: false
+        optional: true
+        collection: "websiteMaken"
+        searchFields: ["description", "title", "body"]
+        valueField: "title"
+        displayFields: ["title", "description"]
+      - label: "Locaties"
+        name: "locaties"
+        widget: "list"
+        field: 
+          label: "Locatie"
+          name: "locatie"
+          widget: "relation"
+          collection: "locaties"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]
 
