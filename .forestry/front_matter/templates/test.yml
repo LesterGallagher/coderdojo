@@ -11,6 +11,15 @@ fields:
 - type: file
   name: image
   label: image
-- type: list
-  name: waar
+- name: waar
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
   label: waar
