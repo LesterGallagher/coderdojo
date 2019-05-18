@@ -11,6 +11,8 @@ sections:
   match: "**/*"
   new_doc_ext: md
   templates:
+  - lander
+  - blocks
   - page
 upload_dir: src/uploads
 public_path: "/src/uploads"
