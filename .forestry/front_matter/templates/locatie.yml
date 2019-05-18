@@ -15,3 +15,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- src/pages/locaties/dfssdf.md
