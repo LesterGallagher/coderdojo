@@ -27,13 +27,13 @@ collections:
           name: "locaties"
           widget: "list"
           field: 
-          label: "Locatie"
-          name: "locatie"
-          widget: "relation"
-          collection: "locaties"
-          searchFields: ["description", "title", "body"]
-          valueField: "title"
-          displayFields: ["title", "description"]
+            label: "Locatie"
+            name: "locatie"
+            widget: "relation"
+            collection: "locaties"
+            searchFields: ["description", "title", "body"]
+            valueField: "title"
+            displayFields: ["title", "description"]
 
       - label: "Website Maken Lessen"
         name: "websiteMakenLessen"
@@ -53,13 +53,13 @@ collections:
           name: "locaties"
           widget: "list"
           field: 
-          label: "Locatie"
-          name: "locatie"
-          widget: "relation"
-          collection: "locaties"
-          searchFields: ["description", "title", "body"]
-          valueField: "title"
-          displayFields: ["title", "description"]
+            label: "Locatie"
+            name: "locatie"
+            widget: "relation"
+            collection: "locaties"
+            searchFields: ["description", "title", "body"]
+            valueField: "title"
+            displayFields: ["title", "description"]
 
 
       - label: "Scratch Lessen"
@@ -80,19 +80,20 @@ collections:
           name: "locaties"
           widget: "list"
           field: 
-          label: "Locatie"
-          name: "locatie"
-          widget: "relation"
-          collection: "locaties"
-          searchFields: ["description", "title", "body"]
-          valueField: "title"
-          displayFields: ["title", "description"]
+            label: "Locatie"
+            name: "locatie"
+            widget: "relation"
+            collection: "locaties"
+            searchFields: ["description", "title", "body"]
+            valueField: "title"
+            displayFields: ["title", "description"]
       
       - label: "Lessen"
         name: "lessen"
         file: "src/pages/lessen/lessen.md"
         fields:
         - {label: "Layout", name: "layout", widget: "hidden", default: "LessenIndex"}
+        - { label: "Image", name: "image", widget: "image" }
         
 
 #blog
@@ -124,6 +125,7 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
 
 # arduino
 
@@ -199,17 +201,7 @@ collections:
         searchFields: ["description", "title", "body"]
         valueField: "title"
         displayFields: ["title", "description"]
-      - label: "Locaties"
-        name: "locaties"
-        widget: "list"
-        field: 
-          label: "Locatie"
-          name: "locatie"
-          widget: "relation"
-          collection: "locaties"
-          searchFields: ["description", "title", "body"]
-          valueField: "title"
-          displayFields: ["title", "description"]
+
 
   - name: "scratchLessen"
     label: "Lessen: Scratch"
@@ -245,14 +237,4 @@ collections:
         searchFields: ["description", "title", "body"]
         valueField: "title"
         displayFields: ["title", "description"]
-      - label: "Locaties"
-        name: "locaties"
-        widget: "list"
-        field: 
-          label: "Locatie"
-          name: "locatie"
-          widget: "relation"
-          collection: "locaties"
-          searchFields: ["description", "title", "body"]
-          valueField: "title"
-          displayFields: ["title", "description"]
+
