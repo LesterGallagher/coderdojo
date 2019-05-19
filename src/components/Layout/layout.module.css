@@ -16,3 +16,7 @@
      bottom: 0;
      overflow: auto;
  }
+
+ .wrapper {
+     overflow: hidden;
+ }

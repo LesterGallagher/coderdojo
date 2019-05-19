@@ -47,8 +47,12 @@ class Layout extends React.Component {
     }
     return (
       <div>
-        <NavbarComponent location={this.props.location} />
-        {children}
+        <nav>
+          <NavbarComponent location={this.props.location} />
+        </nav>
+        <div className={styles.wrapper}>
+          {children}
+        </div>
         <Footer />
       </div>
     )

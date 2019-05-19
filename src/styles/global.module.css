@@ -19,6 +19,12 @@
     font-size: 2.5em;
 }
 
+@media screen and (max-width: 440px) {
+    .bannerText {
+        font-size:  1.5em;
+    }
+}
+
 .upCaseHeading h1, .upCaseHeading h2, .upCaseHeading h3, .upCaseHeading h4, .upCaseHeading h5, .upCaseHeading h6 {
     text-transform: uppercase;
 }
