@@ -34,6 +34,11 @@ collections:
             searchFields: ["description", "title", "body"]
             valueField: "title"
             displayFields: ["title", "description"]
+        - { label: "Body", name: "body", widget: "markdown" }
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Description", name: "description", widget: "string" }
+        - { label: "Image", name: "image", widget: "image" }
 
       - label: "Website Maken Lessen"
         name: "websiteMakenLessen"
@@ -60,6 +65,12 @@ collections:
             searchFields: ["description", "title", "body"]
             valueField: "title"
             displayFields: ["title", "description"]
+        - { label: "Body", name: "body", widget: "markdown" }
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Description", name: "description", widget: "string" }
+        - { label: "Image", name: "image", widget: "image" }
+          
 
 
       - label: "Scratch Lessen"
@@ -87,6 +98,8 @@ collections:
             searchFields: ["description", "title", "body"]
             valueField: "title"
             displayFields: ["title", "description"]
+        - { label: "Body", name: "body", widget: "markdown" }
+        
       
       - label: "Lessen"
         name: "lessen"
@@ -94,6 +107,12 @@ collections:
         fields:
         - {label: "Layout", name: "layout", widget: "hidden", default: "LessenIndex"}
         - { label: "Image", name: "image", widget: "image" }
+        - { label: "Body", name: "body", widget: "markdown" }
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Description", name: "description", widget: "string" }
+        - { label: "Image", name: "image", widget: "image" }
+
         
 
 #blog
