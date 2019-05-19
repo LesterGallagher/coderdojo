@@ -4,9 +4,11 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
 import styles from '../../styles/global.module.css';
+import Img from 'gatsby-image';
 
 import Bio from '../../components/Bio/Bio'
 import Layout from '../../components/Layout/Layout'
+import LesModule from '../../components/LesModule/LesModule';
 
 class Locatie extends React.Component {
   render() {
@@ -14,6 +16,10 @@ class Locatie extends React.Component {
     const siteTitle = page.title;
     const siteDescription = page.excerpt;
     const { previous, next } = this.props.pageContext;
+
+    const lessen = get(this, 'props.data.lesIntroducties.edges');
+
+    console.log(lessen);
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -25,8 +31,27 @@ class Locatie extends React.Component {
         <Grid>
           <Row>
             <Col className={styles.m1}>
-              <div dangerouslySetInnerHTML={{__html: page.html}}></div>
+              <div dangerouslySetInnerHTML={{ __html: page.html }}></div>
             </Col>
+          </Row>
+          <Row>
+            {lessen.map(({ node }) => {
+              let col = Math.floor(12 / lessen.length);
+              col = Math.max(3, col);
+              col = Math.min(6, col);
+
+              const { fields, frontmatter, excerpt } = node;
+              const { slug } = fields;
+              const { date, description, image, layout, locaties, title } = frontmatter;
+
+              return (
+                <Col xs={12} sm={col} className={styles.m1} key={slug}>
+                  <LesModule title={title} link={slug} image={<Img style={{ maxWidth: '100%' }} fixed={image.childImageSharp.fixed} />}>
+                    <p>{excerpt}</p>
+                  </LesModule>
+                </Col>
+                );
+            })}
           </Row>
         </Grid>
       </Layout>
@@ -37,43 +62,49 @@ class Locatie extends React.Component {
 export default Locatie
 
 export const pageQuery = graphql`
-  query getPage($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        author
-      }
+query getPage($slug: String!, $title: String!) {
+  site {
+    siteMetadata {
+      title
+      author
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-      }
+  }
+  markdownRemark(fields: {slug: {eq: $slug}}) {
+    id
+    excerpt
+    html
+    frontmatter {
+      title
+      date(formatString: "MMMM DD, YYYY")
     }
-    lesIntroducties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {layout: {eq: "LesIntroductie"}}, fileAbsolutePath: {regex: "/(lessen)/.*/.*\\.md$/"}}) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          excerpt(pruneLength: 250)
-          html
-          frontmatter {
-            title
-            layout
-            image {
-                childImageSharp {
-                    fixed(width: 800, height: 400, quality: 95) {
-                        ...GatsbyImageSharpFixed
-                    }
-                }
+  }
+  lesIntroducties: allMarkdownRemark(sort: {
+    order: DESC, fields: [frontmatter___date]}, filter: {
+      frontmatter: {locaties: {eq:$title}, layout: {eq: "LesIntroductie"}}}) {
+    edges {
+      node {
+        fields {
+          slug
+        }
+        excerpt(pruneLength: 250)
+        html
+        frontmatter {
+          title
+          layout
+          locaties
+          date
+          description
+          image {
+            childImageSharp {
+              fixed(width: 600, height: 400) {
+                ...GatsbyImageSharpFixed
+              }
             }
           }
         }
       }
     }
   }
+}
+
 `

@@ -9,8 +9,6 @@ const get = require('lodash/get');
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-
-  
   return new Promise((resolve, reject) => {
     resolve(
       graphql(
@@ -29,6 +27,7 @@ exports.createPages = ({ graphql, actions }) => {
                   frontmatter {
                     title
                     layout
+                    title
                   }
                 }
               }
@@ -62,6 +61,7 @@ exports.createPages = ({ graphql, actions }) => {
             component: path.resolve(`./src/templates/${layout}/${layout}.js`),
             context: {
               slug: page.node.fields.slug,
+              title: page.node.frontmatter.title || '',
               les: page.node.fields.les || '',
               previous,
               next,
@@ -94,6 +94,5 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value: les || '',
     });
-
   }
 }

@@ -95,7 +95,7 @@ collections:
             widget: "relation"
             collection: "arduinoLessen"
             searchFields: ["description", "title", "body"]
-            valueField: "title"
+            valueField: "slug"
             displayFields: ["title", "description"]
         - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
         - label: "Locaties"
