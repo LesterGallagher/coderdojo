@@ -28,6 +28,8 @@ class Lander extends React.Component {
     const page = get(this, 'props.data.markdownRemark');
     const over = get(this, 'props.data.markdownRemark.frontmatter.over');
     const vrijwilligers = get(this, 'props.data.markdownRemark.frontmatter.vrijwilligers');
+    const nieuws = get(this, 'props.data.markdownRemark.frontmatter.nieuws');
+    const watWeDoen = get(this, 'props.data.markdownRemark.frontmatter.watWeDoen');
 
     console.log(page);
 
@@ -101,7 +103,7 @@ class Lander extends React.Component {
           </Row>
           <Row className={globalStyles.m1}>
             <Col xs={12}>
-              <h2 id="tutorials" className={globalStyles.h1}>Tutorials</h2>
+              <h2 id="tutorials" className={globalStyles.h1}>{watWeDoen.title}</h2>
             </Col>
           </Row>
           <div className={globalStyles.m1}>
@@ -110,7 +112,7 @@ class Lander extends React.Component {
           <LesModulesGrid />
           <Row className={globalStyles.m1}>
             <Col xs={12}>
-              <h2 id="nieuws" className={globalStyles.h1}>Nieuws</h2>
+              <h2 id="nieuws" className={globalStyles.h1}>{nieuws.title}</h2>
             </Col>
           </Row>
           <Row className={globalStyles.m1}>
@@ -193,6 +195,12 @@ export const pageQuery = graphql`
           titel
           text
           btnText
+        }
+        watWeDoen {
+          title
+        }
+        nieuws {
+          title
         }
         over {
           text
