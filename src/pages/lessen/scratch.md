@@ -1,8 +1,11 @@
 ---
+introductieLes: Scratch Les 1
 nextLessons:
   - Arduino introductie
   - Les 2
 layout: LesIntroductie
+locaties:
+  - Rijen
 title: Scratch Lessen
 date: 2019-05-19T11:59:38.433Z
 description: Test
