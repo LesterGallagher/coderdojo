@@ -3,7 +3,6 @@ title: Privacyverklaring
 description: Privacyverklaring pagina.
 layout: Page
 ---
-# Privacyverklaring
 
 Uw privacy is belangrijk voor ons. Het is het beleid van ikverstaat.nl om uw privacy te respecteren met betrekking tot alle informatie die we van u verzamelen op onze website.
 
