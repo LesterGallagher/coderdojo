@@ -22,9 +22,20 @@ collections:
           searchFields: ["description", "title", "body"]
           valueField: "title"
           displayFields: ["title", "description"]
-      - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
+        - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
+        - label: "Locaties"
+          name: "locaties"
+          widget: "list"
+          field: 
+          label: "Locatie"
+          name: "locatie"
+          widget: "relation"
+          collection: "locaties"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]
 
-      - label: "website Maken Lessen"
+      - label: "Website Maken Lessen"
         name: "websiteMakenLessen"
         file: "src/pages/lessen/website-maken.md"
         fields:
@@ -38,9 +49,53 @@ collections:
           valueField: "title"
           displayFields: ["title", "description"]
         - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
+        - label: "Locaties"
+          name: "locaties"
+          widget: "list"
+          field: 
+          label: "Locatie"
+          name: "locatie"
+          widget: "relation"
+          collection: "locaties"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]
+
+
+      - label: "Scratch Lessen"
+        name: "scratchLessen"
+        file: "src/pages/lessen/scratch.md"
+        fields:
+        - label: "Introductie les"
+          name: "introductieLes"
+          widget: "relation"
+          required: false
+          optional: true
+          collection: "scratchLessen"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]
+        - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
+        - label: "Locaties"
+          name: "locaties"
+          widget: "list"
+          field: 
+          label: "Locatie"
+          name: "locatie"
+          widget: "relation"
+          collection: "locaties"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]
+      
+      - label: "Lessen"
+        name: "lessen"
+        file: "src/pages/lessen/lessen.md"
+        fields:
+        - {label: "Layout", name: "layout", widget: "hidden", default: "LessenIndex"}
         
 
-
+#blog
 
   - name: "posts"
     label: "Blog"
@@ -69,6 +124,8 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+# arduino
 
   - name: "arduinoLessen"
     label: "Lessen: Arduino"
@@ -104,19 +161,9 @@ collections:
         searchFields: ["description", "title", "body"]
         valueField: "title"
         displayFields: ["title", "description"]
-      - label: "Locaties"
-        name: "locaties"
-        widget: "list"
-        field: 
-          label: "Locatie"
-          name: "locatie"
-          widget: "relation"
-          collection: "locaties"
-          searchFields: ["description", "title", "body"]
-          valueField: "title"
-          displayFields: ["title", "description"]
+      
 
-
+# website maken
 
   - name: "websiteMakenLessen"
     label: "Lessen: Website Maken"
@@ -164,3 +211,48 @@ collections:
           valueField: "title"
           displayFields: ["title", "description"]
 
+  - name: "scratchLessen"
+    label: "Lessen: Scratch"
+    folder: "src/pages/lessen/scratch"
+    create: true
+    slug: "{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
+      - {label: "Is Introductie les?", name: "isIntro", widget: "boolean", default: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Volgende"
+        name: "next"
+        widget: "relation"
+        collection: "scratchLessen"
+        searchFields: ["description", "title", "body"]
+        required: false
+        optional: true
+        valueField: "title"
+        displayFields: ["title", "description"]
+      - label: "Vorige les"
+        name: "previous"
+        widget: "relation"
+        required: false
+        optional: true
+        collection: "scratchLessen"
+        searchFields: ["description", "title", "body"]
+        valueField: "title"
+        displayFields: ["title", "description"]
+      - label: "Locaties"
+        name: "locaties"
+        widget: "list"
+        field: 
+          label: "Locatie"
+          name: "locatie"
+          widget: "relation"
+          collection: "locaties"
+          searchFields: ["description", "title", "body"]
+          valueField: "title"
+          displayFields: ["title", "description"]

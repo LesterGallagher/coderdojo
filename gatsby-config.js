@@ -10,6 +10,13 @@ module.exports = {
   // pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
+      resolve: 'gatsby-plugin-copy-files',
+      options: {
+          source: path.join(__dirname, 'src', 'uploads'),
+          destination: '/uploads'
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: path.join(__dirname, 'src', 'uploads'),

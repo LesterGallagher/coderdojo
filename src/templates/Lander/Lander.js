@@ -25,6 +25,7 @@ class Lander extends React.Component {
     const page = get(this, 'props.data.markdownRemark');
     const over = get(this, 'props.data.markdownRemark.frontmatter.over');
 
+    console.log(page);
 
     return (
       <Layout location={this.props.location} title={siteTitle}>

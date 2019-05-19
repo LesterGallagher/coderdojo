@@ -4,6 +4,7 @@ import { Navbar, Grid, Row, Col, NavbarBrand, Form, FormControl, Button, MenuIte
 import styles from './layout.module.css';
 import classNames from 'classnames';
 import NavbarComponent from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 class Layout extends React.Component {
 
@@ -48,6 +49,7 @@ class Layout extends React.Component {
       <div>
         <NavbarComponent location={this.props.location} />
         {children}
+        <Footer />
       </div>
     )
   }

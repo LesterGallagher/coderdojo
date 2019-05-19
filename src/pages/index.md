@@ -3,7 +3,7 @@ title: Home
 layout: Lander
 banner:
   text: "<h2>Coderdojo</h2><p></p><p>Bouw een website, app of game in de Coderdojo.</p>"
-image: /src/uploads/bump-collaboration-colleagues-1068523.jpg
+image: /uploads/bump-collaboration-colleagues-1068523.jpg
 over: 
   text: 'Kom naar de CoderDojo in <a href="http://www.theek5.nl/iguana/?surl=Gilze-en-rijen" target="_blank"><span style="color:#ff7320;">bibliotheek Rijen</span></a>, <a href="http://www.theek5.nl/iguana/?surl=geertruidenberg" target="_blank">bibliotheek Raamsdonksveer</a> en in Oosterhout op basisschool <a href="http://www.basisschooldekameleon.nl/" target="_blank"><span style="color:#ff7320;">De Kameleon</span></a> of Kindcentrum <a href="http://ontdekking.net/" target="_blank"><span style="color:#ff7320;">De Ontdekking</span></a>.&nbsp;'
   naam: Over de CoderDojo
