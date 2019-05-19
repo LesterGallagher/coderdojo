@@ -126,6 +126,7 @@ collections:
     folder: "src/pages/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: posts/{{slug}}
     editor:
      preview: false
     fields:
@@ -137,6 +138,7 @@ collections:
   - name: "locaties"
     label: "Locaties"
     folder: "src/pages/locaties"
+    preview_path: locaties/{{slug}}
     create: true
     slug: "{{slug}}"
     editor:
@@ -157,6 +159,7 @@ collections:
     folder: "src/pages/lessen/arduino"
     create: true
     slug: "{{slug}}"
+    preview_path: lessen/arduino/{{slug}}
     editor:
      preview: false
     fields:
@@ -193,6 +196,7 @@ collections:
   - name: "websiteMakenLessen"
     label: "Lessen: Website Maken"
     folder: "src/pages/lessen/website-maken"
+    preview_path: lessen/website-maken/{{slug}}
     create: true
     slug: "{{slug}}"
     editor:
@@ -229,6 +233,7 @@ collections:
   - name: "scratchLessen"
     label: "Lessen: Scratch"
     folder: "src/pages/lessen/scratch"
+    preview_path: lessen/scratch/{{slug}}
     create: true
     slug: "{{slug}}"
     editor:
