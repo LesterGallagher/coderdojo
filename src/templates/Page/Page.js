@@ -24,7 +24,7 @@ class PageTemplate extends React.Component {
         />
         <Grid>
           <Row>
-            <Col>
+            <Col xs={12}>
               <h1 className={globalStyles.m1}>{page.frontmatter.title}</h1>
               <p
                 style={{
