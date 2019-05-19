@@ -38,7 +38,7 @@ collections:
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Description", name: "description", widget: "string" }
-        - { label: "Image", name: "image", widget: "image" }
+        - { label: "Image", name: "image", widget: "image", required: true, optional: false }
 
       - label: "Website Maken Lessen"
         name: "websiteMakenLessen"
@@ -69,7 +69,7 @@ collections:
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Description", name: "description", widget: "string" }
-        - { label: "Image", name: "image", widget: "image" }
+        - { label: "Image", name: "image", widget: "image", required: true, optional: false }
           
 
 
@@ -102,7 +102,7 @@ collections:
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Description", name: "description", widget: "string" }
-        - { label: "Image", name: "image", widget: "image" }
+        - { label: "Image", name: "image", widget: "image", required: true, optional: false }
         
       
       - label: "Lessen"
@@ -110,12 +110,11 @@ collections:
         file: "src/pages/lessen/lessen.md"
         fields:
         - {label: "Layout", name: "layout", widget: "hidden", default: "LessenIndex"}
-        - { label: "Image", name: "image", widget: "image" }
         - { label: "Body", name: "body", widget: "markdown" }
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Description", name: "description", widget: "string" }
-        - { label: "Image", name: "image", widget: "image" }
+        - { label: "Image", name: "image", widget: "image", required: true, optional: false }
 
         
 
@@ -148,9 +147,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "Locatie"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image", name: "image", widget: "image", required: true, optional: false }
 
 # arduino
 
@@ -169,7 +167,7 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image", name: "image", widget: "image", required: true, optional: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Volgende"
         name: "next"
@@ -208,7 +206,7 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image", name: "image", widget: "image", required: true, optional: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Volgende"
         name: "next"
@@ -245,7 +243,7 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image", name: "image", widget: "image", required: true, optional: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Volgende"
         name: "next"
