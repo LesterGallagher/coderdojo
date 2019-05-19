@@ -27,7 +27,7 @@ class Footer extends Component {
                     <Row>
                         <Col xs={6}>
                             <div>2019 &copy; Coderdojo Oosterhout</div>
-                            <div>Gemaakt door: <a target="_blank" href="https://esstudio.site/">ESStudio</a> | <Link to="/admin">Inloggen</Link> | <Link to="/privacy">Privacy verklaring</Link></div> 
+                            <div>Gemaakt door: <a target="_blank" href="https://esstudio.site/">ESStudio</a> | <a href="/admin/">Inloggen</a> | <Link to="/privacy">Privacy verklaring</Link></div> 
                         </Col>
                         <Col xs={6} className={globalStyles.textRight}>
                             <img className={styles.icon} src={icon} alt="Footer icon image" />
