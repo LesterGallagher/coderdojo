@@ -2,10 +2,12 @@
 title: Home
 layout: Lander
 banner:
-  text: "<h2>Coderdojo</h2><p></p><p>Bouw een website, app of game in de Coderdojo.</p>"
+  text: "## Coderdojo
+
+Bouw een website, app of game in de Coderdojo."
 image: /uploads/bump-collaboration-colleagues-1068523.jpg
 over: 
-  text: 'Kom naar de CoderDojo in <a href="http://www.theek5.nl/iguana/?surl=Gilze-en-rijen" target="_blank"><span style="color:#ff7320;">bibliotheek Rijen</span></a>, <a href="http://www.theek5.nl/iguana/?surl=geertruidenberg" target="_blank">bibliotheek Raamsdonksveer</a> en in Oosterhout op basisschool <a href="http://www.basisschooldekameleon.nl/" target="_blank"><span style="color:#ff7320;">De Kameleon</span></a> of Kindcentrum <a href="http://ontdekking.net/" target="_blank"><span style="color:#ff7320;">De Ontdekking</span></a>.&nbsp;'
+  text: 'Kom naar de CoderDojo in [bibliotheek Rijen](http://www.theek5.nl/iguana/?surl=Gilze-en-rijen), [bibliotheek Raamsdonksveer](http://www.theek5.nl/iguana/?surl=geertruidenberg) en in Oosterhout op basisschool [De Kameleon](http://www.basisschooldekameleon.nl/) of Kindcentrum [De Ontdekking](http://ontdekking.net/).'
   naam: Over de CoderDojo
   basis:
     - naam: Gratis en vrijblijvend
@@ -19,10 +21,16 @@ over:
       tekst: CoderDojo wordt over de hele wereld gehouden, dus ook bij jou in de buurt. Kun je geen Dojo vinden? Start er zelf één!
 
 meer: 
-  text: 'Bij de CoderDojo kunnen kinderen tussen de 9 en 13 jaar gratis leren programmeren. Bouw aan websites of apps en leer hoe je een robot laat doen wat jij wilt! We gaan niet alleen games maken, maar natuurlijk ook games spelen! Kom naar CoderDojo en deel je kennis met de andere kinderen. <strong>Breng je eigen laptop mee (alleen in Rijen en in Raamsdonksveer). </strong>Eventueel hebben we in Raamsdonksveer ook een beperkt aantal laptops ter beschikking voor kinderen die geen laptop hebben). Aan de slag!' 
+  text: 'Bij de CoderDojo kunnen kinderen tussen de 9 en 13 jaar gratis leren programmeren. Bouw aan websites of apps en leer hoe je een robot laat doen wat jij wilt! We gaan niet alleen games maken, maar natuurlijk ook games spelen! Kom naar CoderDojo en deel je kennis met de andere kinderen. **Breng je eigen laptop mee (alleen in Rijen en in Raamsdonksveer).** Eventueel hebben we in Raamsdonksveer ook een beperkt aantal laptops ter beschikking voor kinderen die geen laptop hebben). Aan de slag!' 
 
 tijden:
-  text: '<ul> <li><a href="http://www.theek5.nl/iguana/?surl=geertruidenberg" target="_blank">Rijen</a><strong>. Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april) </strong>om 13.30 uur (tot 15.30 uur). <a href="https://theek5.lerendoeje.nu/activiteiten/?pi=42&amp;plaats=5" target="_blank"><span style="color:#ff7320;">Aanmelden is nodig</span></a><br> &nbsp;</li> <li><a href="http://www.theek5.nl/iguana/?surl=raamsdonksveer" target="_blank">Raamsdonksveer</a>. <strong>Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april) </strong>om 13.30 uur (tot 15.30 uur). <span style="color:#ff7320;">Aanmelden is nodig</span><br> &nbsp;</li> <li>Basisschool <a href="http://www.basisschooldekameleon.nl/" target="_blank">De Kamelon</a> in Oosterhout.&nbsp;<strong>Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april) </strong>om 15.00 uur (tot 16.30 uur).&nbsp; <span style="color:#ff7320;">Aanmelden is nodig</span><br> &nbsp;</li> <li>asisschool <a href="http://ontdekking.net/" target="_blank">De Ontdekking</a> in Oosterhout<strong>. Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april) </strong>om 15.00 uur (tot 16.30 uur).&nbsp; <span style="color:#ff7320;">Aanmelden is nodig</span></li> </ul>'
+  text: '*   [Rijen](http://www.theek5.nl/iguana/?surl=geertruidenberg)**. Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april)** om 13.30 uur (tot 15.30 uur). [Aanmelden is nodig](https://theek5.lerendoeje.nu/activiteiten/?pi=42&plaats=5)  
+     
+*   [Raamsdonksveer](http://www.theek5.nl/iguana/?surl=raamsdonksveer). **Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april)** om 13.30 uur (tot 15.30 uur). Aanmelden is nodig  
+     
+*   Basisschool [De Kamelon](http://www.basisschooldekameleon.nl/) in Oosterhout. **Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april)** om 15.00 uur (tot 16.30 uur).  Aanmelden is nodig  
+     
+*   asisschool [De Ontdekking](http://ontdekking.net/) in Oosterhout**. Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april)** om 15.00 uur (tot 16.30 uur).  Aanmelden is nodig'
 
 watWeDoen:
   title: Wat doen we?

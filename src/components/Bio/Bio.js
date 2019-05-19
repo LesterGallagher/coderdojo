@@ -15,7 +15,7 @@ class Bio extends React.Component {
           display: 'flex',
         }}
       >
-        <img
+        {/* <img
           src={profilePic}
           alt={`Kyle Mathews`}
         />
@@ -25,8 +25,7 @@ class Bio extends React.Component {
           <a href="https://twitter.com/kylemathews">
             You should follow him on Twitter
           </a>
-          <Button>Yeey bootstrap</Button>
-        </p>
+        </p> */}
       </div>
     )
   }
