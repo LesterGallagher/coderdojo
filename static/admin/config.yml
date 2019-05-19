@@ -6,6 +6,61 @@ media_folder: src/uploads
 public_folder: /uploads
 
 collections:
+  - label: "Pagina's"
+    name: "pages"
+    files:
+        - label: "Home"
+          name: "home"
+          file: "src/pages/index.md"
+          fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "Lander"}
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Image", name: "image", widget: "image", required: true, optional: false }
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - {label: "Tekst", name: "text", widget: "text", required: true, optional: false}
+
+          - label: "Over"
+            name: "over"
+            widget: "object"
+            fields:
+              - {label: "Tekst", name: "text", widget: "text", required: true, optional: false}
+              - { label: "Naam", name: "naam", widget: "string" }
+              - label: "Basis"
+                name: "basis"
+                widget: "list"
+                fields:
+                  - {label: Naam, name: naam, widget: string}
+                  - {label: Icoontje, name: icon, widget: string}
+                  - {label: "Tekst", name: "tekst", widget: "string", required: true, optional: false}
+
+          - label: "Meer"
+            name: "meer"
+            widget: "object"
+            fields:
+              - {label: "Tekst", name: "text", widget: "text", required: true, optional: false}
+
+          - label: "Tijden"
+            name: "tijden"
+            widget: "object"
+            fields:
+              - {label: "Tekst", name: "text", widget: "text", required: true, optional: false}
+
+          - label: "Vrijwilligers"
+            name: "vrijwilligers"
+            widget: "object"
+            fields:
+              - {label: "Titel", name: "titel", widget: "string", required: true, optional: false}
+              - {label: "Tekst", name: "text", widget: "string", required: true, optional: false}
+              - {label: "Knop tekst", name: "btnText", widget: "string", required: true, optional: false}
+
+
+
   - label: "Instellingen"
     name: "data"
     files:
@@ -39,6 +94,17 @@ collections:
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Description", name: "description", widget: "string" }
         - { label: "Image", name: "image", widget: "image", required: true, optional: false }
+        - label: "Volgende les keuzes"
+          name: "nextLessons"
+          widget: "list"
+          field: 
+            label: "Arduino les"
+            name: "les"
+            widget: "relation"
+            collection: "arduinoLessen"
+            searchFields: ["description", "title", "body"]
+            valueField: "title"
+            displayFields: ["title", "description"]
 
       - label: "Website Maken Lessen"
         name: "websiteMakenLessen"
@@ -70,6 +136,17 @@ collections:
         - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Description", name: "description", widget: "string" }
         - { label: "Image", name: "image", widget: "image", required: true, optional: false }
+        - label: "Volgende les keuzes"
+          name: "nextLessons"
+          widget: "list"
+          field: 
+            label: "Website maken les"
+            name: "les"
+            widget: "relation"
+            collection: "websiteMakenLessen"
+            searchFields: ["description", "title", "body"]
+            valueField: "title"
+            displayFields: ["title", "description"]
           
 
 

@@ -23,7 +23,7 @@ class LesTemplate extends React.Component {
         />
         <Grid>
           <Row>
-            <Col>
+            <Col lg={8} lgOffset={2} md={10} mdOffset={1}>
               <h1>{les.frontmatter.title}</h1>
               <p
                 style={{

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get';
 import Helmet from 'react-helmet'
-import { Button, Grid, Row, Col, Glyphicon } from "react-bootstrap";
+import { Button, Grid, Row, Col, Glyphicon, ButtonToolbar, ButtonGroup } from "react-bootstrap";
 import Img from "gatsby-image/withIEPolyfill"
 import globalStyles from '../../styles/global.module.css';
 import Bio from '../../components/Bio/Bio'
@@ -11,6 +11,9 @@ import BackgroundImage from '../../components/BackgroundImage/BackgroundImage';
 import classNames from 'classnames';
 import CoderDojoLocation from '../../components/CoderDojoLocation/CoderDojoLocation';
 import Divider from '../../components/Divider/Divider';
+import LesModulesGrid from '../../components/LesModulesGrid/LesModulesGrid';
+import OosterhoutvoorelkaarIcon from '../../uploads/oosterhoutvoorelkaar.png';
+import Reserveren from '../../components/Reserveren/Reserveren';
 
 class Lander extends React.Component {
   render() {
@@ -24,6 +27,7 @@ class Lander extends React.Component {
     const image = get(this, 'props.data.markdownRemark.frontmatter.image');
     const page = get(this, 'props.data.markdownRemark');
     const over = get(this, 'props.data.markdownRemark.frontmatter.over');
+    const vrijwilligers = get(this, 'props.data.markdownRemark.frontmatter.vrijwilligers');
 
     console.log(page);
 
@@ -67,7 +71,7 @@ class Lander extends React.Component {
           <section id="over">
             <Row>
               <Col xs={12}>
-                <h1>{over.naam}</h1>
+                <h2 className={globalStyles.h1}>{over.naam}</h2>
               </Col>
             </Row>
             <Row>
@@ -90,8 +94,27 @@ class Lander extends React.Component {
               <div className={classNames(globalStyles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.meer.text }} />
             </Col>
           </Row>
-          <Row>
-            <Col>
+          <Row className={globalStyles.m1}>
+            <Col className={globalStyles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
+              <Reserveren />
+            </Col>
+          </Row>
+          <Row className={globalStyles.m1}>
+            <Col xs={12}>
+              <h2 id="tutorials" className={globalStyles.h1}>Tutorials</h2>
+            </Col>
+          </Row>
+          <div className={globalStyles.m1}>
+
+          </div>
+          <LesModulesGrid />
+          <Row className={globalStyles.m1}>
+            <Col xs={12}>
+              <h2 id="nieuws" className={globalStyles.h1}>Nieuws</h2>
+            </Col>
+          </Row>
+          <Row className={globalStyles.m1}>
+            <Col xs={12}>
               <Bio />
 
               {posts.map(({ node }) => {
@@ -108,6 +131,35 @@ class Lander extends React.Component {
                   </div>
                 )
               })}
+            </Col>
+          </Row>
+
+          <Row className={globalStyles.m1}>
+            <Col xs={12}>
+              <h2 id="nieuws" className={globalStyles.h1}>{vrijwilligers.titel}</h2>
+            </Col>
+          </Row>
+
+          <Row className={globalStyles.m1}>
+            <Col xs={12} sm={10} md={8} lg={6} smOffset={1} mdOffset={2} lgOffset={3} className={globalStyles.textCenter}>
+              <div className={globalStyles.h1}>
+                <Glyphicon glyph="education" />
+              </div>
+              <Divider size="md" />
+              <p>
+                {vrijwilligers.text}
+              </p>
+              <ButtonGroup >
+                <Link to="/vrijwilligers" className="btn btn-warning">
+                  {vrijwilligers.btnText}
+                </Link>
+                <a className="btn btn-default" target="_blank" rel="nofollow noopener noreferrer" href="https://www.oosterhoutvoorelkaar.nl/hulpvragen/83125">
+                  <img height={22} src={OosterhoutvoorelkaarIcon} alt="Oosterhout voor elkaar icoontje" />&nbsp; Bekijk hulpvraag op oosterhoutvoorelkaar.nl
+                  </a>
+                {/* <Button className="btn btn-info">Right</Button> */}
+              </ButtonGroup>
+
+              <div className={globalStyles.m1}></div>
             </Col>
           </Row>
         </Grid>
@@ -136,6 +188,11 @@ export const pageQuery = graphql`
         layout
         banner {
           text
+        }
+        vrijwilligers {
+          titel
+          text
+          btnText
         }
         over {
           text

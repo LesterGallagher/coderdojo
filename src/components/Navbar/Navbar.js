@@ -67,20 +67,26 @@ class NavbarComponent extends React.Component {
                         <NavItem eventKey={11} href="#over">
                             Over
                         </NavItem>
+                        <NavItem eventKey={11} href="#tutorials">
+                            Tutorials
+                        </NavItem>
+                        <NavItem eventKey={11} href="#nieuws">
+                            Nieuws
+                        </NavItem>
                     </Nav> : null}
                     <Nav pullRight>
-                        <NavItem componentClass={Link} type="button" href="/lessen" to="/lessen" eventKey={1}>
-                            Lessen
+                        <NavItem componentClass={Link} type="button" href="/vrijwilligers" to="/vrijwilligers" eventKey={1}>
+                            Mentor worden
                         </NavItem>
                         {/* <NavItem componentClass={Link} type="button" href="/lessen" to="/lessen" eventKey={2}>
                             Link
                         </NavItem> */}
-                        <NavDropdown eventKey={3} href="javascript:void(0)" title="Dropdown" id="basic-nav-dropdown">
-                            <MenuItem eventKey={3.1}>Action</MenuItem>
-                            <MenuItem eventKey={3.2}>Another action</MenuItem>
-                            <MenuItem eventKey={3.3}>Something else here</MenuItem>
+                        <NavDropdown eventKey={3} href="javascript:void(0)" title="Online Tutorials" id="basic-nav-dropdown">
+                            <MenuItem eventKey={3.1} componentClass={Link} href="/lessen" to="/lessen">Alle Tutorials</MenuItem>
                             <MenuItem divider />
-                            <MenuItem eventKey={3.4}>Separated link</MenuItem>
+                            <MenuItem eventKey={3.2} componentClass={Link} href="/lessen/arduino" to="/lessen/arduino">Knutselen met Arduino</MenuItem>
+                            <MenuItem eventKey={3.3} componentClass={Link} href="/lessen" to="/lessen/scratch">Scratch Leren</MenuItem>
+                            <MenuItem eventKey={3.4} componentClass={Link} href="/lessen" to="/lessen/website-maken">Maak een eigen Website</MenuItem>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

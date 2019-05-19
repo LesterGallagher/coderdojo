@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
+import globalStyles from '../../styles/global.module.css';
 
 import Bio from '../../components/Bio/Bio'
 import Layout from '../../components/Layout/Layout'
@@ -24,7 +25,7 @@ class PageTemplate extends React.Component {
         <Grid>
           <Row>
             <Col>
-              <h1>{page.frontmatter.title}</h1>
+              <h1 className={globalStyles.m1}>{page.frontmatter.title}</h1>
               <p
                 style={{
                   display: 'block',
@@ -32,7 +33,7 @@ class PageTemplate extends React.Component {
               >
                 {page.frontmatter.date}
               </p>
-              <div dangerouslySetInnerHTML={{ __html: page.html }} />
+              <div className={globalStyles.m1} dangerouslySetInnerHTML={{ __html: page.html }} />
               <hr
                 style={{
                 }}

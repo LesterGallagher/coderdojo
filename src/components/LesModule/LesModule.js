@@ -17,9 +17,9 @@ class LesModule extends React.Component {
                 <Panel.Body>
                     <h2>{this.props.title}</h2><br />
                     {this.props.children}
-                    <div className={globalStyles.textRight}>
+                    <div className={globalStyles.textLeft}>
                     {/* <Fab bsStyle="warning"><Glyphicon glyph="plus" /></Fab> */}
-                    <Link to={this.props.link}><Button bsStyle="warning" bsSize="xsmall">Meer info</Button></Link>
+                        <Link to={this.props.link}><Button bsStyle="info" className={globalStyles.h5}>{this.props.btnText || 'Beginnen 🎉'}</Button></Link>
                     </div>
                 </Panel.Body>
             </Panel>

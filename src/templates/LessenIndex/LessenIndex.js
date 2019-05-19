@@ -4,10 +4,13 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
 import Img from 'gatsby-image';
+import globalStyles from '../../styles/global.module.css';
 
 import Bio from '../../components/Bio/Bio'
 import Layout from '../../components/Layout/Layout'
 import LesIntroductie from '../../components/LesIntroductie/LesIntroductie';
+import LesModulesGrid from '../../components/LesModulesGrid/LesModulesGrid';
+import Reserveren from '../../components/Reserveren/Reserveren';
 
 class LessenIndex extends React.Component {
   render() {
@@ -28,8 +31,7 @@ class LessenIndex extends React.Component {
         />
         <Grid>
           <Row>
-            <Col xs={12
-            }>
+            <Col lg={8} lgOffset={2} md={10} mdOffset={1}>
               <h1>{lessenIndex.frontmatter.title}</h1>
               <p
                 style={{
@@ -67,28 +69,17 @@ class LessenIndex extends React.Component {
                     next &&
                     <Link to={next.fields.slug} rel="next">
                       {next.frontmatter.title} →
-              </Link>
+                  </Link>
                   }
                 </li>
               </ul>
+              <Reserveren />
             </Col>
           </Row>
-          <Row>
-            {lesIntroducties.map(({node}) => {
-                const { fields, frontmatter, excerpt, html } = node;
-                const { slug } = fields;
-                const { title, image } = frontmatter;
-                const fixed = image.childImageSharp.fixed;
+          <div className={globalStyles.m1}>
 
-                return (
-                    <Col key={slug} xs={12} sm={4}>
-                        <LesIntroductie link={slug}  naam={title} image={<Img objectPosition="50% 50%" objectFit="contain" style={{ width: '100%' }} fixed={fixed} />}>
-                            {excerpt}
-                        </LesIntroductie>
-                    </Col>
-                );
-            })}
-          </Row>
+          <LesModulesGrid />
+          </div>
         </Grid>
       </Layout>
     )
@@ -114,7 +105,7 @@ query lesIndexBySlug($slug: String!) {
         date(formatString: "MMMM DD, YYYY")
       }
     }
-    lesIntroducties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {layout: {eq: "les-introductie"}}, fileAbsolutePath: {regex: "/(lessen)/.*/.*\\.md$/"}}) {
+    lesIntroducties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {layout: {eq: "LesIntroductie"}}}) {
       edges {
         node {
           fields {
@@ -125,9 +116,10 @@ query lesIndexBySlug($slug: String!) {
           frontmatter {
             title
             layout
+            description
             image {
                 childImageSharp {
-                    fixed(width: 800, height: 400, quality: 95) {
+                    fixed(width: 700, height: 400, quality: 95) {
                         ...GatsbyImageSharpFixed
                     }
                 }

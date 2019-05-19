@@ -24,5 +24,9 @@ meer:
 tijden:
   text: '<ul> <li><a href="http://www.theek5.nl/iguana/?surl=geertruidenberg" target="_blank">Rijen</a><strong>. Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april) </strong>om 13.30 uur (tot 15.30 uur). <a href="https://theek5.lerendoeje.nu/activiteiten/?pi=42&amp;plaats=5" target="_blank"><span style="color:#ff7320;">Aanmelden is nodig</span></a><br> &nbsp;</li> <li><a href="http://www.theek5.nl/iguana/?surl=raamsdonksveer" target="_blank">Raamsdonksveer</a>. <strong>Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april) </strong>om 13.30 uur (tot 15.30 uur). <span style="color:#ff7320;">Aanmelden is nodig</span><br> &nbsp;</li> <li>Basisschool <a href="http://www.basisschooldekameleon.nl/" target="_blank">De Kamelon</a> in Oosterhout.&nbsp;<strong>Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april) </strong>om 15.00 uur (tot 16.30 uur).&nbsp; <span style="color:#ff7320;">Aanmelden is nodig</span><br> &nbsp;</li> <li>asisschool <a href="http://ontdekking.net/" target="_blank">De Ontdekking</a> in Oosterhout<strong>. Alle activiteiten zijn op de woensdagmiddagen (maandelijks van oktober t/m april) </strong>om 15.00 uur (tot 16.30 uur).&nbsp; <span style="color:#ff7320;">Aanmelden is nodig</span></li> </ul>'
 
+vrijwilligers: 
+  titel: Mentor te worden?
+  text: Kom jij ons mee helpen door vrijwilliger te worden? 
+  btnText: Lees meer
 ---
 Hello world

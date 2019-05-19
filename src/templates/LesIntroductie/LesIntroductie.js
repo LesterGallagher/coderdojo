@@ -4,10 +4,12 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
 import Img from 'gatsby-image';
+import globalStyles from '../../styles/global.module.css';
 
 import Bio from '../../components/Bio/Bio'
 import Layout from '../../components/Layout/Layout'
 import LesModule from '../../components/LesModule/LesModule';
+import Reserveren from '../../components/Reserveren/Reserveren';
 
 class LesTemplate extends React.Component {
   render() {
@@ -28,7 +30,7 @@ class LesTemplate extends React.Component {
         />
         <Grid>
           <Row>
-            <Col>
+            <Col lg={8} lgOffset={2} md={10} mdOffset={1}>
               <h1>{les.frontmatter.title}</h1>
               <p
                 style={{
@@ -70,9 +72,10 @@ class LesTemplate extends React.Component {
                   }
                 </li>
               </ul>
+              <Reserveren />
             </Col>
           </Row>
-          <Row>
+          <Row className={globalStyles.m1}>
             {nextLessons.map(({ node }) => {
 
               let col = Math.floor(12 / nextLessons.length);
@@ -85,14 +88,13 @@ class LesTemplate extends React.Component {
 
               console.log(les);
               return (
-                <Col key={slug} xs={12}>
+                <Col key={slug} xs={12} sm={col}>
                   <LesModule link={slug} title={title} image={<Img style={{ maxWidth: '100%' }} fixed={image.childImageSharp.fixed} />}>
                     <p>{excerpt}</p>
                   </LesModule>
                 </Col>
               );
             })}
-            <Col xs={12}></Col>
           </Row>
         </Grid>
       </Layout>
@@ -104,7 +106,7 @@ export default LesTemplate
 
 
 export const pageQuery = graphql`
-query lesIntroductieBySlug($slug: String!, $title: String!) {
+query lesIntroductieBySlug($slug: String!, $nextLessons: [String]!) {
     site {
       siteMetadata {
         title
@@ -130,7 +132,7 @@ query lesIntroductieBySlug($slug: String!, $title: String!) {
         description
       }
     }
-    nextLessons: allMarkdownRemark(filter: {frontmatter: { title: {eq: $title}}}, sort: {order: DESC, fields: [frontmatter___date]}) {
+    nextLessons: allMarkdownRemark(filter: {frontmatter: { layout: { eq: "Les" } title: {in: $nextLessons}}}, sort: {order: DESC, fields: [frontmatter___date]}) {
       edges {
         node {
           fields {

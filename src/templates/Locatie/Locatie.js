@@ -9,6 +9,7 @@ import Img from 'gatsby-image';
 import Bio from '../../components/Bio/Bio'
 import Layout from '../../components/Layout/Layout'
 import LesModule from '../../components/LesModule/LesModule';
+import Reserveren from '../../components/Reserveren/Reserveren';
 
 class Locatie extends React.Component {
   render() {
@@ -30,8 +31,11 @@ class Locatie extends React.Component {
         />
         <Grid>
           <Row>
-            <Col className={styles.m1}>
+            <Col lg={8} lgOffset={2} md={10} mdOffset={1} className={styles.m1}>
               <div dangerouslySetInnerHTML={{ __html: page.html }}></div>
+            </Col>
+            <Col lg={8} lgOffset={2} md={10} mdOffset={1} className={styles.m1}>
+              <Reserveren />
             </Col>
           </Row>
           <Row>
