@@ -10,10 +10,16 @@ module.exports = {
   // pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
+      resolve: `gatsby-plugin-compile-es6-packages`,
+      options: {
+        modules: ['react-dom']
+      }
+    },
+    {
       resolve: 'gatsby-plugin-copy-files',
       options: {
-          source: path.join(__dirname, 'src', 'uploads'),
-          destination: '/uploads'
+        source: path.join(__dirname, 'src', 'uploads'),
+        destination: '/uploads'
       }
     },
     {

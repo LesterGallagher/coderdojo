@@ -5,6 +5,16 @@ const fs = require('fs');
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const get = require('lodash/get');
+const remark = require('remark');
+const recommended = require('remark-preset-lint-recommended');
+const remarkHtml = require('remark-html');
+
+const renderMarkdown = content => {
+  return remark()
+    .use(recommended)
+    .use(remarkHtml)
+    .processSync(content).toString();
+}
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -41,7 +51,7 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors)
         }
 
-        
+
         // Create blog posts pages.
         const markdownFiles = result.data.allMarkdownRemark.edges;
 
@@ -74,9 +84,25 @@ exports.createPages = ({ graphql, actions }) => {
   })
 }
 
+
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
   fmImagesToRelative(node);
+
+  function processFrontMatterMarkdown(node) {
+    Object.keys(node).forEach(function (k) {
+      if (k.endsWith('_markdown') || k.endsWith('_md')) {
+        const value = renderMarkdown(node[k]);
+        const newKey = k.replace('_markdown', '').replace('_md', '');
+        console.log('creating markodwn field', newKey, value);
+        node[newKey] = value;
+      }
+      if (node[k] && typeof node[k] === 'object') {
+        value = processFrontMatterMarkdown(node[k]);
+      }
+    });
+  }
 
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode });
@@ -95,5 +121,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value: les || '',
     });
+
+    processFrontMatterMarkdown(node);
   }
 }
+

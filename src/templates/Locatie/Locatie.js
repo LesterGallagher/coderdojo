@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
 import styles from '../../styles/global.module.css';
-import Img from 'gatsby-image';
+import Img from 'gatsby-image/withIEPolyfill';
 
 import Bio from '../../components/Bio/Bio'
 import Layout from '../../components/Layout/Layout'
@@ -13,9 +13,9 @@ import Reserveren from '../../components/Reserveren/Reserveren';
 
 class Locatie extends React.Component {
   render() {
+    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
+    const siteDescription = get(this, 'props.data.site.siteMetadata.description');
     const page = this.props.data.markdownRemark
-    const siteTitle = page.title;
-    const siteDescription = page.excerpt;
     const { previous, next } = this.props.pageContext;
 
     const lessen = get(this, 'props.data.lesIntroducties.edges');

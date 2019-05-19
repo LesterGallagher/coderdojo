@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
-import Img from 'gatsby-image';
+import Img from 'gatsby-image/withIEPolyfill';
 import globalStyles from '../../styles/global.module.css';
 
 import Bio from '../../components/Bio/Bio'

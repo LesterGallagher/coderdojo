@@ -23,13 +23,13 @@ collections:
           name: "banner"
           widget: "object"
           fields:
-            - {label: "Tekst", name: "text", widget: "text", required: true, optional: false}
+            - {label: "Tekst", name: "text_md", widget: "text", required: true, optional: false}
 
         - label: "Over"
           name: "over"
           widget: "object"
           fields:
-            - {label: "Tekst", name: "text", widget: "text", required: true, optional: false}
+            - {label: "Tekst", name: "text_md", widget: "text", required: true, optional: false}
             - { label: "Naam", name: "naam", widget: "string" }
             - label: "Basis"
               name: "basis"
@@ -43,13 +43,13 @@ collections:
           name: "meer"
           widget: "object"
           fields:
-            - {label: "Tekst", name: "text", widget: "text", required: true, optional: false}
+            - {label: "Tekst", name: "text_md", widget: "text", required: true, optional: false}
 
         - label: "Tijden"
           name: "tijden"
           widget: "object"
           fields:
-            - {label: "Tekst", name: "text", widget: "text", required: true, optional: false}
+            - {label: "Tekst", name: "text_md", widget: "text", required: true, optional: false}
 
         - label: "Wat we doen"
           name: "watWeDoen"

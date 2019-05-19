@@ -3,8 +3,6 @@ import { Link, graphql } from 'gatsby'
 import { Button, Grid, Row, Col, Panel, Image, Glyphicon } from "react-bootstrap";
 import Img from "gatsby-image/withIEPolyfill"
 import globalStyles from '../../styles/global.module.css';
-import classNames from 'classnames';
-import Fab from '../Fab/Fab';
 import proptTypes from 'prop-types';
 
 class LesModule extends React.Component {

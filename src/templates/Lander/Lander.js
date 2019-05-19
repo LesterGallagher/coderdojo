@@ -4,17 +4,17 @@ import get from 'lodash/get';
 import Helmet from 'react-helmet'
 import { Button, Grid, Row, Col, Glyphicon, ButtonToolbar, ButtonGroup } from "react-bootstrap";
 import Img from "gatsby-image/withIEPolyfill"
+import classNames from 'classnames';
+
 import globalStyles from '../../styles/global.module.css';
 import Bio from '../../components/Bio/Bio'
 import Layout from '../../components/Layout/Layout'
 import BackgroundImage from '../../components/BackgroundImage/BackgroundImage';
-import classNames from 'classnames';
 import CoderDojoLocation from '../../components/CoderDojoLocation/CoderDojoLocation';
 import Divider from '../../components/Divider/Divider';
 import LesModulesGrid from '../../components/LesModulesGrid/LesModulesGrid';
 import OosterhoutvoorelkaarIcon from '../../uploads/oosterhoutvoorelkaar.png';
 import Reserveren from '../../components/Reserveren/Reserveren';
-import { renderMarkdown } from '../../utils/md';
 import appIcon from '../../uploads/icon.svg';
 
 class Lander extends React.Component {
@@ -46,7 +46,7 @@ class Lander extends React.Component {
           <Grid >
             <Row>
               <Col>
-                <div className={classNames(globalStyles.bannerText, globalStyles.upCaseHeading)} dangerouslySetInnerHTML={{ __html: renderMarkdown(page.frontmatter.banner.text) }} />
+                <div className={classNames(globalStyles.bannerText, globalStyles.upCaseHeading)} dangerouslySetInnerHTML={{ __html: page.frontmatter.banner.text }} />
               </Col>
             </Row>
           </Grid>
@@ -60,7 +60,7 @@ class Lander extends React.Component {
           </Row>
           <Row className={globalStyles.m1}>
             <Col className={globalStyles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
-              <div className={classNames(globalStyles.overText)} dangerouslySetInnerHTML={{ __html: renderMarkdown(page.frontmatter.over.text) }} />
+              <div className={classNames(globalStyles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.over.text }} />
             </Col>
           </Row>
           <Row id="locaties" className={globalStyles.m1}>
@@ -100,7 +100,7 @@ class Lander extends React.Component {
           </section>
           <Row className={globalStyles.m1}>
             <Col className={globalStyles.textCenter} smOffset={1} mdOffset={2} lgOffset={3} xs={12} sm={10} md={8} lg={6}>
-              <div className={classNames(globalStyles.overText)} dangerouslySetInnerHTML={{ __html: renderMarkdown(page.frontmatter.meer.text) }} />
+              <div className={classNames(globalStyles.overText)} dangerouslySetInnerHTML={{ __html: page.frontmatter.meer.text }} />
             </Col>
           </Row>
           <Row className={globalStyles.m1}>

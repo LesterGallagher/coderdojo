@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import get from 'lodash/get'
 import { Col, Row, Grid } from 'react-bootstrap';
-import Img from 'gatsby-image';
+import Img from 'gatsby-image/withIEPolyfill';
 
 import Bio from '../Bio/Bio'
 import LesIntroductie from '../LesIntroductie/LesIntroductie';
