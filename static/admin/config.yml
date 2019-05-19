@@ -86,6 +86,17 @@ collections:
           searchFields: ["description", "title", "body"]
           valueField: "title"
           displayFields: ["title", "description"]
+        - label: "Volgende les keuzes"
+          name: "nextLessons"
+          widget: "list"
+          field: 
+            label: "Arduino les"
+            name: "les"
+            widget: "relation"
+            collection: "arduinoLessen"
+            searchFields: ["description", "title", "body"]
+            valueField: "title"
+            displayFields: ["title", "description"]
         - {label: "Layout", name: "layout", widget: "hidden", default: "Les"}
         - label: "Locaties"
           name: "locaties"
