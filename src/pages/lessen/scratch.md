@@ -2,6 +2,7 @@
 introductieLes: Beginnen met Scratch - Les 1
 nextLessons:
   - Scratch les 2 - Test
+  - Scratch les 2 - Test
 layout: LesIntroductie
 locaties:
   - Rijen
