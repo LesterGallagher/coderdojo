@@ -6,6 +6,7 @@ draft: true
 date: 2019-07-19T10:48:54.197Z
 description: 'Scratch Test 2 '
 image: /uploads/1.png
+previous: Scratch Les 1
 ---
 Dit is een test::
 
