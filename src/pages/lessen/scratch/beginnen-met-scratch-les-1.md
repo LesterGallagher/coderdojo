@@ -2,7 +2,7 @@
 title: Beginnen met Scratch - Les 1
 layout: Les
 isIntro: false
-draft: false
+draft: true
 date: 2019-07-18T09:23:22.382Z
 description: Test 2
 image: /uploads/1.png
