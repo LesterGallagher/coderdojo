@@ -182,10 +182,10 @@ collections:
           name: "nextLessons"
           widget: "list"
           field: 
-            label: "Arduino les"
+            label: "Scratch les"
             name: "les"
             widget: "relation"
-            collection: "arduinoLessen"
+            collection: "scratchLessen"
             searchFields: ["description", "title", "body"]
             valueField: "title"
             displayFields: ["title", "description"]

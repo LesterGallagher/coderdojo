@@ -22,6 +22,7 @@ module.exports = {
         destination: '/uploads'
       }
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

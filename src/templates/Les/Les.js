@@ -8,11 +8,48 @@ import Bio from '../../components/Bio/Bio'
 import Layout from '../../components/Layout/Layout'
 
 class LesTemplate extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { s: () => null }
+  }
+
+  componentDidMount = () => {
+    if (typeof window !== undefined) {
+      import('scratch-gui').then(scratchGui => {
+        const Scratch = scratchGui.default;
+        const { AppStateHOC,
+          setAppElement,
+          guiReducers,
+          guiInitialState,
+          guiMiddleware,
+          initEmbedded,
+          initPlayer,
+          initFullScreen,
+          initLocale,
+          localesInitialState,
+          remixProject,
+          setFullScreen,
+          setPlayer } = scratchGui;
+
+          this.setState({
+            s: AppStateHOC(props => {
+              return (
+                <Scratch />
+              );
+            })
+          });
+      });
+    }
+  }
+
   render() {
     const les = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = les.excerpt
-    const { previous, next } = this.props.pageContext
+    const { previous, next } = this.props.pageContext;
+
+    const Scratch = this.state.s;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -65,6 +102,7 @@ class LesTemplate extends React.Component {
                   }
                 </li>
               </ul>
+              <Scratch />
             </Col>
           </Row>
         </Grid>
