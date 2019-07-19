@@ -1,6 +1,7 @@
 ---
 introductieLes: Beginnen met Scratch - Les 1
-nextLessons: []
+nextLessons:
+  - Arduino introductie
 layout: LesIntroductie
 locaties:
   - Rijen
