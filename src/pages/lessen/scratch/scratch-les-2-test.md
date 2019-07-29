@@ -8,9 +8,18 @@ description: 'Scratch Test 2 '
 image: /uploads/1.png
 previous: Scratch Les 1
 ---
-Dit is een test::
+**Beginnen met Scratch.**
 
-* Ga naar de site van coderdojo:.....
-* Open met..\
-* enz....
-*
+
+
+
+
+Om te beginnen met Scratch heb je eerst een internetverbinding nodig. 
+
+Dan ga je naar de volgend internetpagina:
+
+**https://scratch.mit.edu/projects/editor/?tutorial=getStarted**
+
+****
+
+****
