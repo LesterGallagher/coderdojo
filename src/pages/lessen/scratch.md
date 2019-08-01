@@ -1,7 +1,7 @@
 ---
 introductieLes: Beginnen met Scratch - Les 1
 nextLessons:
-  - Scratch les 2 - Test
+  - test 3
   - Scratch les 2 - Test
 layout: LesIntroductie
 locaties:
