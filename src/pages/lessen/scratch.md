@@ -113,8 +113,25 @@ Kies voor de achtergrond: Spotlight. Het speelveld ziet er dan uit zoals het pla
 
 ![](/uploads/screen-shot-08-10-19-at-04.40-pm.png)
 
-## 9.	Voeg een sprite (figuur / object) toe:
+## 10.	Voeg een sprite (figuur / object) toe:
 
 Klik rechts onderaan op de knop naast de knop:  _Kies een achtergrond_, om de mogelijkheid te krijgen om een nieuwe sprite te maken. Je komt dan in de sprite-bibliotheek waar je uit heel veel verschillende sprites kunt kiezen. Kies in deze bibliotheek voor: Crazy Dance.
 
 ![](/uploads/screen-shot-08-10-19-at-04.45-pm.png)
+
+![](/uploads/screen-shot-08-10-19-at-04.52-pm.png)
+
+## 11.	Ontdek:
+
+Je kunt deze nieuwe sprite voorzien van animaties en geluid. \
+Kies links bovenaan bij de tabbladen voor het tabblad: **geluiden**. \
+\
+Je kunt dan:
+
+* een geluid kiezen
+* zelf een geluid opnemen
+* een geluidsbestand importeren.
+
+
+
+![](/uploads/screen-shot-08-10-19-at-04.58-pm.png)
