@@ -11,8 +11,21 @@ date: 2019-05-19T11:59:38.433Z
 description: Test
 image: /uploads/technology-791029_1920.jpg
 ---
+# **Beginnen met Scratch.**
 
-Incididunt enim mollit aute exercitation voluptate aliqua cillum cupidatat consequat proident sunt consequat sit. Ad occaecat occaecat aliqua irure proident et. Cillum non elit anim veniam anim ex nostrud aliqua in incididunt. Excepteur ullamco in sunt quis. Esse tempor fugiat anim irure pariatur laboris do voluptate ex enim dolore esse. Pariatur consequat eiusmod laboris ipsum aliquip incididunt anim ex aliqua officia tempor id veniam.
+
+
+
+
+Om te beginnen met Scratch heb je eerst een internetverbinding nodig. 
+
+Dan ga je naar de volgend internetpagina:
+
+<https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
+
+
+
+
 
 Ullamco incididunt aute excepteur in eiusmod proident amet velit commodo nulla veniam. Cupidatat incididunt ea et sunt adipisicing culpa laborum nulla ea ea. Sint esse ex amet dolore do cupidatat tempor nisi nulla eiusmod amet excepteur velit sunt. Nostrud et occaecat velit culpa consectetur veniam occaecat quis minim ut est pariatur ea. Consequat est consectetur esse aute veniam Lorem. Consectetur cillum cupidatat minim duis dolore sit. Occaecat consectetur et incididunt mollit.
 
