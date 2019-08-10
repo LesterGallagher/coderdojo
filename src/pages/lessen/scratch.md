@@ -100,3 +100,7 @@ Klik op de map **code** en dan op de knop **gebeurtenissen**, klik daarna op het
 Je kunt ook een andere toets kiezen als de spatiebalk. Probeer dat maar eens uit.
 
 ## 9.	Voeg een achtergrond toe:
+
+Klik rechts onderaan op speelveld om daar een nieuwe achtergrond te maken.
+
+![](/uploads/screen-shot-08-10-19-at-04.31-pm.png)
