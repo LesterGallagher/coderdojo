@@ -26,3 +26,8 @@ Hier krijg je dan het volgende scherm te zien:
 Je kunt voor meer informatie eerst de video bekijken door op de startknop van de videofilm te drukken, maar je kunt ook deze uitleg overslaan door op het kruisje rechts bovenaan de videofilm te klikken en dan verder gaan met onderstaande uitleg.
 
 ![Uitleg videofilm](/uploads/screen-shot-08-10-19-at-01.56-pm.png "Uitleg videofilm")
+
+## Om veel van scratch te leren gaan we samen een programma maken met de onderstaand uitleg. 
+
+De onderstaande onderdelen worden allemaal behandeld.\
+Als je stap voor stap meedoet leer je alles het snelst zonder fouten te maken.
