@@ -104,3 +104,11 @@ Je kunt ook een andere toets kiezen als de spatiebalk. Probeer dat maar eens uit
 Klik rechts onderaan op speelveld om daar een nieuwe achtergrond te maken.
 
 ![](/uploads/screen-shot-08-10-19-at-04.31-pm.png)
+
+Klik daarna op de knop het meest rechts onderaan, om een achtergrond te kiezen. Als je daarop klikt, kun je uit verschillende achtergronden kiezen (we maken er nog geen zelf). 
+
+![](/uploads/screen-shot-08-10-19-at-04.35-pm.png)
+
+Kies voor de achtergrond: Spotlight. Het speelveld ziet er dan uit zoals het plaatje hieronder:
+
+![](/uploads/screen-shot-08-10-19-at-04.40-pm.png)
