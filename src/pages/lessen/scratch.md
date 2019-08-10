@@ -71,4 +71,7 @@ Klik nogmaals in de stapel blokken om het programma weer te stoppen.
 
 ## 5.	Zeg iets:
 
-Klik op de map **code** en en dan op de knop **uiterlijken**, klik daarna op het blokje (object): _Zeg "Hello""2" sec_, en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het boven de andere 4 blokjes komt te staan.
+Klik op de map **code** en en dan op de knop **uiterlijken**, klik daarna op het blokje (object): _Zeg "Hello""2" sec_, en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het boven de andere 4 blokjes komt te staan. Verander dan de tekst "_Hello_" in: "_Kijk mij eens dansen_".\
+Het scriptveld ziet er dan uit zoals het plaatje hieronder:
+
+![](/uploads/screen-shot-08-10-19-at-03.41-pm.png)
