@@ -59,8 +59,7 @@ Het scriptveld ziet er nu zo uit als op het plaatje hieronder:
 
 ![](/uploads/screen-shot-08-10-19-at-03.19-pm.png)
 
-## \
-4.	Steeds opnieuw:
+## 4.	Steeds opnieuw:
 
 Klik op de map **code** en en dan op de knop **besturen**, klik daarna op het blokje (object): _herhaal_ en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat de andere 4 blokjes erin komen te zitten, zoals in het plaatje hieronder te zien is.
 
@@ -75,3 +74,5 @@ Klik op de map **code** en en dan op de knop **uiterlijken**, klik daarna op het
 Het scriptveld ziet er dan uit zoals het plaatje hieronder:
 
 ![](/uploads/screen-shot-08-10-19-at-03.41-pm.png)
+
+## 6.	Groene vlag:
