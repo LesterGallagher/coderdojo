@@ -145,4 +145,12 @@ Klik op deze optie om hem af te spelen en te horen of dat het is wat je wilt hor
 De sprite Cassy Dance is actief (en niet sprite1 waar we mee begonnen zijn. Die is er nog wel, maar niet "actief").\
 Klik op de map **code** en dan op de knop **gebeurtenissen**, klik daarna op het blokje (object): _Wanneer spatiebalk is ingedrukt_, en sleep dit blokje naar de scriptzone.\
 Klik op de map **code** en en dan op de knop **besturen**, klik daarna op het blokje (object): _herhaal_ en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het nog los staat van de andere 2 blokjes.\
-Haal nu via het tabblad: Uiterlijken, de optie: Volend uiterlijk, naar de scriptzone. En via het tabblad: Besturen, de optie: Wacht 1 sec.
+Haal nu via het tabblad: Uiterlijken, de optie: Volend uiterlijk, naar de scriptzone. En via het tabblad: Besturen, de optie: Wacht 1 sec
+
+
+
+NOG NIET KLAAR - BIJNA AF.
+
+
+
+.
