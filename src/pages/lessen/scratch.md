@@ -36,10 +36,12 @@ Als je stap voor stap meedoet leer je alles het snelst zonder fouten te maken.
 
 ## 1.	Begin met bewegen:
 
-Klik op de map **code** en klik daarna op het blokje: _Neem 10 Stappen_, met de linkermuisknop en houdt deze linker muisknop ingedrukt. Sleep dit blokje naar rechts naar de Scriptzone, zoals je hieronder ziet.
+Klik op de map **code** en en dan op de knop **bewegen**, klik daarna op het blokje: _Neem 10 Stappen_, met de linkermuisknop en houdt deze linker muisknop ingedrukt. Sleep dit blokje naar rechts naar de Scriptzone, zoals je hieronder ziet.
 
 ![](/uploads/screen-shot-08-10-19-at-02.35-pm.png)
 
 Klik daarna op het blokje in de scripzone en je ziet dat het poppetje rechts van de zone, beweegt. Elke keer als je op dit blokje klikt gaat het poppetje een stukje (10) naar rechts.
 
 ## 2.	Geluid toevoegen:
+
+Klik op de map **code** en en dan op de knop **geluid**, klik daarna op het blokje: _Start geluid miauw en wacht_, met de linkermuisknop en houdt deze linker muisknop ingedrukt. Sleep dit blokje naar rechts naar de Scriptzone en plak dit onder het blokje van bewegen, zoals je hieronder ziet.
