@@ -132,6 +132,10 @@ Je kunt dan:
 * zelf een geluid opnemen
 * een geluidsbestand importeren.
 
-
-
 ![](/uploads/screen-shot-08-10-19-at-04.58-pm.png)
+
+Klik nu op de map **code** en dan op de knop **geluid**, klik daarna op het blokje (object): _Start geluid Dance Around_, en sleep dit blokje naar de scriptzone. 
+
+![](/uploads/screen-shot-08-10-19-at-05.12-pm.png)
+
+Klik op deze optie om hem af te spelen en te horen of dat het is wat je wilt horen.
