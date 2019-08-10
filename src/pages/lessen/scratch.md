@@ -77,8 +77,16 @@ Het scriptveld ziet er dan uit zoals het plaatje hieronder:
 
 ## 6.	Groene vlag:
 
-Klik op de map **code** en en dan op de knop **gebeurtenissen**, klik daarna op het blokje (object): _Wanneer op 'groene vlag' wordt geklikt_, en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het boven de andere 4 blokjes komt te staan.
+Klik op de map **code** en dan op de knop **gebeurtenissen**, klik daarna op het blokje (object): _Wanneer op 'groene vlag' wordt geklikt_, en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het boven de andere 4 blokjes komt te staan.
 
 ![](/uploads/screen-shot-08-10-19-at-03.51-pm.png)
 
 Het programma zal nu starten als je op de groene vlag, rechts bovenaan) zal klikken en het programma zal stoppen als je op de rode knop ernaast zal klikken.
+
+## 7.	Verander de kleur:
+
+Klik op de map **code** en dan op de knop **uiterlijken**, klik daarna op het blokje (object): _Verander kleur-effect met 25_, en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het onder de andere 4 blokjes komt te staan en er los van blijft.
+
+![](/uploads/screen-shot-08-10-19-at-04.05-pm.png)
+
+Klik dan op die losstaande knop en kijk wat er gebeurt.
