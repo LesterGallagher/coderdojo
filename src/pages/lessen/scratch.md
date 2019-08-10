@@ -63,3 +63,5 @@ Het scriptveld ziet er nu zo uit als op het plaatje hieronder:
 4.	Steeds opnieuw:
 
 Klik op de map **code** en en dan op de knop **besturen**, klik daarna op het blokje (object): _herhaal_ en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat de andere 4 blokjes erin komen te zitten, zoals in het plaatje hieronder te zien is.
+
+![](/uploads/screen-shot-08-10-19-at-03.29-pm.png)
