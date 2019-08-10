@@ -11,7 +11,7 @@ date: 2019-05-19T11:59:38.433Z
 description: Test
 image: /uploads/technology-791029_1920.jpg
 ---
-# **Beginnen met Scratch.**
+# **eginnen met Scratch.**
 
 Om te beginnen met Scratch heb je eerst een internetverbinding nodig. 
 
@@ -31,3 +31,7 @@ Je kunt voor meer informatie eerst de video bekijken door op de startknop van de
 
 De onderstaande onderdelen worden allemaal behandeld.\
 Als je stap voor stap meedoet leer je alles het snelst zonder fouten te maken.
+
+![](/uploads/overzicht-stappen.png)
+
+## 1.	Begin met bewegen:
