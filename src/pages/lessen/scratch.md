@@ -53,4 +53,11 @@ Klik daarna op het _neem 10 stappen_ blokje in de scripzone en je ziet dat het p
 ## 3.	Dansen maar:
 
 Neem nog een blokje _Neem 10 Stappen,_ zoals hierboven bij 1 is beschreven, en plak dit blokje (object) onder de 2 andere blokjes die al in het scriptveld staan. Klik daarna op het getal in dat blokje en zet een – (min) teken voor de 10.\
-Neem nog een blokje _Start geluid miauw en wacht_ en plak dit blokje (object) onder de 3 andere blokjes die al in het scriptveld staan.
+Neem nog een blokje _Start geluid miauw en wacht_ en plak dit blokje (object) onder de 3 andere blokjes die al in het scriptveld staan
+
+Het scriptveld ziet er nu zo uit als op het plaatje hieronder:
+
+![](/uploads/screen-shot-08-10-19-at-03.19-pm.png)
+
+## \
+4.	Steeds opnieuw:
