@@ -76,3 +76,9 @@ Het scriptveld ziet er dan uit zoals het plaatje hieronder:
 ![](/uploads/screen-shot-08-10-19-at-03.41-pm.png)
 
 ## 6.	Groene vlag:
+
+Klik op de map **code** en en dan op de knop **gebeurtenissen**, klik daarna op het blokje (object): _Wanneer op 'groene vlag' wordt geklikt_, en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het boven de andere 4 blokjes komt te staan.
+
+![](/uploads/screen-shot-08-10-19-at-03.51-pm.png)
+
+Het programma zal nu starten als je op de groene vlag, rechts bovenaan) zal klikken en het programma zal stoppen als je op de rode knop ernaast zal klikken.
