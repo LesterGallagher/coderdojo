@@ -40,3 +40,5 @@ Klik op
 Klik op de map **code** en klik daarna op het blokje: _Neem 10 Stappen_, met de linkermuisknop en houdt deze linker muisknop ingedrukt. Sleep dit blokje naar rechts naar de Scriptzone, zoals je hieronder ziet.
 
 ![](/uploads/screen-shot-08-10-19-at-02.35-pm.png)
+
+Klik daarna op het blokje in de scripzone en je ziet dat het poppetje rechts van de zone, beweegt. Elke keer als je op dit blokje klikt gaat het poppetje een stukje (10) naar rechts.
