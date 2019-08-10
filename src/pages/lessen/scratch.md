@@ -89,4 +89,6 @@ Klik op de map **code** en dan op de knop **uiterlijken**, klik daarna op het bl
 
 ![](/uploads/screen-shot-08-10-19-at-04.05-pm.png)
 
-Klik dan op die losstaande knop en kijk wat er gebeurt.
+Klik dan op die losstaande knop en kijk wat er gebeurt met het poppetje.
+
+## 8.	Druk een toets in:
