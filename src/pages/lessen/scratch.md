@@ -30,8 +30,13 @@ Je kunt voor meer informatie eerst de video bekijken door op de startknop van de
 ## Om veel van scratch te leren gaan we samen een programma maken met de onderstaand uitleg. 
 
 De onderstaande onderdelen worden allemaal behandeld.\
-Als je stap voor stap meedoet leer je alles het snelst zonder fouten te maken.
+Als je stap voor stap meedoet leer je alles het snelst zonder fouten te maken.\
+Klik op 
 
 ![](/uploads/overzicht-stappen.png)
 
 ## 1.	Begin met bewegen:
+
+Klik op de map **code** en klik daarna op het blokje: _Neem 10 Stappen_, met de linkermuisknop en houdt deze linker muisknop ingedrukt. Sleep dit blokje naar rechts naar de Scriptzone, zoals je hieronder ziet.
+
+![](/uploads/screen-shot-08-10-19-at-02.35-pm.png)
