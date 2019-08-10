@@ -96,3 +96,7 @@ Klik dan op die losstaande knop en kijk wat er gebeurt met het poppetje.
 Klik op de map **code** en dan op de knop **gebeurtenissen**, klik daarna op het blokje (object): _Wanneer spatiebalk is ingedrukt_, en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het onder de andere 4 blokjes komt te staan en bovenaan vast komt te zitten aan het blokje: _Verander kleur-effect met 25,_   en er deze 2 bokjes blijven los van de groep daarboven.
 
 ![](/uploads/screen-shot-08-10-19-at-04.24-pm.png)
+
+Je kunt ook een andere toets kiezen als de spatiebalk. Probeer dat maar eens uit.
+
+## 9.	Voeg een achtergrond toe:
