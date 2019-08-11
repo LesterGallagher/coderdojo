@@ -151,7 +151,7 @@ Haal nu via de map: **Uiterlijken**, de optie: _Volgend uiterlijk_, naar de scri
 
 Als er nu op de vlag gedrukt wordt zal de sprite Cassy Dance telkens naar het volgend uiterlijk gaan (en -dat telkens 1 sec. wordt vastgehouden). Druk op de rode knop om het dansen te stoppen.
 
-
+## 13.	Deel je project:
 
 
 
