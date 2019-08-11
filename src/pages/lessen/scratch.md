@@ -147,7 +147,13 @@ Klik op de map **code** en dan op de knop **gebeurtenissen**, klik daarna op het
 Klik op de map **code** en en dan op de knop **besturen**, klik daarna op het blokje (object): _herhaal_ en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het nog los staat van de andere 2 blokjes.\
 Haal nu via de map: **Uiterlijken**, de optie: _Volgend uiterlijk_, naar de scriptzone. En via het tabblad: **Besturen**, de optie: _Wacht 1 sec._
 
-![](/uploads/screen-shot-08-11-19-at-04.28-pm.png)
+![](/uploads/screen-shot-08-11-19-at-04.32-pm.png)
+
+Als er nu op de vlag gedrukt wordt zal de sprite Cassy Dance telkens naar het volgend uiterlijk gaan (en -dat telkens 1 sec. wordt vastgehouden). Druk op de rode knop om het dansen te stoppen.
+
+
+
+
 
 NOG NIET KLAAR - BIJNA AF.
 
