@@ -27,7 +27,7 @@ Je kunt voor meer informatie eerst de video bekijken door op de startknop van de
 
 ![Uitleg videofilm](/uploads/screen-shot-08-10-19-at-01.56-pm.png "Uitleg videofilm")
 
-## Om veel van scratch te leren gaan we samen een programma maken met de onderstaand uitleg. 
+## Om veel van scratch te leren gaan we samen een programma maken met de onderstaand uitleg.
 
 De onderstaande onderdelen worden allemaal behandeld.\
 Als je stap voor stap meedoet leer je alles het snelst zonder fouten te maken.
@@ -145,12 +145,10 @@ Klik op deze optie om hem af te spelen en te horen of dat het is wat je wilt hor
 De sprite Cassy Dance is actief (en niet sprite1 waar we mee begonnen zijn. Die is er nog wel, maar niet "actief").\
 Klik op de map **code** en dan op de knop **gebeurtenissen**, klik daarna op het blokje (object): _Wanneer spatiebalk is ingedrukt_, en sleep dit blokje naar de scriptzone.\
 Klik op de map **code** en en dan op de knop **besturen**, klik daarna op het blokje (object): _herhaal_ en sleep dit blokje naar de scriptzone. Sleep dit blokje zodanig naar de scriptzone dat het nog los staat van de andere 2 blokjes.\
-Haal nu via het tabblad: Uiterlijken, de optie: Volend uiterlijk, naar de scriptzone. En via het tabblad: Besturen, de optie: Wacht 1 sec
+Haal nu via de map: **Uiterlijken**, de optie: _Volgend uiterlijk_, naar de scriptzone. En via het tabblad: **Besturen**, de optie: _Wacht 1 sec._
 
-
+![](/uploads/screen-shot-08-11-19-at-04.28-pm.png)
 
 NOG NIET KLAAR - BIJNA AF.
-
-
 
 .
