@@ -168,7 +168,11 @@ _Welkom bij Scratch, Voorbeeld2019!_\
 _Je bent nu ingelogd! Je kunt starten met ontdekken en maken van projecten._ \
 _Als je commentaar wilt plaatsen of je projecten wilt delen, klik dan op de link in de e-mail die we je gestuurd hebben op fvangrieken@gmail.com._ 
 
-__
+Als je klaar bent met aanmelden zie rechtsbovenaan jouw inlognaam staan. Als je op het pijltje daarnaast klikt komt er een schermpje onder te staan met jouw gegevens en mogelijkheden.
+
+![](/uploads/screen-shot-08-11-19-at-05.05-pm.png)
+
+
 
 
 
