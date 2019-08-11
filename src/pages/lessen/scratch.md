@@ -153,6 +153,10 @@ Als er nu op de vlag gedrukt wordt zal de sprite Cassy Dance telkens naar het vo
 
 ## 13.	Deel je project:
 
+Om een project aan anderen te tonen of met anderen te delen, moet je eerst "**een scratcher**" worden. Dit doe je door rechts bovenaan te klikken op de knop: Word Scratcher.
+
+![](/uploads/screen-shot-08-11-19-at-04.46-pm.png)
+
 
 
 NOG NIET KLAAR - BIJNA AF.
