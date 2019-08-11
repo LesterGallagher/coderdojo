@@ -157,6 +157,10 @@ Om een project aan anderen te tonen of met anderen te delen, moet je eerst "**ee
 
 ![](/uploads/screen-shot-08-11-19-at-04.46-pm.png)
 
+Je krijgt dan een pop-up scherm waar je een gebruikersnaam en wachtwoord moet invullen. Volg daarna de stappen die aangegeven worden. 
+
+![](/uploads/screen-shot-08-11-19-at-04.52-pm.png)
+
 
 
 NOG NIET KLAAR - BIJNA AF.
