@@ -161,6 +161,25 @@ Je krijgt dan een pop-up scherm waar je een gebruikersnaam en wachtwoord moet in
 
 ![](/uploads/screen-shot-08-11-19-at-04.52-pm.png)
 
+Er wordt in een volgend scherm gevraagd naar je geboortedatum, of je jongen of meisje bent en uit welk land je komt. \
+In het daaropvolgend schermpje wordt gevraagd naar het e-mailadres van je ouder(s) of verzorger. Daarheen wordt dan een mail gestuurd om jouw aanmelding te bevestigen. \
+Daarna krijg je als laatste scherm een Welkom te zien\
+_Welkom bij Scratch, Voorbeeld2019!_\
+_Je bent nu ingelogd! Je kunt starten met ontdekken en maken van projecten._ \
+_Als je commentaar wilt plaatsen of je projecten wilt delen, klik dan op de link in de e-mail die we je gestuurd hebben op fvangrieken@gmail.com._ 
+
+__
+
+
+
+
+
+
+
+ 
+
+
+
 
 
 NOG NIET KLAAR - BIJNA AF.
