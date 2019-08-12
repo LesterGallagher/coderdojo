@@ -25,4 +25,5 @@ en dan een volgende reeks workshops op de volgende **donderdagen**:
 * 26 maart
 * 2 april
 
+**SCRATCH** is een programmeertaal waarmee je onder andere je eigen interactieve animaties, spelletjes en muziek kunt maken. Die kun je ook online delen met vrienden en familie als een Scratch-project. \
 Meer informatie over SCRATCH kun je vinden op deze site door onderaan bij **Scratch-lessen** te klikken op de knop: **Meer Info**
