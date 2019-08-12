@@ -153,34 +153,20 @@ Als er nu op de vlag gedrukt wordt zal de sprite Cassy Dance telkens naar het vo
 
 ## 13.	Word Scratcher en deel je project:
 
-Om een project aan anderen te tonen of met anderen te delen, moet je eerst "**een scratcher**" worden. Dit doe je door rechts bovenaan te klikken op de knop: Word Scratcher.
+Om een project aan anderen te tonen of met anderen te delen, moet je eerst "**een scratcher**" worden. Dit doe je door rechts bovenaan te klikken op de knop: Word Scratcher.\
+Je hebt een account nodig om projecten op te slaan en te delen, commentaren en forum posts te schrijven.
 
 ![](/uploads/screen-shot-08-11-19-at-04.46-pm.png)
 
-Je krijgt dan een pop-up scherm waar je een gebruikersnaam en wachtwoord moet invullen. Volg daarna de stappen die aangegeven worden. 
+Als je op de knop: word scratcher geklikt hebt, krijg je een pop-up scherm waar je een gebruikersnaam en wachtwoord moet invullen. Volg daarna de stappen die aangegeven worden. Je moet een paar vragen beantwoorden en een e-mail adres opgeven (van jezelf als je er een hebt, of anders van een van je ouders) 
 
-![](/uploads/screen-shot-08-11-19-at-04.52-pm.png)
+Nadat je een nieuw account hebt aangemaakt op Scratch, ontvang je een e-mail bericht met een link. Klik op die link om je account te bevestigen. Zodra je jouw account hebt bevestigd, kun je projecten delen, opmerkingen schrijven enz. 
 
-Er wordt in een volgend scherm gevraagd naar je geboortedatum, of je jongen of meisje bent en uit welk land je komt. \
-In het daaropvolgend schermpje wordt gevraagd naar het e-mailadres van je ouder(s) of verzorger. Daarheen wordt dan een mail gestuurd om jouw aanmelding te bevestigen. \
-Daarna krijg je als laatste scherm een Welkom te zien\
-_Welkom bij Scratch, Voorbeeld2019!_\
-_Je bent nu ingelogd! Je kunt starten met ontdekken en maken van projecten._ \
-_Als je commentaar wilt plaatsen of je projecten wilt delen, klik dan op de link in de e-mail die we je gestuurd hebben op fvangrieken@gmail.com._ 
+Je kan nog steeds vele aspecten van Scratch doen zonder je account te bevestigen, waaronder het maken en opslaan van projecten. Maar je kunt je project dan niet delen.
 
 Als je klaar bent met aanmelden zie rechtsbovenaan jouw inlognaam staan. Als je op het pijltje daarnaast klikt komt er een schermpje onder te staan met jouw gegevens en mogelijkheden.
 
 ![](/uploads/screen-shot-08-11-19-at-05.05-pm.png)
-
-
-
-
-
-
-
-
-
- 
 
 
 
