@@ -181,6 +181,18 @@ Je wordt dan naar een nieuwe pagina gelinkt dat er ongeveer uitziet zoals het pl
 Je kunt nu zelf instructies toevoegen zodat anderen snappen wat ze met jouw project kunnen doen. Als je op de knop: **Bekijk van binnen** klikt, krijg je te zien hoe het project gemaakt is. Je kunt dan weer terug door op de knop: **Bekijk de project pagina** te klikken. \
 Zo kun je op en neer switchen. Als je dan op de plaats: Bekijk project van binnen iets veranderd, kun je het effect daarvan zien als je dan terug gaat naar: Bekijk project pagina.
 
-NOG NIET KLAAR - BIJNA AF.
+## 14.	En nu?:
+
+Je kunt nu zelf aan de slag gaan om allerlei verschillende programma’s te maken.\
+Je kunt ook voorbeeldprogramma's bekijken. Ga daarvoor naar: [**https://scratch.mit.edu/**](https://scratch.mit.edu/)****\
+Of klik op het woord **Scratch**, links bovenaan de pagina.
+
+Als je dan een programma ziet dat je denkt te bevallen, klik je op de knop: Bekijk van **binnen**, en klik daarna op de knop: **Remix**, om veranderingen in het project aan te kunnen brengen en het tot jouw eigen project te maken!
+
+
+
+
+
+
 
 .
