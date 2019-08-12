@@ -170,6 +170,8 @@ Als je klaar bent met aanmelden zie rechtsbovenaan jouw inlognaam staan. Als je 
 
 Je zit boven in de bal een oranje knop: **Delen**. Klik daarop als je jouw project met anderen wilt delen.
 
+![](/uploads/screen-shot-08-12-19-at-10.06-am.png)
+
 
 
 NOG NIET KLAAR - BIJNA AF.
