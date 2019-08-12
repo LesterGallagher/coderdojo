@@ -189,6 +189,10 @@ Of klik op het woord **Scratch**, links bovenaan de pagina.
 
 Als je dan een programma ziet dat je denkt te bevallen, klik je op de knop: Bekijk van **binnen**, en klik daarna op de knop: **Remix**, om veranderingen in het project aan te kunnen brengen en het tot jouw eigen project te maken!
 
+## _**EINDE VAN DEZE KENNISMAKING**_ 
+
+## _**VEEL PLEZIER EN SUCCES MET SCRATCH**_
+
 
 
 
