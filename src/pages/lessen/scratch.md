@@ -158,9 +158,9 @@ Je hebt een account nodig om projecten op te slaan en te delen, commentaren en f
 
 ![](/uploads/screen-shot-08-11-19-at-04.46-pm.png)
 
-Als je op de knop: word scratcher geklikt hebt, krijg je een pop-up scherm waar je een gebruikersnaam en wachtwoord moet invullen. Volg daarna de stappen die aangegeven worden. Je moet een paar vragen beantwoorden en een e-mail adres opgeven (van jezelf als je er een hebt, of anders van een van je ouders) 
+Als je op de knop: **Word Scratcher** geklikt hebt, krijg je een pop-up scherm waar je een gebruikersnaam en wachtwoord moet invullen. Volg daarna de stappen die aangegeven worden. Je moet een paar vragen beantwoorden en een e-mail adres opgeven (van jezelf als je er een hebt, of anders van een van je ouders) 
 
-Nadat je een nieuw account hebt aangemaakt op Scratch, ontvang je een e-mail bericht met een link. Klik op die link om je account te bevestigen. Zodra je jouw account hebt bevestigd, kun je projecten delen, opmerkingen schrijven enz. 
+Nadat je een nieuw account hebt aangemaakt op Scratch, ontvang je een e-mail bericht met een link. Klik op die link **om je account te bevestigen**. Zodra je jouw account hebt bevestigd, kun je projecten delen, opmerkingen schrijven enz. 
 
 Je kan nog steeds vele aspecten van Scratch doen zonder je account te bevestigen, waaronder het maken en opslaan van projecten. Maar je kunt je project dan niet delen.
 
@@ -168,7 +168,7 @@ Als je klaar bent met aanmelden zie rechtsbovenaan jouw inlognaam staan. Als je 
 
 ![](/uploads/screen-shot-08-11-19-at-05.05-pm.png)
 
-
+Je zit boven in de bal een oranje knop: **Delen**. Klik daarop als je jouw project met anderen wilt delen.
 
 
 
