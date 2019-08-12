@@ -168,7 +168,7 @@ Als je klaar bent met aanmelden zie rechtsbovenaan jouw inlognaam staan. Als je 
 
 ![](/uploads/screen-shot-08-11-19-at-05.05-pm.png)
 
-Je zit boven in de bal een oranje knop: **Delen**. \
+Je zit boven in de balk een oranje knop: **Delen**. \
 Links naast die knop zie je de naam van het project dat je wilt delen. Het heet dan nu nog: _Untitled_ Klik in dat vak om het project een naam te geven. Hier is als naam gegeven: _Test Delen_.\
 Klik dan op de oranje knop: Delen,  als je jouw project met anderen wilt delen.
 
@@ -184,19 +184,13 @@ Zo kun je op en neer switchen. Als je dan op de plaats: Bekijk project van binne
 ## 14.	En nu?:
 
 Je kunt nu zelf aan de slag gaan om allerlei verschillende programma’s te maken.\
-Je kunt ook voorbeeldprogramma's bekijken. Ga daarvoor naar: [**https://scratch.mit.edu/**](https://scratch.mit.edu/)****\
-Of klik op het woord **Scratch**, links bovenaan de pagina.
+Je kunt ook voorbeeldprogramma's bekijken. Ga daarvoor naar: [**https://scratch.mit.edu/**](https://scratch.mit.edu/)***\***\
+**Of klik op het woord** Scratch\*\*, links bovenaan de pagina.
 
 Als je dan een programma ziet dat je denkt te bevallen, klik je op de knop: Bekijk van **binnen**, en klik daarna op de knop: **Remix**, om veranderingen in het project aan te kunnen brengen en het tot jouw eigen project te maken!
 
-## _**EINDE VAN DEZE KENNISMAKING**_ 
+## **_EINDE VAN DEZE KENNISMAKING_**
 
-## _**VEEL PLEZIER EN SUCCES MET SCRATCH**_
-
-
-
-
-
-
+## **_VEEL PLEZIER EN SUCCES MET SCRATCH_**
 
 .
