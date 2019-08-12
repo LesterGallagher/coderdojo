@@ -178,7 +178,8 @@ Je wordt dan naar een nieuwe pagina gelinkt dat er ongeveer uitziet zoals het pl
 
 ![](/uploads/screen-shot-08-12-19-at-10.16-am.png)
 
-
+Je kunt nu zelf instructies toevoegen zodat anderen snappen wat ze met jouw project kunnen doen. Als je op de knop: **Bekijk van binnen** klikt, krijg je te zien hoe het project gemaakt is. Je kunt dan weer terug door op de knop: **Bekijk de project pagina** te klikken. \
+Zo kun je op en neer switchen. Als je dan op de plaats: Bekijk project van binnen iets veranderd, kun je het effect daarvan zien als je dan terug gaat naar: Bekijk project pagina.
 
 NOG NIET KLAAR - BIJNA AF.
 
