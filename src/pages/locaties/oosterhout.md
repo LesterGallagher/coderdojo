@@ -7,7 +7,7 @@ image: /uploads/oosterhout.png
 ---
 ## **CODERDOJO** zal in Oosterhout plaatsvinden in de Bibliotheek.
 
- Coderdojo zal in 2019 zich bezighouden met het maken van GAMES met behulp van **SCRATCHS**
+ Coderdojo zal in 2019 zich bezighouden met het maken van GAMES met behulp van **SCRATCH**
 
 De datums waarop workshops gehouden zullen worden in de bibliotheek zijn de volgende **donderdagen**:
 
@@ -24,3 +24,5 @@ en dan een volgende reeks workshops op de volgende **donderdagen**:
 * 19 maart
 * 26 maart
 * 2 april
+
+Meer informatie over SCRATCH kun je vinden op deze site door onderaan bij **Scratch-lessen** te klikken op de knop: **Meer Info**
