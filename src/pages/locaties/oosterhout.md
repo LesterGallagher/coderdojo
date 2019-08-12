@@ -9,7 +9,8 @@ image: /uploads/oosterhout.png
 
  Coderdojo zal in 2019 zich bezighouden met het maken van GAMES met behulp van **SCRATCH**
 
-De datums waarop workshops gehouden zullen worden in de bibliotheek zijn de volgende **donderdagen**:
+De datums waarop workshops gehouden zullen worden in de bibliotheek zijn de volgende **donderdagen**:\
+Tijd: **16:00 - 17:30 uur**
 
 * 24 oktober
 * 31 oktober
@@ -17,7 +18,8 @@ De datums waarop workshops gehouden zullen worden in de bibliotheek zijn de volg
 * 14 november
 * 21 november
 
-en dan een volgende reeks workshops op de volgende **donderdagen**:
+en dan een volgende reeks workshops op de volgende **donderdagen**:\
+Tijd: **16:00 - 17:30 uur**
 
 * 5 maart
 * 12 maart
