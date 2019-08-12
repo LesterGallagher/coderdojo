@@ -174,7 +174,9 @@ Klik dan op de oranje knop: Delen,  als je jouw project met anderen wilt delen.
 
 ![](/uploads/screen-shot-08-12-19-at-10.11-am.png)
 
+Je wordt dan naar een nieuwe pagina gelinkt dat er ongeveer uitziet zoals het plaatje hieronder.
 
+![](/uploads/screen-shot-08-12-19-at-10.16-am.png)
 
 
 
