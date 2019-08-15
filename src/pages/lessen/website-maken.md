@@ -1,16 +1,14 @@
 ---
 introductieLes: Website maken introductie
 layout: LesIntroductie
-nextLessons:
-  - Arduino introductie
-  - Les 2
-locaties:
-  - Oosterhout
-  - Raamsdonksveer
+locaties: []
 title: Website Maken
 date: 2019-05-19T12:16:39.570Z
 description: Test
 image: /uploads/code-coding-conceptual-248515.jpg
+nextLessons:
+  - Arduino introductie
+  - Les 2
 ---
 
 Incididunt enim mollit aute exercitation voluptate aliqua cillum cupidatat consequat proident sunt consequat sit. Ad occaecat occaecat aliqua irure proident et. Cillum non elit anim veniam anim ex nostrud aliqua in incididunt. Excepteur ullamco in sunt quis. Esse tempor fugiat anim irure pariatur laboris do voluptate ex enim dolore esse. Pariatur consequat eiusmod laboris ipsum aliquip incididunt anim ex aliqua officia tempor id veniam.
