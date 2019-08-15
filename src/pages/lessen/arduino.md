@@ -1,16 +1,14 @@
 ---
 introductieLes: Arduino introductie
 layout: LesIntroductie
-nextLessons:
-  - Arduino introductie
-  - Les 2
-locaties:
-  - Oosterhout
-  - Raamsdonksveer
+locaties: []
 title: Arduino
 date: 2019-05-19T12:15:55.738Z
 description: Test
 image: /uploads/arduino.jpg
+nextLessons:
+  - Arduino introductie
+  - Les 2
 ---
 
 Incididunt enim mollit aute exercitation voluptate aliqua cillum cupidatat consequat proident sunt consequat sit. Ad occaecat occaecat aliqua irure proident et. Cillum non elit anim veniam anim ex nostrud aliqua in incididunt. Excepteur ullamco in sunt quis. Esse tempor fugiat anim irure pariatur laboris do voluptate ex enim dolore esse. Pariatur consequat eiusmod laboris ipsum aliquip incididunt anim ex aliqua officia tempor id veniam.
