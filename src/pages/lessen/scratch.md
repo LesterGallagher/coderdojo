@@ -5,7 +5,7 @@ nextLessons:
   - Scratch les 2 - Test
 layout: LesIntroductie
 locaties:
-  - Rijen
+  - Oosterhout
 title: Scratch Lessen
 date: 2019-05-19T11:59:38.433Z
 description: Test
