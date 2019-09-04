@@ -6,11 +6,12 @@ draft: true
 date: 2019-07-19T10:48:54.197Z
 description: Uitdagende opdracht voor Scratch (Ruimte-avontuur)
 image: /uploads/1.png
+next: Scratch-Opdracht "Ruimte-avontuur"
 previous: Scratch Les 1
 ---
 **UITDAGENDE OPDRACHT:**
 
-****
+- - -
 
 **•	MAAK HET PROGRAMMA:  “RUIMTEAVONTUUR”**
 
@@ -42,6 +43,6 @@ previous: Scratch Les 1
 
 **•	DE ALIEN BEWEEGT SNELLER DAN DE ATROIDE.**
 
-****
+- - -
 
 ![](/uploads/screen-shot-01-01-19-at-01.42-pm.png)
