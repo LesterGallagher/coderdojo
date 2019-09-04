@@ -101,6 +101,12 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ![](/uploads/achtergrond-stars.png)
 
+
+
+## ****
+
+## **Tot sot is hier nog een link naar een uitgewerkt voorbeeld:** [**https://scratch.mit.edu/projects/115369176/#editor**](https://scratch.mit.edu/projects/115369176/#editor)****
+
 - - -
 
 - - -
