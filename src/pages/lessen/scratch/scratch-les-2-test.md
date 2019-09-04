@@ -85,11 +85,15 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 
 
-
-
 **Bij de sprite van de Astroide zou je de volgende instructies kunnen meegeven:**
 
 ![](/uploads/instructies-bij-sprite-astroide.png)
+
+
+
+**Bij de sprite van de Alien zou je de volgende instructies kunnen meegeven:**
+
+![](/uploads/instructies-bij-srpite-alien.png)
 
 - - -
 
