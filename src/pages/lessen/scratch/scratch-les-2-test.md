@@ -17,15 +17,11 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 **•	JE HEBT DRIE SPRITES NODIG:**
 
-\    **o	EEN RUIMTESCHIP**
+* **o	EEN RUIMTESCHIP**
+* **o	EEN ASTROIDE**
+* **o	EEN ALIEN**
 
-\    **o	EEN ASTROIDE**
-
-\    **o	EEN ALIEN**
-
-\    **(Deze 3 sprites kun je zelf maken, of** \
-              **zoeken bij “nieuwe sprites uit de bibliotheek”, of** \
-              **vragen aan één van de begeleiders, die heeft deze sprites op een USB-stick.)**
+**(Deze 3 sprites kun je zelf maken, of** **zoeken bij “nieuwe sprites uit de bibliotheek”, of** **vragen aan één van de begeleiders, die heeft deze sprites op een USB-stick.)**
 
 **•	DE ACHTERGROND VAN HET SPEELVELD IS “STARS”.**
 
