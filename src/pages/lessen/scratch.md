@@ -1,7 +1,7 @@
 ---
 introductieLes: Beginnen met Scratch - Les 1
 nextLessons:
-  - test 3
+  - Scratch-Opdracht "Ruimte-avontuur"
   - Scratch les 2 - Test
 layout: LesIntroductie
 locaties:
