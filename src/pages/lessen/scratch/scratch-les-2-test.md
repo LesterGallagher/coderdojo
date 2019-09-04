@@ -105,7 +105,7 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ## ****
 
-## **Tot sot is hier nog een link naar een uitgewerkt voorbeeld:** [**https://scratch.mit.edu/projects/115369176/#editor**](https://scratch.mit.edu/projects/115369176/#editor)****
+## **Tot sot is hier nog een link naar een uitgewerkt voorbeeld:** [**https://scratch.mit.edu/projects/205260541/editor**](https://scratch.mit.edu/projects/205260541/editor)****
 
 - - -
 
