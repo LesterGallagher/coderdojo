@@ -6,7 +6,7 @@ draft: true
 date: 2019-07-19T10:48:54.197Z
 description: Uitdagende opdracht voor Scratch (Ruimte-avontuur)
 image: /uploads/1.png
-next: Scratch-Opdracht "Ruimte-avontuur"
+next: test 3
 previous: Scratch Les 1
 ---
 **UITDAGENDE OPDRACHT:**
