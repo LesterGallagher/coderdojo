@@ -1,8 +1,8 @@
 ---
 introductieLes: Beginnen met Scratch - Les 1
 nextLessons:
+  - 'Opdracht: "Raad een getal tussen 1 en 10"'
   - Scratch-Opdracht "Ruimte-avontuur"
-  - Scratch les 2 - Test
 layout: LesIntroductie
 locaties:
   - Oosterhout
