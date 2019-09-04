@@ -9,7 +9,7 @@ image: /uploads/ruimteschip.png
 next: test 3
 previous: Scratch-Opdracht "Ruimte-avontuur"
 ---
-**UITDAGENDE OPDRACHT:**
+## **UITDAGENDE OPDRACHT:**
 
 - - -
 
