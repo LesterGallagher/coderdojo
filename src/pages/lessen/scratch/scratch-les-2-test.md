@@ -56,7 +56,7 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 
 
-**Bij het ruimteschip zou je de volgende instructies kunen meegeven:**
+**Bij het ruimteschip zou je de volgende instructies kunnen meegeven:**
 
 ![](/uploads/instrucries-bij-sprite-ruimteschip.png)
 
