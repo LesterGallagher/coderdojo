@@ -39,6 +39,12 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 **•	DE ALIEN BEWEEGT SNELLER DAN DE ATROIDE.**
 
+![](/uploads/psd-ruimteschip.png)
+
+**In het figuur hierboven kun je precies zien wat het programma (in volgorde) moet kunnen oden.** 
+
+****
+
 - - -
 
 ![]()
