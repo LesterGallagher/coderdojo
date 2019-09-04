@@ -1,5 +1,5 @@
 ---
-title: 'Opdracht: "Raad een getal tussen 1 en 10"'
+title: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 layout: Les
 isIntro: false
 draft: true
