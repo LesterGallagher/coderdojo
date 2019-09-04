@@ -7,7 +7,7 @@ date: 2019-07-19T10:48:54.197Z
 description: Uitdagende opdracht voor Scratch (Ruimte-avontuur)
 image: /uploads/1.png
 next: test 3
-previous: Scratch Les 1
+previous: Scratch-Opdracht "Ruimte-avontuur"
 ---
 **UITDAGENDE OPDRACHT:**
 
@@ -45,4 +45,4 @@ previous: Scratch Les 1
 
 - - -
 
-![](/uploads/screen-shot-01-01-19-at-01.42-pm.png)
+![]()
