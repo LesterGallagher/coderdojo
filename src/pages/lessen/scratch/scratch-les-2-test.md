@@ -53,27 +53,31 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ## **Niet te snel opgeven. Het is veel fijner als je zelf iets hebt uitgedacht ook al werkt dat misschien niet meteen perfect.**
 
+.
 
+.
 
+.
 
+.
 
+.
 
-
-
-
-
+.
 
 \----------------------------------------------------------------------------------------------------------------------------
 
+.
 
+.
 
+.
 
+.
 
+.
 
-
-
-
-
+.
 
 **Bij de sprite van het ruimteschip zou je de volgende instructies kunnen meegeven:**
 
