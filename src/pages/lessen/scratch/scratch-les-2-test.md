@@ -41,9 +41,9 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ![](/uploads/psd-ruimteschip.png)
 
-## **In het figuur hierboven kun je precies zien wat het programma (in volgorde) moet kunnen doen. (We noemen dit een  "Programma Structuur Diagram " (PSD)**
+## **In het figuur hierboven kun je precies zien wat het programma (in volgorde) moet kunnen doen. (We noemen dit een  "Programma Structuur Diagram " (PSD)->** 
 
-****[**https://scratch.mit.edu/projects/115369176/#editor**](https://scratch.mit.edu/projects/115369176/#editor) **\-> hier de sprites downloaden**
+<https://scratch.mit.edu/projects/115369176/#editor >**hier de sprites downloaden**
 
 ![](/uploads/ruimteschip-sprites.png)
 
