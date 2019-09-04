@@ -1,25 +1,47 @@
 ---
-title: Scratch les 2 - Test
+title: Scratch-Opdracht "Ruimte-avontuur"
 layout: Les
 isIntro: false
 draft: true
 date: 2019-07-19T10:48:54.197Z
-description: 'Scratch Test 2 '
+description: Uitdagende opdracht voor Scratch (Ruimte-avontuur)
 image: /uploads/1.png
 previous: Scratch Les 1
 ---
-**Beginnen met Scratch.**
+**UITDAGENDE OPDRACHT:**
 
-Om te beginnen met Scratch heb je eerst een internetverbinding nodig. \
+****
 
-Dan ga je naar de volgend internetpagina:
+**•	MAAK HET PROGRAMMA:  “RUIMTEAVONTUUR”**
 
-**https://scratch.mit.edu/projects/editor/?tutorial=getStarted**
+**•	JE HEBT DRIE SPRITES NODIG:**
 
-Om veel van scratch te leren gaan we samen een programma maken met de onderstaand uitleg. \
+\    **o	EEN RUIMTESCHIP**
 
-Je kunt het ook helemaal alleen, zonder onderstaande uitleg doen
+\    **o	EEN ASTROIDE**
 
-**1.	Begin met bewegen**.
+\    **o	EEN ALIEN**
+
+\    **(Deze 3 sprites kun je zelf maken, of** \
+              **zoeken bij “nieuwe sprites uit de bibliotheek”, of** \
+              **vragen aan één van de begeleiders, die heeft deze sprites op een USB-stick.)**
+
+**•	DE ACHTERGROND VAN HET SPEELVELD IS “STARS”.**
+
+**•	HET RUIMTESCHIP MOET DE ASTROIDE EN DE ALIEN ONTWIJKEN. ALS ZE BOTSEN IS HET SPEL AFGELOPEN.**
+
+**•	ER WORDT EEN SCORE BIJGEHOUDEN VAN HET AANTAL KEREN DAT EEN ASTROIDE OF ALIEN IS GEPASSEERD. (EN DUS NIET TEGEN HET RUIMTESCHIP IS GEBOTST).**
+
+**•	HET RUINTESCHIP KAN ALLEEN BEWEGEN OVER DE Y-AS (OMHOOG EN OMLAAG)**
+
+**DE ASTROIDE EN DE ALIEN KUNNEN ALLEEN BEWEGEN OVER DE X-AS (VAN RECHTS NAAR LINKS) EN GAAN IEDERE KEER ALS ZE OPNIEUW VAN RECHTS NAAR LINKS KOMEN, STEEDS SNELLER.**
+
+**•	HET BEWEGEN VAN HET RUIMTESCHIP (OMHOOG EN/OF OMLAAG) KUN JE ZELF STUREN MET DE MUIS!**
+
+**HET BEWEGEN VAN DE ALIEN EN DE ASTROID HEB JE GEPROGRAMMEERD EN KUN JE TIJDENS HET SPEL NIET MEER BEINVLOEDEN.**
+
+**•	DE ALIEN BEWEEGT SNELLER DAN DE ATROIDE.**
+
+****
 
 ![](/uploads/screen-shot-01-01-19-at-01.42-pm.png)
