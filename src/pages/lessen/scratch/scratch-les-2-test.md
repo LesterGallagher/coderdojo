@@ -49,6 +49,15 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ****
 
+**Hieronder kun je zien hoe je het programma kan maken. Er zijn natuurlijk meerdere mogelijkheden en het is het leukste als je eerst alles zelf uitprobeert en dan pas gaat kijken hieronder hoe het ook kan.**\
+**Niet te snel opgeven. Het is veel fijner als je zlef iets hebt uitgedacht ook al werkt dat misschien niet meteen perfect.**
+
+
+
+
+
+****
+
 - - -
 
 - - -
