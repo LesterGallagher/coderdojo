@@ -45,9 +45,11 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ****[**https://scratch.mit.edu/projects/115369176/#editor**](https://scratch.mit.edu/projects/115369176/#editor) **\-> hier de sprites downloaden**
 
-****
+![](/uploads/ruimteschip-sprites.png)
 
- 
+**Hier zie je de sprite van het ruimteschip (en ook van de Astroide en de Alien)** 
+
+****
 
 - - -
 
