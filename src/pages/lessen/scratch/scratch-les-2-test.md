@@ -95,6 +95,12 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ![](/uploads/instructies-bij-srpite-alien.png)
 
+****
+
+**Achtergrond: Stars**
+
+![](/uploads/achtergrond-stars.png)
+
 - - -
 
 - - -
