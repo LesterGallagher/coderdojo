@@ -41,9 +41,13 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ![](/uploads/psd-ruimteschip.png)
 
-**In het figuur hierboven kun je precies zien wat het programma (in volgorde) moet kunnen oden.** 
+**In het figuur hierboven kun je precies zien wat het programma (in volgorde) moet kunnen doen. (We noemen dit een  "Programma Structuur Diagram " (PSD)**
 
 ****
+
+ 
+
+- - -
 
 - - -
 
