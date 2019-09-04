@@ -75,6 +75,20 @@ previous: Scratch Les 1
 
 ![](/uploads/instructies-voor-sprite-giga-raden-getal.png)
 
+
+
+## **Dit is een algoritme waarin zit:**
+
+1. ## **Herhalingslus**
+2. ## **Een variabele**
+3. ## **Als-dan constructie**
+
+## **Dit zijn de basisprincipes voor het programmeren.**
+
+## **Er is bovendien een interactie met de speler door te reageren op zijn gegevens.**
+
+
+
 - - -
 
 # 
