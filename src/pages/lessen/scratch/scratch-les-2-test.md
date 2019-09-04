@@ -5,7 +5,7 @@ isIntro: false
 draft: true
 date: 2019-07-19T10:48:54.197Z
 description: Uitdagende opdracht voor Scratch (Ruimte-avontuur)
-image: /uploads/1.png
+image: /uploads/ruimteschip.png
 next: test 3
 previous: Scratch-Opdracht "Ruimte-avontuur"
 ---
