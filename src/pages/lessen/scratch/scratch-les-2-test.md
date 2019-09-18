@@ -1,7 +1,7 @@
 ---
 title: Scratch-Opdracht "Ruimte-avontuur"
 layout: Les
-isIntro: false
+isIntro: true
 draft: true
 date: 2019-07-19T10:48:54.197Z
 description: Uitdagende opdracht voor Scratch (Ruimte-avontuur)
@@ -41,15 +41,15 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ![](/uploads/psd-ruimteschip.png)
 
-## **In het figuur hierboven kun je precies zien wat het programma (in volgorde) moet kunnen doen. (We noemen dit een  "Programma Structuur Diagram " (PSD)->** 
+## **In het figuur hierboven kun je precies zien wat het programma (in volgorde) moet kunnen doen. (We noemen dit een  "Programma Structuur Diagram " (PSD)->**
 
 ![](/uploads/ruimteschip-sprites.png)
 
 **Hier zie je de sprite van het ruimteschip (en ook van de Astroide en de Alien)** 
 
-****
+- - -
 
-**Hieronder kun je zien hoe je het programma kan maken. Er zijn natuurlijk meerdere mogelijkheden en het is het leukste als je eerst alles zelf uitprobeert en dan pas gaat kijken hieronder hoe het ook kan.******
+**Hieronder kun je zien hoe je het programma kan maken. Er zijn natuurlijk meerdere mogelijkheden en het is het leukste als je eerst alles zelf uitprobeert en dan pas gaat kijken hieronder hoe het ook kan.\*\*\*\***
 
 ## **Niet te snel opgeven. Het is veel fijner als je zelf iets hebt uitgedacht ook al werkt dat misschien niet meteen perfect.**
 
@@ -83,29 +83,23 @@ previous: Scratch-Opdracht "Ruimte-avontuur"
 
 ![](/uploads/instrucries-bij-sprite-ruimteschip.png)
 
-
-
 **Bij de sprite van de Astroide zou je de volgende instructies kunnen meegeven:**
 
 ![](/uploads/instructies-bij-sprite-astroide.png)
-
-
 
 **Bij de sprite van de Alien zou je de volgende instructies kunnen meegeven:**
 
 ![](/uploads/instructies-bij-srpite-alien.png)
 
-****
+- - -
 
 **Achtergrond: Stars**
 
 ![](/uploads/achtergrond-stars.png)
 
+## \*\*\*\*
 
-
-## ****
-
-## **Tot sot is hier nog een link naar een uitgewerkt voorbeeld:** [**https://scratch.mit.edu/projects/205260541/editor**](https://scratch.mit.edu/projects/205260541/editor)****
+## **Tot sot is hier nog een link naar een uitgewerkt voorbeeld:** [**https://scratch.mit.edu/projects/205260541/editor**](https://scratch.mit.edu/projects/205260541/editor)\*\*\*\*
 
 - - -
 
