@@ -7,10 +7,10 @@ nextLessons:
 layout: LesIntroductie
 locaties:
   - Oosterhout
-title: Scratch Lessen
+title: Beginnen mey Sratch
 date: 2019-05-19T11:59:38.433Z
-description: Scratch Les 1
-image: /uploads/technology-791029_1920.jpg
+description: Kennismaken met Scratch
+image: /uploads/screen-shot-08-10-19-at-04.40-pm.png
 ---
 # B**eginnen met Scratch.**
 
