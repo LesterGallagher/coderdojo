@@ -9,7 +9,7 @@ locaties:
   - Oosterhout
 title: Scratch Lessen
 date: 2019-05-19T11:59:38.433Z
-description: Les 1
+description: Scratch Les 1
 image: /uploads/technology-791029_1920.jpg
 ---
 # B**eginnen met Scratch.**
