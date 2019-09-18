@@ -27,3 +27,7 @@ Of haal de kat weg door met de rechtermuisknop op de kat te klikken en dan op ve
 Hieronder zie je het begin van het script voor de bal. Het zorgt ervoor dat de bal vanuit het midden in een willekeurige richting gaat bewegen, en bij alle vier de randen terug stuitert. 
 
 ![](/uploads/bal-codes.png)
+
+In de sprite bibliotheek zit een batje (“paddle”). Als je die gebruikt moet je het uiterlijk aanpassen: het batje moet rechtop staan want de bal komt van opzij. 
+
+![](/uploads/badje.jpg)
