@@ -5,7 +5,7 @@ isIntro: true
 draft: false
 date: 2019-05-18T19:35:21.532Z
 description: Test
-image: /uploads/code-coding-conceptual-248515.jpg
+image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 next: Scratch-Opdracht "Ruimte-avontuur"
 ---
 # **LES 1:**
