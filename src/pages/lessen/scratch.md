@@ -3,6 +3,7 @@ introductieLes: Beginnen met Scratch - Les 1
 nextLessons:
   - 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
   - Scratch-Opdracht "Ruimte-avontuur"
+  - Scratch Les 1
 layout: LesIntroductie
 locaties:
   - Oosterhout
