@@ -1,7 +1,7 @@
 ---
 title: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 layout: Les
-isIntro: false
+isIntro: true
 draft: true
 date: 2019-09-04T15:22:57.581Z
 description: Raad getal tussen 1 en 10
