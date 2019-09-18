@@ -7,7 +7,7 @@ date: 2019-07-19T10:48:54.197Z
 description: Uitdagende opdracht voor Scratch (Ruimte-avontuur)
 image: /uploads/ruimteschip.png
 next: test 3
-previous: Scratch-Opdracht "Ruimte-avontuur"
+previous: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 ---
 ## **UITDAGENDE OPDRACHT:**
 
