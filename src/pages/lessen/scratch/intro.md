@@ -6,7 +6,7 @@ draft: true
 date: 2019-05-18T19:35:21.532Z
 description: LES 1 - Ping-Pong spel
 image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
-next: Scratch-Opdracht "Ruimte-avontuur"
+next: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 ---
 # **LES 1:**
 
