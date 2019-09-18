@@ -26,4 +26,8 @@ Of haal de kat weg door met de rechtermuisknop op de kat te klikken en dan op ve
 
 
 
-Kies een leuke achtergrond en zoek in de sprite bibliotheek een bal.
+**Kies een leuke achtergrond en zoek in de sprite bibliotheek een bal.** 
+
+Hieronder zie je het begin van het script voor de bal. Het zorgt ervoor dat de bal vanuit het midden in een willekeurige richting gaat bewegen, en bij alle vier de randen terug stuitert. 
+
+![](/uploads/bal-codes.png)
