@@ -70,9 +70,6 @@ class NavbarComponent extends React.Component {
                         <NavItem eventKey={11} href="#tutorials">
                             Tutorials
                         </NavItem>
-                        <NavItem eventKey={11} href="#nieuws">
-                            Nieuws
-                        </NavItem>
                     </Nav> : null}
                     <Nav pullRight>
                         <NavItem componentClass={Link} type="button" href="/vrijwilligers" to="/vrijwilligers" eventKey={1}>

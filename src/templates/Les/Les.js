@@ -16,30 +16,7 @@ class LesTemplate extends React.Component {
 
   componentDidMount = () => {
     if (typeof window !== undefined) {
-      import('scratch-gui').then(scratchGui => {
-        const Scratch = scratchGui.default;
-        const { AppStateHOC,
-          setAppElement,
-          guiReducers,
-          guiInitialState,
-          guiMiddleware,
-          initEmbedded,
-          initPlayer,
-          initFullScreen,
-          initLocale,
-          localesInitialState,
-          remixProject,
-          setFullScreen,
-          setPlayer } = scratchGui;
 
-          this.setState({
-            s: AppStateHOC(props => {
-              return (
-                <Scratch />
-              );
-            })
-          });
-      });
     }
   }
 
@@ -49,7 +26,7 @@ class LesTemplate extends React.Component {
     const siteDescription = les.excerpt
     const { previous, next } = this.props.pageContext;
 
-    const Scratch = this.state.s;
+    console.log('prev next', this.props)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -102,7 +79,6 @@ class LesTemplate extends React.Component {
                   }
                 </li>
               </ul>
-              <Scratch />
             </Col>
           </Row>
         </Grid>

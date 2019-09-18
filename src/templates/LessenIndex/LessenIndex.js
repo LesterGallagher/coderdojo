@@ -17,7 +17,6 @@ class LessenIndex extends React.Component {
     const lessenIndex = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = lessenIndex.excerpt
-    const { previous, next } = this.props.pageContext
     const page = get(this, 'props.data.markdownRemark');
     const lesIntroducties = get(this, 'props.data.lesIntroducties.edges');
 
@@ -47,32 +46,7 @@ class LessenIndex extends React.Component {
               />
               <Bio />
 
-              <ul
-                style={{
-                  display: 'flex',
-                  flexWrap: 'wrap',
-                  justifyContent: 'space-between',
-                  listStyle: 'none',
-                  padding: 0,
-                }}
-              >
-                <li>
-                  {
-                    previous &&
-                    <Link to={previous.fields.slug} rel="prev">
-                      ← {previous.frontmatter.title}
-                    </Link>
-                  }
-                </li>
-                <li>
-                  {
-                    next &&
-                    <Link to={next.fields.slug} rel="next">
-                      {next.frontmatter.title} →
-                  </Link>
-                  }
-                </li>
-              </ul>
+
               <Reserveren />
             </Col>
           </Row>
@@ -119,8 +93,8 @@ query lesIndexBySlug($slug: String!) {
             description
             image {
                 childImageSharp {
-                    fixed(width: 700, height: 400, quality: 95) {
-                        ...GatsbyImageSharpFixed
+                    fluid(maxWidth: 700, quality: 95) {
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }

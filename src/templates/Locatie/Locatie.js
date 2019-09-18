@@ -16,7 +16,6 @@ class Locatie extends React.Component {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteDescription = get(this, 'props.data.site.siteMetadata.description');
     const page = this.props.data.markdownRemark
-    const { previous, next } = this.props.pageContext;
 
     const lessen = get(this, 'props.data.lesIntroducties.edges');
 
@@ -50,7 +49,7 @@ class Locatie extends React.Component {
 
               return (
                 <Col xs={12} sm={col} className={styles.m1} key={slug}>
-                  <LesModule title={title} link={slug} image={<Img style={{ maxWidth: '100%' }} fixed={image.childImageSharp.fixed} />}>
+                  <LesModule title={title} link={slug} image={<Img style={{ margin: '0 auto', maxWidth: '100%' }} fluid={image.childImageSharp.fluid} />}>
                     <p>{excerpt}</p>
                   </LesModule>
                 </Col>
@@ -100,8 +99,8 @@ query getPage($slug: String!, $title: String!) {
           description
           image {
             childImageSharp {
-              fixed(width: 600, height: 400) {
-                ...GatsbyImageSharpFixed
+              fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
               }
             }
           }

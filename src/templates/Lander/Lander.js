@@ -30,7 +30,6 @@ class Lander extends React.Component {
     const page = get(this, 'props.data.markdownRemark');
     const over = get(this, 'props.data.markdownRemark.frontmatter.over');
     const vrijwilligers = get(this, 'props.data.markdownRemark.frontmatter.vrijwilligers');
-    const nieuws = get(this, 'props.data.markdownRemark.frontmatter.nieuws');
     const watWeDoen = get(this, 'props.data.markdownRemark.frontmatter.watWeDoen');
 
     console.log(page);
@@ -70,7 +69,7 @@ class Lander extends React.Component {
               const { slug } = fields;
               return (
                 <Col key={key} className={globalStyles.textCenter} xs={12} sm={4}>
-                  <CoderDojoLocation title={title} link={slug} image={<Img style={{ width: '100%' }} fixed={image.childImageSharp.fixed} />}>
+                  <CoderDojoLocation title={title} link={slug} image={<Img style={{ width: '100%' }} fluid={image.childImageSharp.fluid} />}>
                     <div>{excerpt}</div>
                   </CoderDojoLocation>
                 </Col>
@@ -117,37 +116,6 @@ class Lander extends React.Component {
 
           </div>
           <LesModulesGrid />
-          <Row className={globalStyles.m1}>
-            <Col xs={12}>
-              <h2 id="nieuws" className={globalStyles.h1}>{nieuws.title}</h2>
-            </Col>
-          </Row>
-          <Row className={globalStyles.m1}>
-            <Col xs={12}>
-              <Bio />
-
-              {posts.map(({ node }) => {
-                const title = get(node, 'frontmatter.title') || node.fields.slug
-                return (
-                  <div key={node.fields.slug}>
-                    <h3>
-                      <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                        {title}
-                      </Link>
-                    </h3>
-                    <small>{node.frontmatter.date}</small>
-                    <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-                  </div>
-                )
-              })}
-            </Col>
-          </Row>
-
-          <Row className={globalStyles.m1}>
-            <Col xs={12}>
-              <h2 id="nieuws" className={globalStyles.h1}>{vrijwilligers.titel}</h2>
-            </Col>
-          </Row>
 
           <Row className={globalStyles.m1}>
             <Col xs={12} sm={10} md={8} lg={6} smOffset={1} mdOffset={2} lgOffset={3} className={globalStyles.textCenter}>
@@ -206,9 +174,6 @@ export const pageQuery = graphql`
         watWeDoen {
           title
         }
-        nieuws {
-          title
-        }
         over {
           text
           naam
@@ -245,8 +210,8 @@ export const pageQuery = graphql`
             title
             image {
               childImageSharp {
-                fixed(width: 690, height: 300, quality: 95) {
-                  ...GatsbyImageSharpFixed
+                fluid(quality: 95) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }

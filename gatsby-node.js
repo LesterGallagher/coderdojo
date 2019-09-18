@@ -38,7 +38,9 @@ exports.createPages = ({ graphql, actions }) => {
                     title
                     layout
                     title
-                    nextLessons
+                    nextLessons,
+                    next,
+                    previous
                   }
                 }
               }
@@ -56,8 +58,12 @@ exports.createPages = ({ graphql, actions }) => {
         const markdownFiles = result.data.allMarkdownRemark.edges;
 
         _.each(markdownFiles, (page, index) => {
-          const previous = index === markdownFiles.length - 1 ? null : markdownFiles[index + 1].node;
-          const next = index === 0 ? null : markdownFiles[index - 1].node;
+          const previousTitle = get(page, 'node.frontmatter.previous')
+          const previous = markdownFiles.find(m => m.node.frontmatter.title === previousTitle)
+          const nextTitle = get(page, 'node.frontmatter.next')
+          const next = markdownFiles.find(m => m.node.frontmatter.title === nextTitle)
+
+          console.log(previous, next)  
 
           let layout = page.node.frontmatter.layout;
 
@@ -74,8 +80,8 @@ exports.createPages = ({ graphql, actions }) => {
               title: get(page, 'node.frontmatter.title', ''),
               les: get(page, 'node.fields.les', ''),
               nextLessons: get(page, 'node.frontmatter.nextLessons', []),
-              previous,
-              next,
+              previous: get(previous, 'node'),
+              next: get(next, 'node'),
             },
           })
         })

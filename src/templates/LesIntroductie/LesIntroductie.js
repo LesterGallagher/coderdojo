@@ -16,8 +16,8 @@ class LesTemplate extends React.Component {
     const les = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
     const nextLessons = get(this.props, 'data.nextLessons.edges');
+    console.log(nextLessons)
     const siteDescription = les.excerpt
-    const { previous, next } = this.props.pageContext
 
     console.log(this.props.data);
 
@@ -46,32 +46,7 @@ class LesTemplate extends React.Component {
               />
               <Bio />
 
-              <ul
-                style={{
-                  display: 'flex',
-                  flexWrap: 'wrap',
-                  justifyContent: 'space-between',
-                  listStyle: 'none',
-                  padding: 0,
-                }}
-              >
-                <li>
-                  {
-                    previous &&
-                    <Link to={previous.fields.slug} rel="prev">
-                      ← {previous.frontmatter.title}
-                    </Link>
-                  }
-                </li>
-                <li>
-                  {
-                    next &&
-                    <Link to={next.fields.slug} rel="next">
-                      {next.frontmatter.title} →
-                                        </Link>
-                  }
-                </li>
-              </ul>
+
               <Reserveren />
             </Col>
           </Row>
@@ -89,7 +64,7 @@ class LesTemplate extends React.Component {
               console.log(les);
               return (
                 <Col key={slug} xs={12} sm={col}>
-                  <LesModule link={slug} title={title} image={<Img style={{ maxWidth: '100%' }} fixed={image.childImageSharp.fixed} />}>
+                  <LesModule link={slug} title={title} image={<Img style={{ margin: '0 auto', maxWidth: '100%' }} fluid={image.childImageSharp.fluid} />}>
                     <p>{excerpt}</p>
                   </LesModule>
                 </Col>
@@ -132,7 +107,7 @@ query lesIntroductieBySlug($slug: String!, $nextLessons: [String]!) {
         description
       }
     }
-    nextLessons: allMarkdownRemark(filter: {frontmatter: { layout: { eq: "Les" } title: {in: $nextLessons}}}, sort: {order: DESC, fields: [frontmatter___date]}) {
+    nextLessons: allMarkdownRemark(filter: {frontmatter: { layout: { eq: "Les" } title: {in: $nextLessons}}}) {
       edges {
         node {
           fields {
@@ -148,8 +123,8 @@ query lesIntroductieBySlug($slug: String!, $nextLessons: [String]!) {
             description
             image {
               childImageSharp {
-                fixed(width: 600, height: 400) {
-                  ...GatsbyImageSharpFixed
+                fluid(maxWidth: 600) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }

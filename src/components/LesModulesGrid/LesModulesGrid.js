@@ -31,8 +31,8 @@ export default props => {
               description
               image {
                   childImageSharp {
-                      fixed(width: 600, height: 300, quality: 95) {
-                          ...GatsbyImageSharpFixed
+                      fluid(quality: 95) {
+                          ...GatsbyImageSharpFluid
                       }
                   }
               }
@@ -51,11 +51,11 @@ export default props => {
         const { fields, frontmatter, excerpt, html } = node;
         const { slug } = fields;
         const { title, image } = frontmatter;
-        const fixed = image.childImageSharp.fixed;
+        const fluid = image.childImageSharp.fluid;
 
         return (
           <Col key={slug} xs={12} sm={4}>
-            <LesIntroductie link={slug} title={title} image={<Img objectPosition="50% 50%" objectFit="contain" style={{ width: '100%' }} fixed={fixed} />}>
+            <LesIntroductie link={slug} title={title} image={<Img objectPosition="50% 50%" objectFit="contain" style={{ margin: '0 auto', maxWidth: '100%', width: '100%' }} fluid={fluid} />}>
               {excerpt}
             </LesIntroductie>
           </Col>
