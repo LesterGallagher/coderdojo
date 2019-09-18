@@ -1,13 +1,10 @@
 ---
-title: Test
+title: Website maken - Test
 isIntro: true
 draft: false
 date: 2019-05-18T19:49:39.385Z
 description: Test
 image: /uploads/code-coding-conceptual-248515.jpg
-locaties:
-  - Oosterhout
-  - Raamsdonksveer
 ---
 
 Incididunt enim mollit aute exercitation voluptate aliqua cillum cupidatat consequat proident sunt consequat sit. Ad occaecat occaecat aliqua irure proident et. Cillum non elit anim veniam anim ex nostrud aliqua in incididunt. Excepteur ullamco in sunt quis. Esse tempor fugiat anim irure pariatur laboris do voluptate ex enim dolore esse. Pariatur consequat eiusmod laboris ipsum aliquip incididunt anim ex aliqua officia tempor id veniam.
