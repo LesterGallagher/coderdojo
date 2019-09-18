@@ -2,7 +2,7 @@
 title: Oosterhout
 layout: Locatie
 date: 2019-05-19T12:05:09.660Z
-description: Test
+description: Coderdojo
 image: /uploads/oosterhout.png
 ---
 ## **CODERDOJO** zal in Oosterhout plaatsvinden in de Bibliotheek.
