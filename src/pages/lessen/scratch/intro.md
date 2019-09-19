@@ -57,6 +57,10 @@ D**ie maak je met de knop “maak variabele” bij Data-blokken.**
 
  **Iedere keer nadat de bal beweegt wordt er gecontroleerd of de bal voorbij een van de twee batjes is gegaan. Als dat zo is krijgt een van de twee spelers een punt en gaat de bal terug naar het midden.** 
 
+![](/uploads/script-voor-de-score.png)
+
+
+
 
 
 
