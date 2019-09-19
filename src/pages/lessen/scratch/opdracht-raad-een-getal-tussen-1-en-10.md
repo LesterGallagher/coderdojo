@@ -7,7 +7,7 @@ date: 2019-09-04T15:22:57.581Z
 description: Raad getal tussen 1 en 10
 image: /uploads/rekenmachiene.png
 next: Scratch-Opdracht "Ruimte-avontuur"
-previous: Scratch Les 1
+previous: Scratch LES 2
 ---
 # \*\*\*\*\
 
