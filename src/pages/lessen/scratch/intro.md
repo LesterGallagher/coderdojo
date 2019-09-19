@@ -38,3 +38,8 @@ next: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 **Kijk naar het script hieronder:**
 
 ![](/uploads/scriot-badje.png)
+
+**Als je het batje af hebt kun je met het stempel een kopie maken, het tweede batje heeft hetzelfde uiterlijk en bijna hetzelfde script.** \
+**Zie hieronder hoe je maar drie dingen moet veranderen.** 
+
+![](/uploads/script-badje-2.png)
