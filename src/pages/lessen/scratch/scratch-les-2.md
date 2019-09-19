@@ -48,9 +48,11 @@ previous: Scratch Les 1
 
 ![](/uploads/blokje-6.png)
 
+**Je nieuw script ziet er nu zoals hieronder uit: In totaal heb je nu 4 scripts voor de bal.**
+
+![](/uploads/scorescript-2.png)
 
 
-****
 
 ****
 
