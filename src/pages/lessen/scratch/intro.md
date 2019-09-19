@@ -43,3 +43,11 @@ next: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 **Zie hieronder hoe je maar drie dingen moet veranderen.** 
 
 ![](/uploads/script-badje-2.png)
+
+**Hieronder staan twee scripts van de bal waarin de bal omkeert als een van de twee batjes wordt geraakt. De naam van de batjes kun je veranderen door op het blauwe balletje met i te klikken.** 
+
+![](/uploads/scripts-balletje.jpg)
+
+
+
+****
