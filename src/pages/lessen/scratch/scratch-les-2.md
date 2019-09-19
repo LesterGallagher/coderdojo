@@ -40,6 +40,10 @@ previous: Scratch Les 1
 
 ![](/uploads/blokje-4.png)
 
+**Zet nu in het als-dan blokje, het blokje dat je hieronder ziet, en klik op het driehoekje in dat blokje en kies dan voor: Paddle.**
+
+![](/uploads/blokje-5.png)
+
 
 
 ****
