@@ -67,7 +67,17 @@ _**(bestaand script voor de bal aanpassen)**_
 
 ![](/uploads/scriptblokje-aangepast.png)
 
+****
 
+**De bal een startpositie geven bij het starten van het spel** \
+**_(bestaan script voor de bal aanpassen)_**
+
+**We gaan hiervoor een blokje toevoegen aan een bestaand script.**\
+**Het gaat om het script waarin je aangeeft dat de bal moet bewegen en om moet keren aan de rand.**
+
+**Zet het onderstaande blokje boven het blokje Richt naar 45 graden.**
+
+****
 
 ****
 
