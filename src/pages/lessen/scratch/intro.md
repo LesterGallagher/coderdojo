@@ -32,5 +32,9 @@ next: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 
 ![](/uploads/badje.jpg)
 
-Het script van het batje zet eerst het batje aan de rand van het scherm. En “luistert” dan met twee als … dan … -blokjes of er op pijltje omhoog of pijltje omlaag wordt gedrukt. In Scratch gebruik je x voor links/rechts en y voor hoog/laag.  \
-Bij pijltje omhoog verander je y met 10, bij pijltje omlaag haal je er juist 10 vanaf.
+**Het script van het batje zet eerst het batje aan de rand van het scherm. En “luistert” dan met twee als … dan … -blokjes of er op pijltje omhoog of pijltje omlaag wordt gedrukt. In Scratch gebruik je x voor links/rechts en y voor hoog/laag.**  \
+**Bij pijltje omhoog verander je y met 10, bij pijltje omlaag haal je er juist 10 vanaf**
+
+**Kijk naar het script hieronder:**
+
+![](/uploads/scriot-badje.png)
