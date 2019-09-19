@@ -61,6 +61,12 @@ D**ie maak je met de knop “maak variabele” bij Data-blokken.**
 
 
 
+## **Als je alles begrepen hebt en alles gelukt is, kun je verder gaan met LES2, dat dit spelletje extra mogelijkheden gaat geven.**
+
+## **Succes**
+
+****
+
 
 
 
