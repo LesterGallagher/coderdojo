@@ -48,6 +48,17 @@ next: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 
 ![](/uploads/scripts-balletje.jpg)
 
+**Om de score bij te houden hebben we twee variabelen nodig.**\
+D**ie maak je met de knop “maak variabele” bij Data-blokken.** 
+
+ **Het script hieronder is een uitbreiding van het eerste script voor de bal.** 
+
+ **Na de groene vlag worden de scores op nul gezet.** 
+
+ **Iedere keer nadat de bal beweegt wordt er gecontroleerd of de bal voorbij een van de twee batjes is gegaan. Als dat zo is krijgt een van de twee spelers een punt en gaat de bal terug naar het midden.** 
+
+
+
 
 
 ****
