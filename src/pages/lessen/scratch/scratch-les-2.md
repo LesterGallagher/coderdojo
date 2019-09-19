@@ -44,6 +44,10 @@ previous: Scratch Les 1
 
 ![](/uploads/blokje-5.png)
 
+**Zet het stop-blokjr in het Als-Dan blok**
+
+![](/uploads/blokje-6.png)
+
 
 
 ****
