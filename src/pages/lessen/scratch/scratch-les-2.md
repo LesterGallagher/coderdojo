@@ -28,6 +28,10 @@ previous: Scratch Les 1
 
 ![](/uploads/blokje.png)
 
+**Zet dan dit onderstaande blokje onder het vorige.**
+
+![](/uploads/blokje-2.png)
+
 
 
 
