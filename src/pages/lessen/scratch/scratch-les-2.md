@@ -63,6 +63,10 @@ _**(bestaand script voor de bal aanpassen)**_
 
 ![](/uploads/kleurblokje.png)
 
+**Het script ziet er nu zo uit:**
+
+![](/uploads/scriptblokje-aangepast.png)
+
 
 
 ****
