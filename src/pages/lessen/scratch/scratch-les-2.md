@@ -32,9 +32,17 @@ previous: Scratch Les 1
 
 ![](/uploads/blokje-2.png)
 
+**Zet daaronder dan weer het herhaalblokje (zie het plaatje hieronder)**
+
+![](/uploads/blokje-3.png)
+
+**Zet in dat herhaalblokje het "Als..dan" blokje (zie hieronder).**
+
+![](/uploads/blokje-4.png)
 
 
 
+****
 
 ****
 
