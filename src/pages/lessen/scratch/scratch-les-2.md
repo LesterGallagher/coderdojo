@@ -52,6 +52,17 @@ previous: Scratch Les 1
 
 ![](/uploads/scorescript-2.png)
 
+**Zorgen dat de bal van kleur verandert als hij het groene plankje raakt** \
+_**(bestaand script voor de bal aanpassen)**_
+
+**We gaan hiervoor een blokje toevoegen aan een bestaand script.**
+
+**Het gaat om het script waarin je aangeeft dat de bal moet kaatsen als hij in aanraking komt met het groene plankje.**
+
+**Zet het onderstaande blokje  boven het Start geluid blokje.**
+
+![](/uploads/kleurblokje.png)
+
 
 
 ****
