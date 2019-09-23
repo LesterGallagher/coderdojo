@@ -247,3 +247,11 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 **Zet het blokje, zoals je hieronder ziet, bovenop het bestaande script.**
 
 ![](/uploads/blokje.png)
+
+**Als alles goed gegaan is ziet je script er nu zo uit:**
+
+![](/uploads/toon-script-8.png)
+
+****
+
+**In totaal heb je nu 4 scripts: 3 voor de bal en 1 voor het plankje.**
