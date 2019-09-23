@@ -1,5 +1,5 @@
 ---
-title: Scratch - LES 1 - Een Pong game maken
+title: 'Scratch - LES 1 '
 layout: Les
 isIntro: true
 draft: true
