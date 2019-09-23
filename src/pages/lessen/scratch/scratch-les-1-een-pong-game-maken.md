@@ -230,3 +230,7 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 **Sleep het blokje, zoals je hieronder ziet, naar het scriptveld.**
 
 ![](/uploads/stop.png)
+
+**Zet het blokje, zoals je hieronder ziet, er omheen.**
+
+![](/uploads/blokje-4.png)
