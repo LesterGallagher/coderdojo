@@ -168,6 +168,18 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 ![](/uploads/paddle-2.png)
 
+**Sleep het blokje, zoals je hieronder ziet, naar het scriptveld en zet het om je bestaande script heen.**
+
+![](/uploads/blokje-3.png)
+
+**Sleep het blokje, zoals je hieronder ziet, naar het scriptveld en zet het boven je gemaakte script.**
+
+![](/uploads/blokje.png)
+
+**Je hebt weer een nieuw script  gemaakt voor de bal en die ziet er nu zo uit:**
+
+![](/uploads/toon-script-6.png)
+
 
 
 ****
