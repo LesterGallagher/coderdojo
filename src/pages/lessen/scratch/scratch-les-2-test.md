@@ -97,9 +97,9 @@ previous: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 
 ![](/uploads/achtergrond-stars.png)
 
-## \*\*\*\*
+## 
 
-## **Tot sot is hier nog een link naar een uitgewerkt voorbeeld:** [**https://scratch.mit.edu/projects/205260541/editor**](https://scratch.mit.edu/projects/205260541/editor)\*\*\*\*
+**Tot sot is hier nog een link naar een uitgewerkt voorbeeld:** https://scratch.mit.edu/projects/205260541/
 
 - - -
 
