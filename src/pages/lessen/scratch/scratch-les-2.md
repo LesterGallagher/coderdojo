@@ -20,7 +20,8 @@ previous: 'Scratch - LES 1 '
 
 **Klik op Data en dan op Maak een Variabele.** \
 **Vul als naam Score in en klik op OK.**\
-**Je ziet nu dat er meerdere nieuwe opdrachten beschikbaar zijn.**
+
+**Je ziet nu dat er meerdere nieuwe opdrachten beschikbaar zijn.**
 
 ![](/uploads/variabele.png)
 
@@ -53,7 +54,7 @@ previous: 'Scratch - LES 1 '
 ![](/uploads/scorescript-2.png)
 
 **Zorgen dat de bal van kleur verandert als hij het groene plankje raakt** \
-_**(bestaand script voor de bal aanpassen)**_
+**_(bestaand script voor de bal aanpassen)_**
 
 **We gaan hiervoor een blokje toevoegen aan een bestaand script.**
 
@@ -67,17 +68,27 @@ _**(bestaand script voor de bal aanpassen)**_
 
 ![](/uploads/scriptblokje-aangepast.png)
 
-****
 
-**De bal een startpositie geven bij het starten van het spel** \
-**_(bestaan script voor de bal aanpassen)_**
+
+**De bal een startpositie geven bij het starten van het spel**
+
+**_(bestaan script voor de bal aanpassen)_
+**
 
 **We gaan hiervoor een blokje toevoegen aan een bestaand script.**\
-**Het gaat om het script waarin je aangeeft dat de bal moet bewegen en om moet keren aan de rand.**
+**Het gaat om het script waarin je aangeeft dat de bal moet bewegen en om moet keren aan de rand.**
 
-**Zet het onderstaande blokje boven het blokje Richt naar 45 graden.**
+**Zet het blokje, dat je hieronder ziet, boven het blokje "Richt naar 45 graden".**
 
-****
+![](/uploads/ga-naar.png)
+
+**Indien nodig pas de cijfers in het blokje aan.**
+
+**Je script ziet er als volgt uit:**
+
+![](/uploads/toon-script-9.png)
+
+
 
 ****
 
