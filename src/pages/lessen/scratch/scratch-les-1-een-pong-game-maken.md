@@ -102,7 +102,13 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 **een plankje toevoegen om de bal te kaatsen.**
 
-****
+**Klik bij Nieuwe Sprite op _Kies Sprite uit bibliotheek_.** \
+**Een nieuw scherm verschijnt. Klik bij categorie op Voorwerpen.** \
+**Scroll iets naar onder en klik op _Paddle_ en op OK.**
+
+![](/uploads/paddle.png)
+
+
 
 ****
 
