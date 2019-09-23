@@ -67,9 +67,18 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 ![](/uploads/toon-script-2.png)
 
+## **Stap 4 –** 
+
+**zorgen dat de script in een hoek beweegt (bestaand script voor de bal aanpassen)**
+
+**Om de bal schuin omhoog te laten bewegen, sleep je het blokje, zoals je hieronder ziet, naar het scriptveld en zet het bovenop het bestaande blokje.** 
+
+![](/uploads/richt-naar-graden.png)
 
 
 
+**Standaard staat 90 ingevuld. Dit kun je veranderen door er op te klikken.** \
+**Klik er op en maak er 45 van.**
 
 
 
