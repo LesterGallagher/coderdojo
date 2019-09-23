@@ -223,3 +223,10 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 **Trek een lijn onderin je achtergrond.**
 
 ![](/uploads/voorbeeld.png)
+
+**Klik op het tabblad Scripts en zorg dat de bal geselecteerd is.** \
+**We gaan weer een nieuw script maken voor de bal.**
+
+**Sleep het blokje, zoals je hieronder ziet, naar het scriptveld.**
+
+![](/uploads/stop.png)
