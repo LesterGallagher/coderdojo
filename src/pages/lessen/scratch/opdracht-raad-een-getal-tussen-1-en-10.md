@@ -9,8 +9,6 @@ image: /uploads/rekenmachiene.png
 next: Scratch-Opdracht "Ruimte-avontuur"
 previous: Scratch LES 2
 ---
-# \*\*\*\*\
-
 **UITDAGENDE OPDRACHT:**
 
 - - -
@@ -29,7 +27,7 @@ previous: Scratch LES 2
 
 **•	ALS HET GETAL GERADEN IS ZEGT DE SPRITE: BINGO.**
 
-## \*\*\*\*
+
 
 ## **Hieronder zie je een schema ( dit noemen we een: Programma Structuur Diagram - PSD), waarin je precies kunt zien wat het programma moet kunnen en wat er achter elkaar moet gebeuren.**
 
@@ -43,9 +41,15 @@ previous: Scratch LES 2
 
 .
 
-## **Hieronder staat de oplossing, maar probeer het eerst zelf. Dat is veel leuker en spannender. Niet te snel opgeven. Gewoon uitproberen. Je kunt meer dan je denkt en gebruik het schema hierboven goed!**
+.
 
-## ****
+.
+
+.
+
+.
+
+## **Hieronder staat de oplossing, maar probeer het eerst zelf. Dat is veel leuker en spannender. Niet te snel opgeven. Gewoon uitproberen. Je kunt meer dan je denkt en gebruik het schema hierboven goed!**
 
 .
 
@@ -67,15 +71,13 @@ previous: Scratch LES 2
 
 ## **Maak een sprite-figuur en geef die de volgend codes mee**
 
-# ****
+# 
 
 ![](/uploads/prite-giga.png)
 
 **Hier is het sprite Giga en die krijgt de onderstaande codes mee:**
 
 ![](/uploads/instructies-voor-sprite-giga-raden-getal.png)
-
-
 
 ## **Dit is een algoritme waarin zit:**
 
@@ -87,9 +89,9 @@ previous: Scratch LES 2
 
 ## **Er is bovendien een interactie met de speler door te reageren op zijn gegevens.**
 
-****
+- - -
 
-**Je kunt het programma zien op:** [**https://scratch.mit.edu/projects/202334528/**](https://scratch.mit.edu/projects/202334528/)****
+**Je kunt het programma zien op:** [**https://scratch.mit.edu/projects/202334528/**](https://scratch.mit.edu/projects/202334528/)
 
 - - -
 
@@ -100,5 +102,3 @@ previous: Scratch LES 2
 # 
 
 - - -
-
-# \*\*\*\*
