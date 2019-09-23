@@ -130,11 +130,15 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 
 
-Sleep het blokje  onder Gebeurtenissen (bruine 
+**Sleep het blokje, zoals je hieronder ziet, en dat onder Gebeurtenissen staat (bruine kleur), naar het scriptveld en zet het bovenop de bestaande script.**
 
+****
 
+![](/uploads/blokje.png)
 
-kleur) naar het scriptveld en zet het bovenop de bestaande script.
+**Je hebt nu een nieuw script gemaakt voor het plankje en dat ziet er zo uit:**
+
+![](/uploads/toon-script-5.png)
 
 
 
