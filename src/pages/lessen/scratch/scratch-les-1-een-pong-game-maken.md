@@ -82,6 +82,12 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 
 
+**Je script ziet er nu zo uit:**
+
+![](/uploads/toon-script-3.png)
+
+
+
 ****
 
 ****
