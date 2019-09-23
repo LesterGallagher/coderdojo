@@ -39,3 +39,19 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 **Sleep het blokje, zoals je hieronder ziet, naar rechts in het scriptveld.**
 
 ![](/uploads/neem-stappen.png)
+
+## **Stap 2 –** 
+
+**zorg dat de bal kaatst tegen de rand van het scherm (bestaand script voor de bal aanpassen)**
+
+**Sleep het blokje, zoals je hieronder ziet, naar rechts in het scriptveld.**
+
+![](/uploads/keer-om.png)
+
+****
+
+**Je script ziet er nu zo uit:**
+
+****
+
+****
