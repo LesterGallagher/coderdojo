@@ -239,3 +239,11 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 **En verander de kleur naar zwart (de kleur van de lijn die je hebt getrokken).** 
 
 ![](/uploads/raak-ik-kleur.png)
+
+**Zet het blokje, zoals je hieronder ziet, om je bestaande script heen.**
+
+![](/uploads/blokje-3.png)
+
+**Zet het blokje, zoals je hieronder ziet, bovenop het bestaande script.**
+
+![](/uploads/blokje.png)
