@@ -152,7 +152,11 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 ![](/uploads/draaio.png)
 
-****
+**Sleep het blokje, zoals je hieronder ziet, naar het scriptveld en zet het er onder.**
+
+![](/uploads/wacht.png)
+
+
 
 ****
 
