@@ -98,6 +98,12 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 ![](/uploads/toon-script-4.png)
 
+## **Stap 6 –** 
+
+**een plankje toevoegen om de bal te kaatsen.**
+
+****
+
 ****
 
 ****
