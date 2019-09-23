@@ -156,6 +156,10 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 ![](/uploads/wacht.png)
 
+**Sleep het blokje, zoals je hieronder ziet, en dat onder Besturen staat (gele kleur), naar het scriptveld en zet het om de andere 2 blokjes heen.**
+
+![](/uploads/blokje-4.png)
+
 
 
 ****
