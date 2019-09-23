@@ -54,6 +54,17 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 ![](/uploads/toon-script.png)
 
+## **Stap 3 –** 
+
+**de scripts altijd laten gelden (bestaand script aanpassen**
+
+**Sleep het blokje, zoals je hieronder ziet, naar het scriptveld en zet het om de 2 andere blokjes.** \
+**Het blokje vind je onder Besturen (gele kleur).**
+
+![](/uploads/blokje-3.png)
+
+
+
 
 
 ****
