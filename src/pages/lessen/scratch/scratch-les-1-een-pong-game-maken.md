@@ -11,12 +11,30 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 ## **Een Pong game maken**
 
-Haal de kat weg. Klik met de rechtermuisknop op de kat in het witte veld en klik met de linkermuisknop op verwijderen.
+**Bij dit spel doet de kat niet mee. We kunnen de kat met de schaar verwijderen.** \
+**Of haal de kat weg door met de rechtermuisknop op de kat te klikken en dan op verwijderen te klikken.**
 
-Klik bij Nieuwe Sprite op Kies Sprite uit bibliotheek. Een nieuw scherm verschijnt. Klik bij categorie op Voorwerpen. Selecteer een bal en klik op OK.
+![](/uploads/screen-shot-09-18-19-at-04.39-pm.png)
 
-Je ziet nu de bal in het witte scherm staan waar eerst de kat stond.
 
-Het witte scherm wordt ook wel voorbeeldscherm genoemd.
 
-Nu gaan we opdrachten geven aan de bal. Dat heet een script. Je sleept de opdrachten met je muis naar het scriptveld. Dat is het grijze veld rechts.
+**Klik bij Nieuwe Sprite op Kies Sprite uit bibliotheek. Een nieuw scherm verschijnt. Klik bij categorie op Voorwerpen. Selecteer een bal en klik op OK.**
+
+**Je ziet nu de bal in het witte scherm staan waar eerst de kat stond.**
+
+**Het witte scherm wordt ook wel voorbeeldscherm genoemd.**
+
+**Nu gaan we opdrachten geven aan de bal.** \
+**Dat heet een script.** 
+
+**Je sleept de opdrachten met je muis naar het scriptveld. Dat is het grijze veld rechts van de instructieblokjes.** 
+
+## **Scripts**
+
+## **Stap 1 –** 
+
+**zorg ervoor dat de bal beweegt (dit is dus een nieuw script voor de bal).** 
+
+**Sleep het blokje, zoals je hieronder ziet, naar rechts in het scriptveld.**
+
+![](/uploads/neem-stappen.png)
