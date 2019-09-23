@@ -110,6 +110,28 @@ previous: 'Scratch - LES 1 '
 **Maak er bijvoorbeeld 15 van.** \
 **Dit blokje moet je aanpassen in het bestaande script voor de bal.**
 
+**De richting van de bal onvoorspelbaarder maken** \
+**(bestaand script voor de bal aanpassen)**
+
+**Er zijn 2 momenten in het huidige script waar we de richting aangeven.** \
+**Die kunnen we allebei aanpassen.**
+
+**De eerste is bij de start van het spel. We hebben daar het blokje:**
+
+![](/uploads/richt-naar-graden.png)
+
+**We hebben 90 in 45 veranderd.**
+
+**Je kunt waar 90 staat ook een ander blokje in zetten, zoals bijvoorbeeld het volgende blokje:**
+
+![](/uploads/willekeurig-getal.png)
+
+
+
+****
+
+****
+
 ****
 
 ****
