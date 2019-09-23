@@ -216,4 +216,10 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 **zorg ervoor dat het spel stopt als de bal de onderkant aanraakt. (nieuw script voor de bal).**
 
-****
+**We gaan eerst op onze achtergrond een zwarte lijn tekenen.** 
+
+**Klik op tabblad** **_Achtergrond_.** \
+**Klik op het icoontje om een lijn te trekken en pas de lijnbreedte wat aan.** \
+**Trek een lijn onderin je achtergrond.**
+
+![](/uploads/voorbeeld.png)
