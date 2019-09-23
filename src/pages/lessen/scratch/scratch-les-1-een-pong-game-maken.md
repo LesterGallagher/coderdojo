@@ -190,7 +190,11 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 **Klik op het geluidje _Boing_ en klik op OK.** \
 **Klik op het tabblad Scripts.**
 
-****
+**Sleep nu het blokje, zoals je hieronder ziet, naar het scriptveld en zet het boven de draai 180 graden blokje.** 
+
+![](/uploads/geluid.png)
+
+
 
 ****
 
