@@ -234,3 +234,8 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 **Zet het blokje, zoals je hieronder ziet, er omheen.**
 
 ![](/uploads/blokje-4.png)
+
+**Zet het blokje, zoals je hieronder ziet, in het "Als.. dan" blokje .**\
+**En verander de kleur naar zwart (de kleur van de lijn die je hebt getrokken).** 
+
+![](/uploads/raak-ik-kleur.png)
