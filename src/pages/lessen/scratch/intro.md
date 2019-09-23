@@ -1,10 +1,10 @@
 ---
-title: Scratch Les 1
+title: Scratch Les 1&2 alternatief
 layout: Les
 isIntro: true
 draft: true
 date: 2019-05-18T19:35:21.532Z
-description: LES 1 - Ping-Pong spel
+description: Scratch Les 1&2 alternatief - Ping-Pong spel
 image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 next: Scratch LES 2
 ---
