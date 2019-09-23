@@ -88,7 +88,27 @@ previous: 'Scratch - LES 1 '
 
 ![](/uploads/toon-script-9.png)
 
+## **Het spel moeilijker maken**
 
+**Je kunt het spel op verschillende manieren moeilijker maken.**
+
+**Een manier is om de bal kleiner te maken. Dit doe je door op dit icoontje te klikken:**
+
+![](/uploads/screen-shot-09-23-19-at-05.40-pm.png)
+
+****
+
+**En daarna een paar keer op de bal te klikken.**
+
+**Je kunt ook het groene plankje kleiner maken. Hierdoor wordt het spel ook moeilijker. Het werkt op dezelfde manier als met de bal.**
+
+**Je kunt ook de snelheid van de bal veranderen.** \
+**Dit doe je door het getal te veranderen in het blokje:**
+
+![](/uploads/neem-stappen.png)
+
+**Maak er bijvoorbeeld 15 van.** \
+**Dit blokje moet je aanpassen in het bestaande script voor de bal.**
 
 ****
 
