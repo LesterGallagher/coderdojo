@@ -1,8 +1,8 @@
 ---
 introductieLes: Beginnen met Scratch - Les 1
 nextLessons:
-  - Scratch Les 1
   - Scratch LES 2
+  - Scratch Les 1&2 alternatief
   - 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
   - Scratch-Opdracht "Ruimte-avontuur"
 layout: LesIntroductie
