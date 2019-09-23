@@ -194,6 +194,10 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 ![](/uploads/geluid.png)
 
+**Als alles goed gegaan is ziet je script er nu zo uit:**
+
+![](/uploads/toon-script-7.png)
+
 
 
 ****
