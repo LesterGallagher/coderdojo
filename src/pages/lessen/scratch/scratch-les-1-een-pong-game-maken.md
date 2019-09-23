@@ -180,7 +180,13 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 ![](/uploads/toon-script-6.png)
 
+**Je hebt nu dus in totaal 2 scripts gemaakt voor de bal**
 
+## **Stap 9 –** 
+
+**een geluidje afspelen als de bal het groene plankje raakt (bestaand script voor de bal aanpassen)**
+
+****
 
 ****
 
