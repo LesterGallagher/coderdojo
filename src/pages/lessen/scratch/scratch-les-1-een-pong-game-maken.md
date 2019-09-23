@@ -140,7 +140,9 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 ![](/uploads/toon-script-5.png)
 
+_**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alleen van links naar rechts te besturen is en niet omhoog en omlaag. Sleep het groene plankje naar onderen, zodat het onderin blijft staan tijdens het spel.**_
 
+_****_
 
 ****
 
