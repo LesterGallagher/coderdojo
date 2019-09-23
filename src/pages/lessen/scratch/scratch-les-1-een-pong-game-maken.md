@@ -116,9 +116,25 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 **We gaan opdrachten toevoegen aan het groene plankje.** \
 **We gaan dus een nieuw script maken die geldt voor de bal. Indien nodig klik eerst op scripts. Kijk ook even of Paddle geselecteerd is. Deze is geselecteerd als er een blauw randje om heen zit.**
 
-**Sleep het blokje, zoals je hieronder ziet,  onder Beweging (blauwe kleur) naar het scriptveld.** 
+**Sleep het blokje, zoals je hieronder ziet, en dat onder Beweging (blauwe kleur) staat, naar het scriptveld.** 
 
 ![](/uploads/maak-x.png)
+
+**Sleep het blokje, zoals je hieronder ziet, en dat onder Waarnemen staat, in het blokje dat je zojuist geplaatst hebt en zet het op de plek waar de 0 staat.**
+
+![](/uploads/muis.png)
+
+**Sleep het blokje, zoals je hieronder ziet, en dat onder Besturen staat (gele kleur), naar het scriptveld en zet het blokje er om heen**.
+
+![](/uploads/blokje-3.png)
+
+
+
+Sleep het blokje  onder Gebeurtenissen (bruine 
+
+
+
+kleur) naar het scriptveld en zet het bovenop de bestaande script.
 
 
 
