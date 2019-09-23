@@ -113,7 +113,16 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 **zorg dat het plankje te besturen is met de muis (nieuw script voor het plankje)**
 
-**We gaan opdrachten toevoegen aan het groene plankje. We gaan dus een nieuw script maken die geldt voor de bal. Indien nodig klik eerst op scripts. Kijk ook even of Paddle geselecteerd is. Deze is geselecteerd als er een blauw randje om heen zit.**
+**We gaan opdrachten toevoegen aan het groene plankje.** \
+**We gaan dus een nieuw script maken die geldt voor de bal. Indien nodig klik eerst op scripts. Kijk ook even of Paddle geselecteerd is. Deze is geselecteerd als er een blauw randje om heen zit.**
+
+**Sleep het blokje, zoals je hieronder ziet,  onder Beweging (blauwe kleur) naar het scriptveld.** 
+
+![](/uploads/maak-x.png)
+
+
+
+****
 
 ****
 
