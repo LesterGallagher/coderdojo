@@ -160,6 +160,14 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 ![](/uploads/blokje-4.png)
 
+**Sleep het blokje, zoals je hieronder ziet, en dat onder Waarnemen staat (licht blauwe kleur), naar het scriptveld en plaats het blokje in het blokje van Als dan. Tussen de woorden "als" en "dan".**
+
+![](/uploads/raak-ik.png)
+
+**En kies bij het driehoekje voor Paddle.** 
+
+![](/uploads/paddle-2.png)
+
 
 
 ****
