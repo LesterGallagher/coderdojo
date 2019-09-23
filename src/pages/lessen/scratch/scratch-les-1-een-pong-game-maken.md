@@ -146,7 +146,11 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 **zorg er nu voor dat de bal kaatst op het plankje (nieuw script voor de bal).**
 
-****
+**We gaan nu een 2e script maken voor de bal. Controleer of de bal is geselecteerd.**
+
+**Sleep het blokje, zoals je hieronder ziet, naar het scriptveld en verander 15 in 180.**
+
+![](/uploads/draaio.png)
 
 ****
 
