@@ -8,16 +8,15 @@ description: Scratch - LES 1 - Een Ping Pong spel
 image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 next: Scratch LES 2
 ---
-## **Scratch - LES 1** 
+## **Scratch - LES 1**
 
 ## **Een Pong game maken**
 
 **Bij dit spel doet de kat niet mee. We kunnen de kat met de schaar verwijderen.** \
-**Of haal de kat weg door met de rechtermuisknop op de kat te klikken en dan op verwijderen te klikken.**
+
+**Of haal de kat weg door met de rechtermuisknop op de kat te klikken en dan op verwijderen te klikken.**
 
 ![](/uploads/screen-shot-09-18-19-at-04.39-pm.png)
-
-
 
 **Klik bij Nieuwe Sprite op Kies Sprite uit bibliotheek. Een nieuw scherm verschijnt. Klik bij categorie op Voorwerpen. Selecteer een bal en klik op OK.**
 
@@ -32,7 +31,7 @@ next: Scratch LES 2
 
 ## **Scripts**
 
-## **Stap 1 –** 
+## **Stap 1 –**
 
 **zorg ervoor dat de bal beweegt (dit is dus een nieuw script voor de bal).** \
 **Scripts voor bewegen vind je onder Beweging (blauwe kleur).**
@@ -41,7 +40,7 @@ next: Scratch LES 2
 
 ![](/uploads/neem-stappen.png)
 
-## **Stap 2 –** 
+## **Stap 2 –**
 
 **zorg dat de bal kaatst tegen de rand van het scherm (bestaand script voor de bal aanpassen)**
 
@@ -49,13 +48,13 @@ next: Scratch LES 2
 
 ![](/uploads/keer-om.png)
 
-****
+- - -
 
 **Je script ziet er nu zo uit:**
 
 ![](/uploads/toon-script.png)
 
-## **Stap 3 –** 
+## **Stap 3 –**
 
 **de scripts altijd laten gelden (bestaand script aanpassen**
 
@@ -68,7 +67,7 @@ next: Scratch LES 2
 
 ![](/uploads/toon-script-2.png)
 
-## **Stap 4 –** 
+## **Stap 4 –**
 
 **zorgen dat de script in een hoek beweegt (bestaand script voor de bal aanpassen)**
 
@@ -76,18 +75,15 @@ next: Scratch LES 2
 
 ![](/uploads/richt-naar-graden.png)
 
-
-
 **Standaard staat 90 ingevuld. Dit kun je veranderen door er op te klikken.** \
-**Klik er op en maak er 45 van.**
 
-
+**Klik er op en maak er 45 van.**
 
 **Je script ziet er nu zo uit:**
 
 ![](/uploads/toon-script-3.png)
 
-## **Stap 5 –** 
+## **Stap 5 –**
 
 **het spel laten beginnen als je op de groene vlag klikt (bestaand script voor de bal aanpassen).** 
 
@@ -99,7 +95,7 @@ next: Scratch LES 2
 
 ![](/uploads/toon-script-4.png)
 
-## **Stap 6 –** 
+## **Stap 6 –**
 
 **een plankje toevoegen om de bal te kaatsen.**
 
@@ -110,7 +106,7 @@ next: Scratch LES 2
 
 ![](/uploads/paddle.png)
 
-## **Stap 7 –** 
+## **Stap 7 –**
 
 **zorg dat het plankje te besturen is met de muis (nieuw script voor het plankje)**
 
@@ -125,15 +121,17 @@ next: Scratch LES 2
 
 ![](/uploads/muis.png)
 
-**Sleep het blokje, zoals je hieronder ziet, en dat onder Besturen staat (gele kleur), naar het scriptveld en zet het blokje er om heen**.
+\*\*Sleep het blokje, zoals je hieronder ziet, en dat onder Besturen staat (gele kleur), naar het scriptveld 
+
+en zet het blokje er om heen\*\*.
 
 ![](/uploads/blokje-3.png)
 
+\*\*Sleep het blokje, zoals je hieronder ziet, en dat onder Gebeurtenissen staat (bruine 
 
+kleur), naar het scriptveld en zet het bovenop de bestaande script.\*\*
 
-**Sleep het blokje, zoals je hieronder ziet, en dat onder Gebeurtenissen staat (bruine kleur), naar het scriptveld en zet het bovenop de bestaande script.**
-
-****
+- - -
 
 ![](/uploads/blokje.png)
 
@@ -141,9 +139,9 @@ next: Scratch LES 2
 
 ![](/uploads/toon-script-5.png)
 
-_**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alleen van links naar rechts te besturen is en niet omhoog en omlaag. Sleep het groene plankje naar onderen, zodat het onderin blijft staan tijdens het spel.**_
+**_Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alleen van links naar rechts te besturen is en niet omhoog en omlaag. Sleep het groene plankje naar onderen, zodat het onderin blijft staan tijdens het spel._**
 
-## **Stap 8 –** 
+## **Stap 8 –**
 
 **zorg er nu voor dat de bal kaatst op het plankje (nieuw script voor de bal).**
 
@@ -183,7 +181,7 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 **Je hebt nu dus in totaal 2 scripts gemaakt voor de bal**
 
-## **Stap 9 –** 
+## **Stap 9 –**
 
 **een geluidje afspelen als de bal het groene plankje raakt (bestaand script voor de bal aanpassen)**
 
@@ -201,9 +199,9 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 **Elke keer als de bal het plankje raakt wordt het geluid afgespeeld.**
 
-****
+- - -
 
-## **Stap 10 –** 
+## **Stap 10 –**
 
 **een achtergrond toevoegen.**
 
@@ -211,9 +209,9 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 **En klik op _Brick wall1_ en klik op OK.**
 
-****
+- - -
 
-## **Stap 11 –** 
+## **Stap 11 –**
 
 **zorg ervoor dat het spel stopt als de bal de onderkant aanraakt. (nieuw script voor de bal).**
 
@@ -253,6 +251,11 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 ![](/uploads/toon-script-8.png)
 
-****
+- - -
 
 **In totaal heb je nu 4 scripts: 3 voor de bal en 1 voor het plankje.**
+
+**Je kunt de scripts en de werking zien op de onderstaande link.**\
+Maar....... Probeer eerst zelf zover te komen dat alles werkt. Niet te snel opgeven!
+
+**https://scratch.mit.edu/projects/330867915/**
