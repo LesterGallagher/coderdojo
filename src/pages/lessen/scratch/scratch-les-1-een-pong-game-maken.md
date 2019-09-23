@@ -86,7 +86,17 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 ![](/uploads/toon-script-3.png)
 
+## **Stap 5 –** 
 
+**het spel laten beginnen als je op de groene vlag klikt (bestaand script voor de bal aanpassen).** 
+
+**Sleep het blokje, zoals je hieronder ziet, naar het scriptveld en zet het boven op het bestaande blokje.**
+
+![](/uploads/blokje.png)
+
+**Je hebt nu één script gemaakt voor de bal en die ziet er nu als volgt uit:**
+
+![](/uploads/toon-script-4.png)
 
 ****
 
