@@ -51,24 +51,21 @@ next: Scratch LES 2
 **Om de score bij te houden hebben we twee variabelen nodig.**\
 D**ie maak je met de knop “maak variabele” bij Data-blokken.** 
 
- **Het script hieronder is een uitbreiding van het eerste script voor de bal.** 
+**Het script hieronder is een uitbreiding van het eerste script voor de bal.** 
 
- **Na de groene vlag worden de scores op nul gezet.** 
+**Na de groene vlag worden de scores op nul gezet.** 
 
- **Iedere keer nadat de bal beweegt wordt er gecontroleerd of de bal voorbij een van de twee batjes is gegaan. Als dat zo is krijgt een van de twee spelers een punt en gaat de bal terug naar het midden.** 
+**Iedere keer nadat de bal beweegt wordt er gecontroleerd of de bal voorbij een van de twee batjes is gegaan. Als dat zo is krijgt een van de twee spelers een punt en gaat de bal terug naar het midden.** 
 
 ![](/uploads/script-voor-de-score.png)
 
+**Als je dit project wilt zien (scripts en hoe het werkt) dan kun je naar onderstaande link gaan.** \
+**Maar........probeer eerst zelf of je alles zonder te "spieken" kunt maken.** 
 
-
-## **Als je alles begrepen hebt en alles gelukt is, kun je verder gaan met LES2, dat dit spelletje extra mogelijkheden gaat geven.**
+**https://scratch.mit.edu/projects/196798874**/
 
 ## **Succes**
 
-****
+- - -
 
-
-
-
-
-****
+- - -
