@@ -198,10 +198,22 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 ![](/uploads/toon-script-7.png)
 
+**Elke keer als de bal het plankje raakt wordt het geluid afgespeeld.**
 
+****
+
+## **Stap 10 –** 
+
+**een achtergrond toevoegen.**
+
+**Klik op link onderin bij _Nieuwe achtergrond_ en Kies _achtergrond uit bibliotheek_.** 
+
+**En klik op _Brick wall1_ en klik op OK.**
 
 ****
 
-****
+## **Stap 11 –** 
+
+**zorg ervoor dat het spel stopt als de bal de onderkant aanraakt. (nieuw script voor de bal).**
 
 ****
