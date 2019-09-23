@@ -186,6 +186,10 @@ _**Door Muis x in Maak x 0 te zetten, zorg je ervoor dat het groene plankje alle
 
 **een geluidje afspelen als de bal het groene plankje raakt (bestaand script voor de bal aanpassen)**
 
+**Klik op het tabblad _Geluiden_ en klik dan op Kies geluid uit bibliotheek.** \
+**Klik op het geluidje _Boing_ en klik op OK.** \
+**Klik op het tabblad Scripts.**
+
 ****
 
 ****
