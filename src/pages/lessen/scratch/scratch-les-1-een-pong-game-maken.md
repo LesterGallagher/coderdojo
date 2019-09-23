@@ -33,7 +33,8 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 ## **Stap 1 –** 
 
-**zorg ervoor dat de bal beweegt (dit is dus een nieuw script voor de bal).** 
+**zorg ervoor dat de bal beweegt (dit is dus een nieuw script voor de bal).** \
+**Scripts voor bewegen vind je onder Beweging (blauwe kleur).**
 
 **Sleep het blokje, zoals je hieronder ziet, naar rechts in het scriptveld.**
 
