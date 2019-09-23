@@ -104,13 +104,16 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 
 **Klik bij Nieuwe Sprite op _Kies Sprite uit bibliotheek_.** \
 **Een nieuw scherm verschijnt. Klik bij categorie op Voorwerpen.** \
-**Scroll iets naar onder en klik op _Paddle_ en op OK.**
+**Scroll iets naar onder en klik op _Paddle_ en op OK.**\
+**De Paddle verschijnt dan in het witte scherm.**
 
 ![](/uploads/paddle.png)
 
+## **Stap 7 –** 
 
+**zorg dat het plankje te besturen is met de muis (nieuw script voor het plankje)**
 
-****
+**We gaan opdrachten toevoegen aan het groene plankje. We gaan dus een nieuw script maken die geldt voor de bal. Indien nodig klik eerst op scripts. Kijk ook even of Paddle geselecteerd is. Deze is geselecteerd als er een blauw randje om heen zit.**
 
 ****
 
