@@ -142,4 +142,6 @@ _**(bestaand script voor de bal aanpassen)**_
 
 **Je kunt de scripts en werking bekijken op de onderstaande site, maar doe dat pas als je zelf alles gemaakt hebt!**
 
-****[**https://scratch.mit.edu/projects/330867915/**](https://scratch.mit.edu/projects/330867915/)****
+**https://scratch.mit.edu/projects/330867915/**
+
+****
