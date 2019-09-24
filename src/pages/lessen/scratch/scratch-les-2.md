@@ -133,3 +133,9 @@ _**(bestaand script voor de bal aanpassen)**_
 **Het script ziet er dan als volgt uit:**
 
 ![](/uploads/toon-script-11.png)
+
+
+
+## **Als dit allemaal goed gelukt is ben je klaar om één van de opdrachten te doen.**
+
+**Succes.**
