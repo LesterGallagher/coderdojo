@@ -8,6 +8,6 @@ description: Introductie
 image: /uploads/arduino.jpg
 nextLessons:
   - Arduino introductie
-  - Les 2
+  - Les 1
 ---
 Hier komt de introductie van ARDUINO
