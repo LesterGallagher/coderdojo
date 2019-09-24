@@ -54,7 +54,7 @@ previous: 'Scratch - LES 1 '
 ![](/uploads/scorescript-2.png)
 
 **Zorgen dat de bal van kleur verandert als hij het groene plankje raakt** \
-**_(bestaand script voor de bal aanpassen)_**
+_**(bestaand script voor de bal aanpassen)**_
 
 **We gaan hiervoor een blokje toevoegen aan een bestaand script.**
 
@@ -67,8 +67,6 @@ previous: 'Scratch - LES 1 '
 **Het script ziet er nu zo uit:**
 
 ![](/uploads/scriptblokje-aangepast.png)
-
-
 
 **De bal een startpositie geven bij het starten van het spel**
 
@@ -96,7 +94,7 @@ previous: 'Scratch - LES 1 '
 
 ![](/uploads/screen-shot-09-23-19-at-05.40-pm.png)
 
-****
+- - -
 
 **En daarna een paar keer op de bal te klikken.**
 
@@ -126,12 +124,6 @@ previous: 'Scratch - LES 1 '
 
 ![](/uploads/willekeurig-getal.png)
 
+**Je bestaande script komt er dan als volgt uit te zien:**
 
-
-****
-
-****
-
-****
-
-****
+![](/uploads/toon-script-10.png)
