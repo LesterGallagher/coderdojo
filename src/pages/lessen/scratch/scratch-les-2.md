@@ -127,3 +127,9 @@ _**(bestaand script voor de bal aanpassen)**_
 **Je bestaande script komt er dan als volgt uit te zien:**
 
 ![](/uploads/toon-script-10.png)
+
+**Dit kun je ook doen bij het script waarin je aangeeft dat de bal 180 graden moet draaien als de bal het groene plankje raakt.**
+
+**Het script ziet er dan als volgt uit:**
+
+![](/uploads/toon-script-11.png)
