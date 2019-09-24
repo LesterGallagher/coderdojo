@@ -6,7 +6,7 @@ draft: false
 date: 2019-05-18T18:34:05.383Z
 description: Voorbeeld
 image: /uploads/arduino.jpg
-next: Les 2
+next: Arduino introductie
 ---
 De Arduino lessen komen hier te staan.
 
