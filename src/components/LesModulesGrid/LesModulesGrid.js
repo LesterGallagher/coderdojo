@@ -17,7 +17,7 @@ export default props => {
           author
         }
       }
-      lesIntroducties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {layout: {eq: "LesIntroductie"}}}) {
+      lesIntroducties: allMarkdownRemark(filter: {frontmatter: {layout: {eq: "LesIntroductie"}}}) {
         edges {
           node {
             fields {

@@ -15,8 +15,10 @@ class LesTemplate extends React.Component {
   render() {
     const les = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
-    const nextLessons = get(this.props, 'data.nextLessons.edges');
-    console.log(nextLessons)
+    const nextLessonsUnordered = get(this.props, 'data.nextLessons.edges');
+    const nextLessons = this.props.data.markdownRemark.frontmatter.nextLessons.map(title => {
+      return nextLessonsUnordered.find(x => x.node.frontmatter.title === title)
+    })
     const siteDescription = les.excerpt
 
     console.log(this.props.data);

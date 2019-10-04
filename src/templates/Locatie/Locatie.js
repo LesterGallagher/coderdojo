@@ -81,8 +81,7 @@ query getPage($slug: String!, $title: String!) {
       date(formatString: "MMMM DD, YYYY")
     }
   }
-  lesIntroducties: allMarkdownRemark(sort: {
-    order: DESC, fields: [frontmatter___date]}, filter: {
+  lesIntroducties: allMarkdownRemark(filter: {
       frontmatter: {locaties: {eq:$title}, layout: {eq: "LesIntroductie"}}}) {
     edges {
       node {

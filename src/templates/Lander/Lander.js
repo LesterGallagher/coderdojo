@@ -198,7 +198,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    locaties: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(locaties)/.*\\.md$/"}}) {
+    locaties: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(locaties)/.*\\.md$/"}}) {
       edges {
         node {
           fields {
@@ -220,7 +220,7 @@ export const pageQuery = graphql`
       }
     }
     
-    posts: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: "/(posts)/.*\\.md$/"}}) {
+    posts: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(posts)/.*\\.md$/"}}) {
       edges {
         node {
           excerpt
