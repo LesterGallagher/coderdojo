@@ -6,7 +6,7 @@ draft: true
 date: 2019-09-19T13:06:12.931Z
 description: LES 2 - Ping-Pong spel - vervolg
 image: /uploads/screen-shot-09-24-19-at-02.55-pm.png
-next: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
+next: Scratch LES 3
 previous: 'Scratch - LES 1 '
 ---
 ## **LES 2**
