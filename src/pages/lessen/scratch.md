@@ -6,6 +6,7 @@ nextLessons:
   - Scratch Les 1&2 alternatief
   - 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
   - Scratch-Opdracht "Ruimte-avontuur"
+  - Scratch LES 3
 layout: LesIntroductie
 locaties:
   - Oosterhout
