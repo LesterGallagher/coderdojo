@@ -268,4 +268,17 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 **Maar als je jouw 3 levens hebt opgebruikt, krijg je wel mooi de tweede achtergrond met de tekst te zien, maar gaat het spel gewoon verder. We moeten er nu dus nog voor zorgen dat het spel dan zelf stopt.**
 
-**Daarvoor gaan we naar de sprite “Crab”.**
+**Daarvoor gaan we naar de sprite “Crab”.**\
+**Neem een “_Stop Alle_” blokje uit “Besturen” en plaats dat onderaan in het blokje waar staat: “Als leven = 0 “ .**
+
+**Het script van de Crab ziet er nu zo uit:**
+
+![](/uploads/script-voor-crab-2.png)
+
+
+
+****
+
+****
+
+****
