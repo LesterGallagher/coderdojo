@@ -67,3 +67,13 @@ previous: Scratch LES 2
 **Klik dan op het driehoekje naast het woord Vulling en schuif het rondje op de balk bij kleur zover naar links of rechts tot je kleur no 18 hebt. De gele kleur. Klik dan op de rode appel en je ziet dat die appel een gele kleur krijgt i.p.v. rood.**
 
 ![](/uploads/appelkleur-veranderen.png)
+
+**We willen straks misschien het uiterlijk van de sprite apple kunnen laten veranderen. Daarom maken we een tweede uiterlijk door in het tabblad Uiterlijk op de sprite van de apple te klikken en dan op “dupliceren” te klikken.**
+
+![](/uploads/appel-kopieren.png)
+
+**Je hebt nu de sprite-uiterlijken  Apple en Apple2 van de sprite Aplle.**
+
+**We passen het eerste uiterlijk van Apple aan en maken die groen. Nu heeft de sprite Apple dus 2 uiterlijken. Een groene kleur en een gele.**
+
+![](/uploads/appel-2maal.png)
