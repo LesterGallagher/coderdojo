@@ -34,7 +34,7 @@ previous: Scratch LES 2
 
 **Neem nu het blokje: “_neem 10 stappen_” uit “bewegen” en plaats dat in het “als..dan” blokje.** 
 
-****
+- - -
 
 **Als het goed is ziet jouw script van de crab er nu zo uit:**
 
@@ -47,3 +47,14 @@ previous: Scratch LES 2
 **Jouw script ziet er nu als volgt uit:**
 
 ![](/uploads/script-pijltjes2.png)
+
+**De crab hoeft alleen onderaan te bewegen en dan is het handig als je bij het starten van het spel, de crab meteen op de goede plaats zet. Midden onderaan.**
+
+**Als er op de vlag geklikt wordt moet hij naar midden onderaan, en dat wordt gedaan door de x-coördinaat en de y-coördinaat.**  
+
+**Plaats het bokje: “_Ga naar x 33  y -156”_** **uit “bewegen” meteen onder het blokje “wanneer op de groene vlag wordt geklikt” en boven het blokje “herhaal”.** 
+
+**Als je nu op de groene vlag klikt staat de crab meteen op de juiste plek en kun je met de pijltjes toetsen de crab naar links en rechts bewegen.**
+
+**We gaan nu de sprite voor appeltjes toevoegen.**\
+**Ga daarvoor naar het vak waar de sprite crab staat, en klik dan weer op de sprite met het + teken, rechts onderaan in dat vak. Er verschijnt een bibliotheek met allemaal sprite figuren. Zoek naar “apple” en laat deze in het programma door er met de linker muisknop op te klikken. We maken deze apple meteen een stuk kleiner (anders wordt die wel heel makkelijk gevangen). We maken de apple ook de helft kleiner. Van 110 naar 50.**
