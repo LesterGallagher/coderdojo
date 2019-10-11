@@ -204,3 +204,16 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 **Je komt dan in het script veld van de achtergrond.**
 
 **Sleep het blokje: “_Als er op de groene vlag wordt geklikt_” uit gebeurtenissen, naar het scriptveld. Sleep het blokje “_verander achtergrond naar Desert2_” uit “uiterlijken” naar dit script veld en plak dit blokje aan het blokje “Als er op de groene vlag wordt geklikt”. Klik op het driehoekje achter het woord “Desert2” en kies dan voor “Desert”. (Als “Desert” daar al staat kun je dat natuurlijk gewoon laten staan.**
+
+
+
+**Bij de Crab moeten we ook het script nu wat aanpassen.** \
+**Klik op de sprite “Crab” (rechts onderaan) en het script veld van de Crab verschijnt.** 
+
+**Neem een blokje “_Als…dan_” uit “besturen” en plaats dat onderaan binnen het herhaal blok. (Dit wordt nu de 3e Als...dan  constructie binnen dit herhaal blok.)** 
+
+**Neem nu het blokje “_0 = 50_** **“ uit “Functies” en plaats dit blokje op de plek tussen de woorden “Als” en “dan” . Plaats op de O de variabele “levens” en maak van 50: 0. Er staat dan in die regel: “**Als levens = 0 dan**” .**
+
+**Neem nu het blokje “_verander achtergrond naar desert2_” uit “uiterlijken” en plaats dat in de lege regel in dat “Als…dan” blok.** 
+
+**Het script van de crab ziet er nu zo uit:**
