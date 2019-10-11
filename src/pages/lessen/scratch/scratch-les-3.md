@@ -197,3 +197,10 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 **Zorg er dan voor dat de vulling de kleur rood heeft (of een andere kleur als je dat mooier vindt) en klik dan op de T om een tekst te kunnen maken. Maak dan de tekst “END OF THE GAME   GAME OVER” . Dus Desert2 gebruiken we om als achtergrond te dienen als het spel is afgelopen.**
 
 ![](/uploads/end-of-the-game.png)
+
+De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen als je dat wilt.**
+
+**Vanuit de achtergrond klik je nu op het tabblad “Code”.** \
+**Je komt dan in het script veld van de achtergrond.**
+
+**Sleep het blokje: “_Als er op de groene vlag wordt geklikt_” uit gebeurtenissen, naar het scriptveld. Sleep het blokje “_verander achtergrond naar Desert2_” uit “uiterlijken” naar dit script veld en plak dit blokje aan het blokje “Als er op de groene vlag wordt geklikt”. Klik op het driehoekje achter het woord “Desert2” en kies dan voor “Desert”. (Als “Desert” daar al staat kun je dat natuurlijk gewoon laten staan.**
