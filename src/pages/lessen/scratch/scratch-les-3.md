@@ -77,3 +77,19 @@ previous: Scratch LES 2
 **We passen het eerste uiterlijk van Apple aan en maken die groen. Nu heeft de sprite Apple dus 2 uiterlijken. Een groene kleur en een gele.**
 
 ![](/uploads/appel-2maal.png)
+
+**De appel moet gaan vallen van boven naar beneden en hij moet op een willekeurige plek verschijnen bovenaan.** 
+
+**We gaan terug naar het tabblad Code** \
+**en brengen in het scriptveld van Apple de blokken “_Wanneer op de groene vlag wordt geklikt_” en “_herhaal_” zoals we dat in het scriptveld van Crab hebben gedaan.** 
+
+**Breng nu het blokje: “_Verander y met 10” van “beweging_” in het blokje “Herhaal” en verander het getal 10 in -3.  (-3 geeft de snelheid van vallen aan. -4 is sneller, -5 is nog sneller enz.).** 
+
+**De appel moet wel altijd bovenaan beginnen en ook nog op een willekeurige plek als er op de groene vlag wordt geklikt. Dus we brengen in het scriptveld van Apple weer een blokje “_Wanneer op de groene vlag wordt geklikt_” aan en plak daaronder het blokje “_Ga naar x 210 en y 261_” Maar die x-coördinaat moet steeds anders zijn (Ergens bovenaan links of rechts). Plaats daarom het blokje “_Willekeurig getal tussen 1 en 10_” op de plaats van het getal dat achter x staat. Dan gaan we de getallen 1 en 10 aanpassen. Je begint links met -220 tot helemaal rechts 220. Verander dus de1 in -220 en de 10 in 220. Dus ergens tussen die 2 getallen, -220 (helemaal links) en 220 (helemaal rechts) moet de appel bovenaan verschijnen.** 
+
+**Als de appel helemaal beneden komt, moet hij weer bovenaan opnieuw beginnen. Dit gaan we inbouwen met een “Als...dan” blokje. Zet een “_Als...dan_” blokje uit “besturen” in het script binnen het “herhaal” blokje onder “verander y met -3”.**
+
+**Tussen de woorden “als” en “dan” zetten we een functie. We halen het blokje “_O < 50_** **“ (dat betekent dat wat je bij het O invoert, kleiner moet zijn dan 50) uit “functie” en plaatsen dat op de plek tussen de woorden “als” en “dan”.  In het rondje wordt nu het blokje “_y-positie_” uit “beweging” geplaatst. Er staat nu dus: “**Als de y-positie kleiner is dan 50, dan**”.** \
+**Nu moet je nog zeggen wat er dan moet gebeuren. De appel moet weer naar een willekeurige plaats bovenaan, zoals aan het begin van het spel. Kopieer daarom het script dat je daarvoor al gemaakt hebt ( ga naar x willekeurig getal tussen -220 2n 220 y 180) naar dit “als…dan” blokje en plaats het in de lege regel onder “als...**
+
+****
