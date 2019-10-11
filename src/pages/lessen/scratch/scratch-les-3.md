@@ -57,7 +57,8 @@ previous: Scratch LES 2
 **Als je nu op de groene vlag klikt staat de crab meteen op de juiste plek en kun je met de pijltjes toetsen de crab naar links en rechts bewegen.**
 
 **We gaan nu de sprite voor appeltjes toevoegen.**\
-**Ga daarvoor naar het vak waar de sprite crab staat, en klik dan weer op de sprite met het + teken, rechts onderaan in dat vak. Er verschijnt een bibliotheek met allemaal sprite figuren. Zoek naar “apple” en laat deze in het programma door er met de linker muisknop op te klikken. We maken deze apple meteen een stuk kleiner (anders wordt die wel heel makkelijk gevangen). We maken de apple ook de helft kleiner. Van 110 naar 50.** 
+
+**Ga daarvoor naar het vak waar de sprite crab staat, en klik dan weer op de sprite met het + teken, rechts onderaan in dat vak. Er verschijnt een bibliotheek met allemaal sprite figuren. Zoek naar “apple” en laat deze in het programma door er met de linker muisknop op te klikken. We maken deze apple meteen een stuk kleiner (anders wordt die wel heel makkelijk gevangen). We maken de apple ook de helft kleiner. Van 110 naar 50.** 
 
 **We gaan de apple een andere kleur geven. We gaan hem geel maken.**\
 **Klik op het tabblad: Uiterlijken en klik dan op de verf-emmer aan de linkerkant.** 
@@ -103,11 +104,14 @@ previous: Scratch LES 2
 **Als de Crab geraakt wordt moet de appel weer bovenaan op een willekeurige plaats beginnen. Dus we kopiëren dezelfde regel als vorige keer (ga naar x willekeurig getal tussen -220 en 220 y 180) weer naar de lege plek onder de “Als raak ik Crab dan”.** 
 
 **Nu gaan we nog iets toevoegen. Als de appel de Crab raakt, moet de appel van kleur veranderen. Sleep daarom het blokje: “_verander uiterlijk naar apple2_ “ uit “uiterlijken” naar de plek onder de regel “Als raak ik de crab dan”.** \
-**Zet onder dat blokje, het bloke “_Start geluid Chomp_” uit “geluid”.**\
-**Zet daaronder dan het blokje “_wacht 1 sec_” uit “besturen” en verander de 1 in 0.3 sec.** 
+
+**Zet onder dat blokje, het bloke “_Start geluid Chomp_” uit “geluid”.**\
+
+**Zet daaronder dan het blokje “_wacht 1 sec_” uit “besturen” en verander de 1 in 0.3 sec.** 
 
 **Daarna moetje de appel weer terug veranderen naar de kleur van de eerste apple.**\
-**Sleep daarom het blokje “_verander uiterlijk naar apple_” uit “uiterlijken” onder het blokje “Start geluid Chomp”.** 
+
+**Sleep daarom het blokje “_verander uiterlijk naar apple_” uit “uiterlijken” onder het blokje “Start geluid Chomp”.** 
 
 **Het scriptvenster van Apple ziet nu zo uit:**
 
@@ -115,21 +119,10 @@ previous: Scratch LES 2
 
 **Nu willen we scores bijhouden.**
 
-**We maken een variabele aan.** \
-Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen en uithalen. Maar telkens maar één ding tegelijk. Zo kun je bijvoorbeeld een variabele (doos) met de naam “Voornaam” maken en telkens een andere voornaam in die doos stoppen. Als je dan in de doos “Voornaam” kijkt, kun je zien welke voornaam er dan in zit.
+**We maken een variabele aan.** 
+
+Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen en uithalen. Maar telkens maar één ding tegelijk. Zo kun je bijvoorbeeld een variabele (doos) met de naam “Voornaam” maken en telkens een andere voornaam in die doos stoppen. Als je dan in de doos “Voornaam” kijkt, kun je zien welke voornaam er dan in zit.
 
  **Ga daarvoor naar “Variabelen” en klik dan op de mogelijkheid:** 
 
 **“Maak een variabele”.**
-
-****
-
-****
-
-
-
-
-
-
-
-****
