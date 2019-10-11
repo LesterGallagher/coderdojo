@@ -170,6 +170,12 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 **Dit blok van de sprite Apple ziet er nu zo uit:**
 
+![](/uploads/script-voor-appel4.png)
+
+
+
+
+
 
 
 ****
