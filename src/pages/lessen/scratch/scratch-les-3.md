@@ -96,6 +96,23 @@ previous: Scratch LES 2
 
 ![](/uploads/script-voor-appel.png)
 
+**Nu moeten we nog iets doen met de Crab.** \
+**Als de appel op de crab komt moeten we punten gaan tellen.**
+
+**Haal weer een “_als…dan_” blokje uit “besturen” en plaats dat onder het eerste “als…dan” blok in het herhaal blok. Plaats nu het blokje “_raak ik muisaanwijzer_ “ uit “waarnemen” en plaats dit in het vakje tussen de woorden “als” en “dan” . Klik op het driehokje naast het woord muisaanwijzer en kies dan voor: Crab.** \
+**Als de Crab geraakt wordt moet de appel weer bovenaan op een willekeurige plaats beginnen. Dus we kopiëren dezelfde regel als vorige keer (ga naar x willekeurig getal tussen -220 en 220 y 180) weer naar de lege plek onder de “Als raak ik Crab dan”.** 
+
+**Nu gaan we nog iets toevoegen. Als de appel de Crab raakt, moet de appel van kleur veranderen. Sleep daarom het blokje: “_verander uiterlijk naar apple2_ “ uit “uiterlijken” naar de plek onder de regel “Als raak ik de crab dan”.** \
+**Zet onder dat blokje, het bloke “_Start geluid Chomp_” uit “geluid”.**\
+**Zet daaronder dan het blokje “_wacht 1 sec_” uit “besturen” en verander de 1 in 0.3 sec.** 
+
+**Daarna moetje de appel weer terug veranderen naar de kleur van de eerste apple.**\
+**Sleep daarom het blokje “_verander uiterlijk naar apple_” uit “uiterlijken” onder het blokje “Start geluid Chomp”.** 
+
+
+
+
+
 
 
 ****
