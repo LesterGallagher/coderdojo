@@ -275,7 +275,24 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 ![](/uploads/script-voor-crab-2.png)
 
+**Het script van Apple ziet er nu zo uit:**
 
+****\
+**Twee blokken. Eén groot blok (dat niet in 1 afbeelding past en waarvoor dus afbeelding A en afbeelding B wordt gegeven) en een tweede blok.**
+
+**Blok 1A**
+
+![](/uploads/script-voor-apple-1a.png)
+
+**Blok 1B**
+
+![](/uploads/script-voor-apple-1b.png)
+
+**Blok 2**
+
+![](/uploads/script-voor-apple-2.png)
+
+********
 
 ****
 
