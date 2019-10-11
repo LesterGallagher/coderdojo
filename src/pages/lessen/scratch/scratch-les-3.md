@@ -234,4 +234,6 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 ![](/uploads/zend-nieuw-bericht.png)
 
+![](/uploads/nieuw-bericht.png)
+
 ****
