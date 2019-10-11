@@ -78,7 +78,7 @@ exports.createPages = ({ graphql, actions }) => {
               slug: page.node.fields.slug,
               title: get(page, 'node.frontmatter.title', ''),
               les: get(page, 'node.fields.les', ''),
-              nextLessons: get(page, 'node.frontmatter.nextLessons', []),
+              nextLessons: get(page, 'node.frontmatter.nextLessons', []).filter(x => x),
               previous: get(previous, 'node'),
               next: get(next, 'node'),
             },
