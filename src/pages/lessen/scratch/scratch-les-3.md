@@ -126,3 +126,22 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
  **Ga daarvoor naar “Variabelen” en klik dan op de mogelijkheid:** 
 
 **“Maak een variabele”.**
+
+![](/uploads/variabele-maken.png)
+
+**Je krijgt dan een invulvenster, en vul daarin “score” omdat jouw variabele score gaat heten. Klik daarna op de Ok knop.**
+
+![](/uploads/variabele-naam-geven.png)
+
+**Sleep nu het blokje “_Maak mijn variabele O_”  uit “Variabele” naar het script van de twee regels die wordt gebruikt bij het starten van het programma. Zet het meteen onder het blokje “Wanneer op de groene vlag wordt gedrukt”.** \
+**Klik op het driehoekje naast “mijn variabele” en kies dan voor “score”. Nu staat er “**maak mijn score 0"**. En dit gebeurt dan als het programma start.**
+
+**Nu moet ik zorgen dat elke keer als ik de appel de crab raakt, de score met 1 veranderd.** 
+
+**Daarvoor sleep ik het blokje “_Verander mijn variabele met 1_” uit “Variabele” naar de herhaal lus en plaats in het “Als raak ik de crab dan” blokje, meteen bovenaan. De tekst “mijn variabele” verander ik in score door op het driehoekje te klikken en voor score te kiezen.** 
+
+We gaan 
+
+
+
+****
