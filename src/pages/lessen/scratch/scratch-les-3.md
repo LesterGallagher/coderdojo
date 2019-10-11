@@ -90,6 +90,12 @@ previous: Scratch LES 2
 **Als de appel helemaal beneden komt, moet hij weer bovenaan opnieuw beginnen. Dit gaan we inbouwen met een “Als...dan” blokje. Zet een “_Als...dan_” blokje uit “besturen” in het script binnen het “herhaal” blokje onder “verander y met -3”.**
 
 **Tussen de woorden “als” en “dan” zetten we een functie. We halen het blokje “_O < 50_** **“ (dat betekent dat wat je bij het O invoert, kleiner moet zijn dan 50) uit “functie” en plaatsen dat op de plek tussen de woorden “als” en “dan”.  In het rondje wordt nu het blokje “_y-positie_” uit “beweging” geplaatst. Er staat nu dus: “**Als de y-positie kleiner is dan 50, dan**”.** \
-**Nu moet je nog zeggen wat er dan moet gebeuren. De appel moet weer naar een willekeurige plaats bovenaan, zoals aan het begin van het spel. Kopieer daarom het script dat je daarvoor al gemaakt hebt ( ga naar x willekeurig getal tussen -220 2n 220 y 180) naar dit “als…dan” blokje en plaats het in de lege regel onder “als...**
+**Nu moet je nog zeggen wat er dan moet gebeuren. De appel moet weer naar een willekeurige plaats bovenaan, zoals aan het begin van het spel. Kopieer daarom het script dat je daarvoor al gemaakt hebt ( ga naar x willekeurig getal tussen -220 2n 220 y 180) naar dit “als…dan” blokje en plaats het in de lege regel onder “als...dan”.  Verander nog wel eerst even de y-positie 50 in y-positie -170 in dat “als…dan” blok.** 
+
+**Het scriptvenster van Apple ziet nu zo uit:**
+
+![](/uploads/script-voor-appel.png)
+
+
 
 ****
