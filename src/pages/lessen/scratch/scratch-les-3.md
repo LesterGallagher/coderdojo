@@ -302,6 +302,16 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 
 
+## **Als dit allemaal goed gelukt is ben je klaar om één van de opdrachten te doen.**
+
+## _Succes._
+
+**Je kunt de scripts en werking bekijken op de onderstaande site, maar doe dat pas als je zelf alles gemaakt hebt!**
+
+https://scratch.mit.edu/projects/335672840
+
+
+
 ********
 
 ****
