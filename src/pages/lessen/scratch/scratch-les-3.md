@@ -11,4 +11,11 @@ previous: Scratch LES 2
 ---
 ## **De Crab die appeltjes vangt**
 
-****
+- - -
+
+**We gaan eerst de sprite “cat” verwijderen, want die hebben we niet nodig.** \
+**Klik op de prullenbak bij de sprite (rechts onderaan) en de poes (cat) zal verdwijnen.**
+
+![](/uploads/cat-verwijderen.png)
+
+**Klik daarna in het vak waar de sprite stond, en dat nu leeg is, op het sprite-teken met de plus. Er verschijnt een bibliotheek met allemaal sprite figuren. Zoek naar “crab” en laat deze in het programma door er met de linker muisknop op te klikken.**
