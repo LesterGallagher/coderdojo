@@ -172,9 +172,15 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 ![](/uploads/script-voor-appel4.png)
 
+**Het laatste blok kopieer je nu en maak voor score 12 en voor snelheid dan -8. Dit blok plaats je onder het eerste blok dat je net gemaakt hebt**
 
 
 
+![](/uploads/kopie-scoreblok.png)
+
+**Klik bij Variabelen op het v-teken in het blauwe vakje voor de variabele “snelheid”. Je ziet dan die variabele in het speelveld onzichtbaar is geworden.**
+
+![](/uploads/variabele-onzichtbaar.png)
 
 
 
