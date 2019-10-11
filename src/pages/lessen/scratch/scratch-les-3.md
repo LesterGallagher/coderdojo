@@ -201,11 +201,10 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen als je dat wilt.**
 
 **Vanuit de achtergrond klik je nu op het tabblad “Code”.** \
-**Je komt dan in het script veld van de achtergrond.**
+
+**Je komt dan in het script veld van de achtergrond.**
 
 **Sleep het blokje: “_Als er op de groene vlag wordt geklikt_” uit gebeurtenissen, naar het scriptveld. Sleep het blokje “_verander achtergrond naar Desert2_” uit “uiterlijken” naar dit script veld en plak dit blokje aan het blokje “Als er op de groene vlag wordt geklikt”. Klik op het driehoekje achter het woord “Desert2” en kies dan voor “Desert”. (Als “Desert” daar al staat kun je dat natuurlijk gewoon laten staan.**
-
-
 
 **Bij de Crab moeten we ook het script nu wat aanpassen.** \
 **Klik op de sprite “Crab” (rechts onderaan) en het script veld van de Crab verschijnt.** 
@@ -220,7 +219,7 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 ![](/uploads/script-voor-crab.png)
 
-****
+- - -
 
 **We gaan het spel nog wat moeilijker maken**.
 
@@ -228,7 +227,6 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 **We gaan ervoor zorgen dat als de crab 20 appels heeft gevangen er 2 appels komen waardoor het spel moeilijker wordt.**\
 **Zet een nieuw “_Als…dan_” blikje uit “besturen” onderaan binnen het “herhaal” blok. Neem nu het blokje “_0 = 50_ “ uit “Functies” en plaats dit blokje op de plek tussen de woorden “Als” en “dan” . Zet op de plaats van de O de functie “score” en verander 50 in: 20. Er staat nu: “**Als score = 20 dan**” .** \
-****\
 **Plaats in de lege regel het blokje “_zend signaal beriht1_” uit “gebeurtenissen”.** \
 **Klik op het driehoekje achter “bericht1” en klik dan in het venstertje dat verschijn, op “Nieuw bericht”. Dan verschijnt er een nieuw venster en geef het nieuwe bericht de naam: “nieuwe appel”.** 
 
@@ -242,8 +240,4 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 ![](/uploads/appel-dupliceren.png)
 
-****
-
 **Klik op Apple 2 en ga naar het Sriptvenster van Apple2. (Dit is mee gekopieerd en hetzelfde als het scriptvenster van Apple).**
-
-****
