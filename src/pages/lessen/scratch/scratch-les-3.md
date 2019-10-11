@@ -292,6 +292,16 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 ![](/uploads/script-voor-apple-2.png)
 
+**De sprite van Apple2 ziet er nu zo uit:**
+
+![](/uploads/script-voor-apple-2-definitief.png)
+
+**En de sprite van desert ziet er nu zo uit:**
+
+![](/uploads/script-voor-desert.png)
+
+
+
 ********
 
 ****
