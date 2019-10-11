@@ -150,6 +150,12 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 **Dan moet je het blokje “_verander levens met 1_” uit “variabelen” slepen naar de herhaal lus en het plaatsen in het blok “als y positie < -170 dan” meteen bovenaan in dit blok. Daar is de appel namelijk op de grond gekomen. We moeten nog wel even bij “verander levens met 1” de 1 veranderen in -1 want we verliezen een leven en krijgen er geen bij.** 
 
+**Het scriptveld van Apple ziet er nu zo uit:**
+
+![](/uploads/script-voor-appel3.png)
+
+
+
 ****
 
 ****
