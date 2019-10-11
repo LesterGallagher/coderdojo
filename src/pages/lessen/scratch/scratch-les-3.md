@@ -182,7 +182,14 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 ![](/uploads/variabele-onzichtbaar.png)
 
+**We kiezen ook nog een andere achtergrond.** \
+**Natuurlijk kun je zelf kiezen wat je wilt maar een leuke lijkt me “desert”.** 
 
+**Klik rechts onderaan in de hoek op het pictogram voor achtergrond en klik dan op “kies een achtergrond”.** 
+
+**Zoek naar desert (of iets anders als je dat wilt) en laadt die achtergrond dan door er op te klikken**
+
+****
 
 ****
 
