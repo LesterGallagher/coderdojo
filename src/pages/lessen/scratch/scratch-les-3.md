@@ -232,6 +232,6 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 **Plaats in de lege regel het blokje “_zend signaal beriht1_” uit “gebeurtenissen”.** \
 **Klik op het driehoekje achter “bericht1” en klik dan in het venstertje dat verschijn, op “Nieuw bericht”. Dan verschijnt er een nieuw venster en geef het nieuwe bericht de naam: “nieuwe appel”.** 
 
-****
+![](/uploads/zend-nieuw-bericht.png)
 
 ****
