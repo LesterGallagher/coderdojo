@@ -109,6 +109,14 @@ previous: Scratch LES 2
 **Daarna moetje de appel weer terug veranderen naar de kleur van de eerste apple.**\
 **Sleep daarom het blokje “_verander uiterlijk naar apple_” uit “uiterlijken” onder het blokje “Start geluid Chomp”.** 
 
+**Het scriptvenster van Apple ziet nu zo uit:**
+
+![](/uploads/script-voor-appel2.png)
+
+
+
+****
+
 
 
 
