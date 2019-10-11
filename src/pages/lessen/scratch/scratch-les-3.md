@@ -19,3 +19,9 @@ previous: Scratch LES 2
 ![](/uploads/cat-verwijderen.png)
 
 **Klik daarna in het vak waar de sprite stond, en dat nu leeg is, op het sprite-teken met de plus. Er verschijnt een bibliotheek met allemaal sprite figuren. Zoek naar “crab” en laat deze in het programma door er met de linker muisknop op te klikken.**
+
+![](/uploads/nieuwe-sprite-kiezen.png)
+
+**We zetten de crab midden onderaan en maken hem een stuk kleiner. Klik daarvoor op het getal 100 naast het woord Grootte en maak daar dan 50 van.**
+
+![](/uploads/crab-verkleinen.png)
