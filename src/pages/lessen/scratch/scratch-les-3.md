@@ -193,3 +193,7 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 **In het tabblad van achtergronden maak ik een kopie van deze achtergrond (dupiceren).**
 
 ![](/uploads/achtergrond-kopieren.png)
+
+**Zorg er dan voor dat de vulling de kleur rood heeft (of een andere kleur als je dat mooier vindt) en klik dan op de T om een tekst te kunnen maken. Maak dan de tekst “END OF THE GAME   GAME OVER” . Dus Desert2 gebruiken we om als achtergrond te dienen als het spel is afgelopen.**
+
+![](/uploads/end-of-the-game.png)
