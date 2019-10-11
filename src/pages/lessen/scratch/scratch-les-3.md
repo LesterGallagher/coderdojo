@@ -243,3 +243,11 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 **Klik op Apple 2 en ga naar het Sriptvenster van Apple2. (Dit is mee gekopieerd en hetzelfde als het scriptvenster van Apple).**
 
 ![](/uploads/script-voor-tweede-appel.png)
+
+**Sleep het scoreblok (Blok waarin de blokken “maak scores”, “maak levens”, “maak snelheid” en “ga naar x willekeurig getal tussen -220 en 220  y 180”) naar links, naar het tabblad “Code” en laat dan daar de linker muisknop los.** \
+**Dit hele blok zal verdwijnen.** \
+**Haal zo ook uit het scriptveld van Apple2 de drie onderste “als…den” blokken weg uit het  grote herhaal-blok**. 
+
+**Het hele scriptveld van Apple2 ziet er dan nu zo uit:**
+
+![](/uploads/script-voor-tweede-appel-nieuw.png)
