@@ -154,7 +154,11 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 ![](/uploads/script-voor-appel3.png)
 
+**De snelheid hadden we op -3 gemaakt. Nu willen we dat de snelheid telkens verandert en maken die dus ook variabel.** 
 
+**We maken een variabele “snelheid” aan. Weten nu hoe we dat moeten doen.** 
+
+****
 
 ****
 
