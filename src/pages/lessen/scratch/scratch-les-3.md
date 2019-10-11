@@ -140,8 +140,18 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 **Daarvoor sleep ik het blokje “_Verander mijn variabele met 1_” uit “Variabele” naar de herhaal lus en plaats in het “Als raak ik de crab dan” blokje, meteen bovenaan. De tekst “mijn variabele” verander ik in score door op het driehoekje te klikken en voor score te kiezen.** 
 
-We gaan 
+**We gaan nog een variabele maken.**
 
+**Als de appel drie keer op de grond gevallen is, ben ik mijn levens kwijt.  We maken een variabele met de naam “Levens”. Je doet dit op dezelfde manier zoals je de variabele “score” hebt gemaakt.**
 
+****
+
+**Je sleept het blokje “_maak levens 0_” uit “variabelen” naar het script dat wordt gebruikt bij het starten van het programma en zet het blokje onder het blokje “Maak mijn variabele 0”. Je verandert in het blokje “maak levens 0” het getal 0 in 3 omdat ik met 3 levens start.**
+
+**Dan moet je het blokje “_verander levens met 1_” uit “variabelen” slepen naar de herhaal lus en het plaatsen in het blok “als y positie < -170 dan” meteen bovenaan in dit blok. Daar is de appel namelijk op de grond gekomen. We moeten nog wel even bij “verander levens met 1” de 1 veranderen in -1 want we verliezen een leven en krijgen er geen bij.** 
+
+****
+
+****
 
 ****
