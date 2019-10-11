@@ -32,4 +32,18 @@ previous: Scratch LES 2
 
 **We nemen daarvoor het blokje “_Als…. dan_” uit besturen en plaatsen dat in het herhaal blokje. We nemen daarna het blokje “_Toets spatiebalk ingedrukt_” uit “waarnemingen” en plaatsen dat in het vakje tussen de woorden “als” en “dan”. Klik dan op het driehoekje naast het woord “spatiebalk” en kies dan voor: “pijltje rechts”. Er staat nu dus eigenlijk: “**als pijltje rechts ingedrukt dan**”.** 
 
-**Neem nu het blokje: “_neem 10 stappen_” uit “bewegen” en plaats dat in het “als..dan” blokje.**
+**Neem nu het blokje: “_neem 10 stappen_” uit “bewegen” en plaats dat in het “als..dan” blokje.** 
+
+****
+
+**Als het goed is ziet jouw script van de crab er nu zo uit:**
+
+![](/uploads/script-pijltjes.png)
+
+**Nu moet je hetzelfde doen om de crab naar links te laten lopen. Je kunt de stappen herhalen maar je kunt ook een kopie maken van de stappen die je al gedaan hebt.**
+
+**Ga op het “als…dan” blokje staan met je muis en klik dan op de rechter muisknop. Klik dan op de mogelijkheid: “Kopie maken”.  Er verschijnt een kopie van het “als..dan” blok. Plaats dit kopie onder het al gemaakte blok. Je hebt nu 2 dezelfde “als…dan” blokken onder elkaar. Het onderste “als…dan” blok moet je aanpassen. Klik daar op het driehoekje achter “pijltje rechts” en kies dan voor “pijltje links”. Verander ook de 10 in “neem 10 stappen” in:  – 10, om de crab de andere kant op te laten gaan.**
+
+**Jouw script ziet er nu als volgt uit:**
+
+![](/uploads/script-pijltjes2.png)
