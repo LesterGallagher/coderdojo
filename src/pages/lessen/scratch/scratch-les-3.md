@@ -134,7 +134,8 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 ![](/uploads/variabele-naam-geven.png)
 
 **Sleep nu het blokje “_Maak mijn variabele O_”  uit “Variabele” naar het script van de twee regels die wordt gebruikt bij het starten van het programma. Zet het meteen onder het blokje “Wanneer op de groene vlag wordt gedrukt”.** \
-**Klik op het driehoekje naast “mijn variabele” en kies dan voor “score”. Nu staat er “**maak mijn score 0"**. En dit gebeurt dan als het programma start.**
+
+**Klik op het driehoekje naast “mijn variabele” en kies dan voor “score”. Nu staat er “**maak mijn score 0"**. En dit gebeurt dan als het programma start.**
 
 **Nu moet ik zorgen dat elke keer als ik de appel de crab raakt, de score met 1 veranderd.** 
 
@@ -144,7 +145,7 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 **Als de appel drie keer op de grond gevallen is, ben ik mijn levens kwijt.  We maken een variabele met de naam “Levens”. Je doet dit op dezelfde manier zoals je de variabele “score” hebt gemaakt.**
 
-**Je sleept het blokje “_maak levens 0_” uit “variabelen” naar het script dat wordt gebruikt bij het starten van het programma en zet het blokje onder het blokje “Maak mijn variabele 0”. Je verandert in het blokje “maak levens 0” het getal 0 in 3 omdat ik met 3 levens start.**
+**Je sleept het blokje “_maak levens 0_” uit “variabelen” naar het script dat wordt gebruikt bij het starten van het programma en zet het blokje onder het blokje “Maak mijn variabele 0”. Je verandert in het blokje “maak levens 0” het getal 0 in 3 omdat ik met 3 levens start.**
 
 **Dan moet je het blokje “_verander levens met 1_” uit “variabelen” slepen naar de herhaal lus en het plaatsen in het blok “als y positie < -170 dan” meteen bovenaan in dit blok. De appel is namelijk op de grond gekomen. We moeten nog wel even bij “verander levens met 1” de 1 veranderen in -1 want we verliezen een leven en krijgen er geen bij.** 
 
@@ -174,8 +175,6 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 **Het laatste blok kopieer je nu en maak voor score 12 en voor snelheid dan -8. Dit blok plaats je onder het eerste blok dat je net gemaakt hebt**
 
-
-
 ![](/uploads/kopie-scoreblok.png)
 
 **Klik bij Variabelen op het v-teken in het blauwe vakje voor de variabele “snelheid”. Je ziet dan die variabele in het speelveld onzichtbaar is geworden.**
@@ -188,11 +187,3 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 **Klik rechts onderaan in de hoek op het pictogram voor achtergrond en klik dan op “kies een achtergrond”.** 
 
 **Zoek naar desert (of iets anders als je dat wilt) en laadt die achtergrond dan door er op te klikken**
-
-****
-
-****
-
-****
-
-****
