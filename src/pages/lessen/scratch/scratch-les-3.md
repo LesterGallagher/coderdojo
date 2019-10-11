@@ -154,9 +154,23 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 
 **De snelheid hadden we op -3 gemaakt. Nu willen we dat de snelheid telkens verandert en maken die dus ook variabel.** 
 
-**We maken een variabele “snelheid” aan. Weten nu hoe we dat moeten doen.** 
+**We maken een variabele “snelheid” aan. We weten nu hoe we dat moeten doen.** 
 
-****
+**Zet nu in het blokje ‘verander y met -3” de variabele “snelheid” op de plaats van de -3 .**
+
+![](/uploads/variabele-snelheid-plaatsen.png)
+
+**Sleep het blokje _“maak snelheid 0”_ naar het scriptblok van het opstarten en maak dan van de 0, -3. De snelheid waarmee begonnen wordt is dus: -3.**
+
+![](/uploads/variabele-snelheid-opstarten.png)
+
+**Nu moet de snelheid veranderen na een aantal behaalde punten.** 
+
+**Sleep een “_als…dan_” blok uit “besturen” naar het herhaal blok en plaats dit onderaan binnen het herhaal blok. Plaats de functie “_O = 50_” uit “Functies” naar de plek tussen de woorden “als” en “dan”. Plaats in de plek O de variabele “score” uit “variabelen” en maak van het getal 50 een 6. In de lege regel onder “Als score = 6 dan” plaats je het blok: “maak snelheid > -5” uit “variabelen”.**
+
+**Dit blok van de sprite Apple ziet er nu zo uit:**
+
+
 
 ****
 
