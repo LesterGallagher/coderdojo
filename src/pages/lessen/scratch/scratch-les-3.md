@@ -187,3 +187,9 @@ Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen
 **Klik rechts onderaan in de hoek op het pictogram voor achtergrond en klik dan op “kies een achtergrond”.** 
 
 **Zoek naar desert (of iets anders als je dat wilt) en laadt die achtergrond dan door er op te klikken**
+
+![](/uploads/nieuwe-achtergrond.png)
+
+**In het tabblad van achtergronden maak ik een kopie van deze achtergrond (dupiceren).**
+
+![](/uploads/achtergrond-kopieren.png)
