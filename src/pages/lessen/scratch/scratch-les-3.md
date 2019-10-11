@@ -113,7 +113,12 @@ previous: Scratch LES 2
 
 ![](/uploads/script-voor-appel2.png)
 
+**Nu willen we scores bijhouden.**
 
+**We maken een variabele aan.** \
+Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen en uithalen. Maar telkens maar één ding tegelijk. Zo kun je bijvoorbeeld een variabele (doos) met de naam “Voornaam” maken en telkens een andere voornaam in die doos stoppen. Als je dan in de doos “Voornaam” kijkt, kun je zien welke voornaam er dan in zit.
+
+ 
 
 ****
 
