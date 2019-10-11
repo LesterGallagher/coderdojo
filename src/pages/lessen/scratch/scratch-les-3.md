@@ -219,3 +219,12 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 **Het script van de crab ziet er nu zo uit:**
 
 ![](/uploads/script-voor-crab.png)
+
+****
+
+**We gaan het spel nog wat moeilijker maken**.
+
+**Klik op de sprite: “Apple” en je komt dan ook in het scriptveld van “Apple”.** 
+
+**We gaan ervoor zorgen dat als de crab 20 appels heeft gevangen er 2 appels komen waardoor het spel moeilijker wordt.**\
+**Zet een nieuw “_Als…dan_” blikje uit “besturen” onderaan binnen het “herhaal” blok. Neem nu het blokje “_0 = 50_ “ uit “Functies” en plaats dit blokje op de plek tussen de woorden “Als” en “dan” . Zet op de plaats van de O de functie “score” en verander 50 in: 20. Er staat nu: “**Als score = 20 dan**” .**
