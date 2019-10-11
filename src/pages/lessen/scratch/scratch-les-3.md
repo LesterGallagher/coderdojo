@@ -57,4 +57,13 @@ previous: Scratch LES 2
 **Als je nu op de groene vlag klikt staat de crab meteen op de juiste plek en kun je met de pijltjes toetsen de crab naar links en rechts bewegen.**
 
 **We gaan nu de sprite voor appeltjes toevoegen.**\
-**Ga daarvoor naar het vak waar de sprite crab staat, en klik dan weer op de sprite met het + teken, rechts onderaan in dat vak. Er verschijnt een bibliotheek met allemaal sprite figuren. Zoek naar “apple” en laat deze in het programma door er met de linker muisknop op te klikken. We maken deze apple meteen een stuk kleiner (anders wordt die wel heel makkelijk gevangen). We maken de apple ook de helft kleiner. Van 110 naar 50.**
+**Ga daarvoor naar het vak waar de sprite crab staat, en klik dan weer op de sprite met het + teken, rechts onderaan in dat vak. Er verschijnt een bibliotheek met allemaal sprite figuren. Zoek naar “apple” en laat deze in het programma door er met de linker muisknop op te klikken. We maken deze apple meteen een stuk kleiner (anders wordt die wel heel makkelijk gevangen). We maken de apple ook de helft kleiner. Van 110 naar 50.** 
+
+**We gaan de apple een andere kleur geven. We gaan hem geel maken.**\
+**Klik op het tabblad: Uiterlijken en klik dan op de verf-emmer aan de linkerkant.** 
+
+![](/uploads/verfemmer.png)
+
+**Klik dan op het driehoekje naast het woord Vulling en schuif het rondje op de balk bij kleur zover naar links of rechts tot je kleur no 18 hebt. De gele kleur. Klik dan op de rode appel en je ziet dat die appel een gele kleur krijgt i.p.v. rood.**
+
+![](/uploads/appelkleur-veranderen.png)
