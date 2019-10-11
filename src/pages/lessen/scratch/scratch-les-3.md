@@ -118,7 +118,11 @@ previous: Scratch LES 2
 **We maken een variabele aan.** \
 Een variable is zoiets als een doos waar je verschillende dingen in kunt stoppen en uithalen. Maar telkens maar één ding tegelijk. Zo kun je bijvoorbeeld een variabele (doos) met de naam “Voornaam” maken en telkens een andere voornaam in die doos stoppen. Als je dan in de doos “Voornaam” kijkt, kun je zien welke voornaam er dan in zit.
 
- 
+ **Ga daarvoor naar “Variabelen” en klik dan op de mogelijkheid:** 
+
+**“Maak een variabele”.**
+
+****
 
 ****
 
