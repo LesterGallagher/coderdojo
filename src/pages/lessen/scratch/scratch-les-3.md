@@ -241,3 +241,5 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 ![](/uploads/appel-dupliceren.png)
 
 **Klik op Apple 2 en ga naar het Sriptvenster van Apple2. (Dit is mee gekopieerd en hetzelfde als het scriptvenster van Apple).**
+
+![](/uploads/script-voor-tweede-appel.png)
