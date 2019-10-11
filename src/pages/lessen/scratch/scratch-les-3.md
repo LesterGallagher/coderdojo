@@ -236,4 +236,14 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 ![](/uploads/nieuw-bericht.png)
 
+**Er moet dus een nieuwe (2e) appel komen.** \
+**Die maken we.** \
+**Ga naar het sprite-venster en klik daar met de rechter muisknop op de sprite “Apple” Klik daarna op het woord “dupliceren” en de sprite “Apple2” is gemaakt**
+
+![](/uploads/appel-dupliceren.png)
+
+****
+
+**Klik op Apple 2 en ga naar het Sriptvenster van Apple2. (Dit is mee gekopieerd en hetzelfde als het scriptvenster van Apple).**
+
 ****
