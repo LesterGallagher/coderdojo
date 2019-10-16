@@ -9,7 +9,7 @@ image: /uploads/screen-shot-09-18-19-at-04.48-pm.png
 next: 'Scratch - LES 1 '
 previous: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 ---
-# **LES 1:**
+# **LES 1 & 2 - alterntief:**
 
 ## **Een spelletje Ping Pong**
 
