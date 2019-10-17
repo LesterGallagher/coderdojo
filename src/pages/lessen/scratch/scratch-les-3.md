@@ -257,12 +257,11 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 **Neem het blok “_wanneer ik signaal nieuwe appel krijg_” uit “Gebeurtenissen” en plaats dat bovenaan.**
 
 **Als je nu in het spel op de groene vlag druk dan zie je Apple2 ook. Maar dat is nog niet de bedoeling. Je moet dus, als het spel begint, de tweede appel even laten verdwijnen. Dat doe je zo:**\
-**Neem het blokje: “_Wanneer op de groene vlag wordt geklikt_” uit “Gebeurtenissen” en plaats dat ergens in het scriptveld van Apple2.**  \
+
+**Neem het blokje: “_Wanneer op de groene vlag wordt geklikt_” uit “Gebeurtenissen” en plaats dat ergens in het scriptveld van Apple2.**  \
 **Neem dan het blokje “_verdwijn_” uit “Uiterlijken” en plaats dat onder het blokje “wanneer op de groene vlag wordt geklik”. Nu zal de tweede appel niet te zien zijn als het spel wordt gestart.**
 
 **Maar wanneer het signaal “Nieuwe appel” wordt ontvangen, moet de tweede appel dus wel verschijnen. Plaats daarom het blokje : “_verschijn_” meteen onder het blok “wanneer ik signaal nieuwe appel ontvang” en boven het herhaal blok.** 
-
-
 
 **Als je nu het spel speelt, zal er na het behalen van de score: 20, er twee appels tegelijk omlaag komen.** 
 
@@ -277,8 +276,8 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 **Het script van Apple ziet er nu zo uit:**
 
-****\
-**Twee blokken. Eén groot blok (dat niet in 1 afbeelding past en waarvoor dus afbeelding A en afbeelding B wordt gegeven) en een tweede blok.**
+\***\***\
+Twee blokken. Eén groot blok (dat niet in 1 afbeelding past en waarvoor dus afbeelding A en afbeelding B wordt gegeven) en een tweede blok.\*\*
 
 **Blok 1A**
 
@@ -300,8 +299,6 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 ![](/uploads/script-voor-desert.png)
 
-
-
 ## **Als dit allemaal goed gelukt is ben je klaar om één van de opdrachten te doen.**
 
 ## _Succes._
@@ -310,12 +307,4 @@ De **witte achtergrond heb je niet meer nodig en die kun je rustig verwijderen a
 
 https://scratch.mit.edu/projects/335672840
 
-
-
-********
-
-****
-
-****
-
-****
+Ga naar https://www.golfballennederland.nl/
