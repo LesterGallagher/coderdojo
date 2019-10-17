@@ -306,5 +306,3 @@ Twee blokken. Eén groot blok (dat niet in 1 afbeelding past en waarvoor dus afb
 **Je kunt de scripts en werking bekijken op de onderstaande site, maar doe dat pas als je zelf alles gemaakt hebt!**
 
 https://scratch.mit.edu/projects/335672840
-
-Ga naar https://www.golfballennederland.nl/
