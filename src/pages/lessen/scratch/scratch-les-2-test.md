@@ -47,62 +47,8 @@ previous: 'Sratch opdracht: "Raad een getal tussen 1 en 10"'
 
 **Hier zie je de sprite van het ruimteschip (en ook van de Astroide en de Alien)** 
 
-- - -
+**Als je er helemaal niet uitkomt, vraag dan hulp aan één van de begeleiders. Die kan je wel een stukje op weg helpen.**
 
-**Hieronder kun je zien hoe je het programma kan maken. Er zijn natuurlijk meerdere mogelijkheden en het is het leukste als je eerst alles zelf uitprobeert en dan pas gaat kijken hieronder hoe het ook kan.\*\*\*\***
+****
 
-## **Niet te snel opgeven. Het is veel fijner als je zelf iets hebt uitgedacht ook al werkt dat misschien niet meteen perfect.**
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-\----------------------------------------------------------------------------------------------------------------------------
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-**Bij de sprite van het ruimteschip zou je de volgende instructies kunnen meegeven:**
-
-![](/uploads/instrucries-bij-sprite-ruimteschip.png)
-
-**Bij de sprite van de Astroide zou je de volgende instructies kunnen meegeven:**
-
-![](/uploads/instructies-bij-sprite-astroide.png)
-
-**Bij de sprite van de Alien zou je de volgende instructies kunnen meegeven:**
-
-![](/uploads/instructies-bij-srpite-alien.png)
-
-- - -
-
-**Achtergrond: Stars**
-
-![](/uploads/achtergrond-stars.png)
-
-## 
-
-**Tot sot is hier nog een link naar een uitgewerkt voorbeeld:** https://scratch.mit.edu/projects/205260541/
-
-- - -
-
-- - -
-
-![]()
+**SUCCES**
